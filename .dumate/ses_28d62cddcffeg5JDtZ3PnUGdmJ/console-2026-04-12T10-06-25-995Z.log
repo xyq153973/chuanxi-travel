@@ -1,5 +1,0 @@
-[    5633ms] [LOG] Data Attribute API for GTM: Script loaded successfully. @ https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ:1017
-[    5912ms] [LOG] logged_in_to_sn_profile could not be retrieved from /exposed-details @ :0
-[    6366ms] [LOG] limitedAds is  false @ :1
-[    6367ms] [WARNING] The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettings() instead. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604080101/pubads_impl.js?cb=31097742:18
-[    7914ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2:0

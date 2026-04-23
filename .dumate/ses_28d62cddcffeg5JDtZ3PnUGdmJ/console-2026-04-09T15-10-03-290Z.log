@@ -1,6 +1,0 @@
-[     119ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.marvellousmachine.net/:0
-[    2408ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.fda.gov/medical-devices/software-medical-device-samd:0
-[    3580ms] ReferenceError: drupalSettings is not defined
-    at https://www.fda.gov/themes/custom/preview/js/custom.js:290:20
-[    3608ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.fda.gov/themes/custom/preview/fonts/fonts/fontawesome-webfont.woff2?v=4.7.0 @ https://www.fda.gov/medical-devices/software-medical-device-samd:0
-[    3608ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.fda.gov/themes/custom/preview/fonts/fonts/merriweather-latin-700-normal.woff2 @ https://www.fda.gov/medical-devices/software-medical-device-samd:0

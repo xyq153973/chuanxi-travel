@@ -1,6 +1,0 @@
-[    4095ms] [LOG] Data Attribute API for GTM: Script loaded successfully. @ https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ:1018
-[    4364ms] [LOG] logged_in_to_sn_profile could not be retrieved from /exposed-details @ :0
-[   10925ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
-[   10925ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
-[   10925ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
-[   10925ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
