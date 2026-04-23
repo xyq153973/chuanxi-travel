@@ -1,0 +1,28 @@
+[13786302ms] [LOG] Supabase初始化成功 @ https://xyq153973.github.io/exam-review-app/:1048
+[13786303ms] [LOG] 应用初始化开始... @ https://xyq153973.github.io/exam-review-app/:1986
+[13786303ms] [LOG] 用户设置完成: user @ https://xyq153973.github.io/exam-review-app/:1990
+[13786303ms] [LOG] 题库加载成功：700 题 @ https://xyq153973.github.io/exam-review-app/:1996
+[13786303ms] [LOG] 首页统计更新完成 @ https://xyq153973.github.io/exam-review-app/:2005
+[13786305ms] [LOG] 应用初始化完成！ @ https://xyq153973.github.io/exam-review-app/:2017
+[13786707ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://xyq153973.github.io/favicon.ico:0
+[13787004ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://balbwhvwhdfbuwasbyyp.supabase.co/rest/v1/user_data?select=*&username=eq.user:0
+[13787006ms] [ERROR] 云端获取失败: {message: Invalid API key, hint: Double check your API key.} @ https://xyq153973.github.io/exam-review-app/:1142
+[13787007ms] [LOG] 云端数据同步完成 @ https://xyq153973.github.io/exam-review-app/:2011
+[13791926ms] [LOG] Supabase初始化成功 @ https://xyq153973.github.io/exam-review-app/:1048
+[13791926ms] [LOG] 应用初始化开始... @ https://xyq153973.github.io/exam-review-app/:1986
+[13791927ms] [LOG] 用户设置完成: user @ https://xyq153973.github.io/exam-review-app/:1990
+[13791927ms] [LOG] 题库加载成功：700 题 @ https://xyq153973.github.io/exam-review-app/:1996
+[13791927ms] [LOG] 首页统计更新完成 @ https://xyq153973.github.io/exam-review-app/:2005
+[13791927ms] [LOG] 应用初始化完成！ @ https://xyq153973.github.io/exam-review-app/:2017
+[13792111ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://balbwhvwhdfbuwasbyyp.supabase.co/rest/v1/user_data?select=*&username=eq.user:0
+[13792111ms] [ERROR] 云端获取失败: {message: Invalid API key, hint: Double check your API key.} @ https://xyq153973.github.io/exam-review-app/:1142
+[13792111ms] [LOG] 云端数据同步完成 @ https://xyq153973.github.io/exam-review-app/:2011
+[13801129ms] [LOG] Supabase初始化成功 @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:1048
+[13801130ms] [LOG] 应用初始化开始... @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:1986
+[13801130ms] [LOG] 用户设置完成: user @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:1990
+[13801130ms] [LOG] 题库加载成功：700 题 @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:1996
+[13801130ms] [LOG] 首页统计更新完成 @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:2005
+[13801130ms] [LOG] 应用初始化完成！ @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:2017
+[13801217ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://balbwhvwhdfbuwasbyyp.supabase.co/rest/v1/user_data?select=*&username=eq.user:0
+[13801217ms] [ERROR] 云端获取失败: {message: Invalid API key, hint: Double check your API key.} @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:1142
+[13801217ms] [LOG] 云端数据同步完成 @ https://xyq153973.github.io/exam-review-app/?v=1776334601750:2011

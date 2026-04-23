@@ -1,0 +1,13 @@
+[      90ms] Identifier 'supabase' has already been declared
+[     673ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://xyq153973.github.io/favicon.ico:0
+[   16808ms] [LOG] Supabase初始化成功 @ https://xyq153973.github.io/exam-review-app/:1028
+[   16809ms] [LOG] 应用初始化开始... @ https://xyq153973.github.io/exam-review-app/:1931
+[   16809ms] [LOG] 用户设置完成: user @ https://xyq153973.github.io/exam-review-app/:1935
+[   16809ms] [LOG] 题库加载成功：700 题 @ https://xyq153973.github.io/exam-review-app/:1941
+[   16810ms] [LOG] 首页统计更新完成 @ https://xyq153973.github.io/exam-review-app/:1950
+[   16810ms] [LOG] 应用初始化完成！ @ https://xyq153973.github.io/exam-review-app/:1962
+[   17536ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://balbwhvwhdfbuwasbyyp.supabase.co/rest/v1/user_data?select=*&username=eq.user:0
+[   17537ms] [ERROR] 云端获取失败: {message: Invalid API key, hint: Double check your API key.} @ https://xyq153973.github.io/exam-review-app/:1122
+[   17537ms] [LOG] 云端数据同步完成 @ https://xyq153973.github.io/exam-review-app/:1956
+[   76836ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://balbwhvwhdfbuwasbyyp.supabase.co/rest/v1/user_data?on_conflict=username%2Cdata_type:0
+[   76836ms] [ERROR] 云端同步失败: {message: Invalid API key, hint: Double check your API key.} @ https://xyq153973.github.io/exam-review-app/:1102

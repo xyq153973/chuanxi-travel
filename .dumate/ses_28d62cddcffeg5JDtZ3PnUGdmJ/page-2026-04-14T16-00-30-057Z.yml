@@ -1,0 +1,610 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - complementary [ref=e4]
+    - banner [ref=e6]:
+      - generic [ref=e9]:
+        - heading "npj Digital Medicine" [level=1] [ref=e10]:
+          - link "npj Digital Medicine" [ref=e11] [cursor=pointer]:
+            - /url: /npjdigitalmed
+            - img "npj Digital Medicine" [ref=e13]
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "View all journals" [ref=e16] [cursor=pointer]:
+              - /url: https://www.nature.com/siteindex
+              - generic [ref=e17]: View all journals
+          - listitem [ref=e18]:
+            - button "Search" [ref=e19] [cursor=pointer]:
+              - img [ref=e20]
+              - generic [ref=e22]: Search
+          - listitem [ref=e23]:
+            - link "Log in" [ref=e24] [cursor=pointer]:
+              - /url: https://idp.nature.com/auth/personal/springernature?redirect_uri=https://www.nature.com/npjdigitalmed/
+              - generic [ref=e25]: Log in
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Explore content" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: Explore content
+            - img [ref=e33]
+        - listitem [ref=e35]:
+          - button "About the journal" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]: About the journal
+            - img [ref=e38]
+        - listitem [ref=e40]:
+          - button "Publish with us" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Publish with us
+            - img [ref=e43]
+    - navigation "breadcrumbs" [ref=e45]:
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "nature" [ref=e49] [cursor=pointer]:
+            - /url: /
+          - img [ref=e50]
+        - listitem [ref=e52]: npj digital medicine
+  - main [ref=e53]:
+    - article [ref=e54]:
+      - generic [ref=e56]:
+        - img "npj Digital Medicine banner" [ref=e59]
+        - heading "View our collections open to submissions" [level=2] [ref=e61]:
+          - link "View our collections open to submissions" [ref=e62] [cursor=pointer]:
+            - /url: https://www.nature.com/npjdigitalmed/calls-for-papers
+    - generic [ref=e64]:
+      - heading "Featured" [level=2] [ref=e66]
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - article [ref=e71]:
+            - generic [ref=e75]:
+              - 'heading "The regulation of artificial intelligence in intensive care units: from narrow tools to generalist systems" [level=3] [ref=e76]':
+                - 'link "The regulation of artificial intelligence in intensive care units: from narrow tools to generalist systems" [ref=e77] [cursor=pointer]':
+                  - /url: /articles/s41746-026-02535-3
+              - list [ref=e78]:
+                - listitem [ref=e79]: Oscar Freyer
+                - listitem [ref=e80]: ", Rebecca Mathias"
+                - listitem [ref=e81]: ... Stephen Gilbert
+            - generic [ref=e82]:
+              - generic [ref=e83]: Perspective
+              - generic [ref=e84]: Open Access
+              - time [ref=e85]: 21 Mar 2026
+        - listitem [ref=e86]:
+          - article [ref=e89]:
+            - generic [ref=e93]:
+              - heading "Digital physiological biomarkers predict within-person symptom changes in complex chronic illness" [level=3] [ref=e94]:
+                - link "Digital physiological biomarkers predict within-person symptom changes in complex chronic illness" [ref=e95] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02543-3
+              - list [ref=e96]:
+                - listitem [ref=e97]: Annie Aitken
+                - listitem [ref=e98]: ", Abbey Sawyer"
+                - listitem [ref=e99]: ... David Putrino
+            - generic [ref=e100]:
+              - generic [ref=e101]: Article
+              - generic [ref=e102]: Open Access
+              - time [ref=e103]: 24 Mar 2026
+        - listitem [ref=e104]:
+          - article [ref=e107]:
+            - generic [ref=e111]:
+              - heading "Overcoming Data Loss in Wearable Disease Detection with GAN-Based Imputation" [level=3] [ref=e112]:
+                - link "Overcoming Data Loss in Wearable Disease Detection with GAN-Based Imputation" [ref=e113] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02518-4
+              - list [ref=e114]:
+                - listitem [ref=e115]: Jürgen Wallner
+                - listitem [ref=e116]: ", Sarah Berbuir"
+                - listitem [ref=e117]: ... Sandra Barteit
+            - generic [ref=e118]:
+              - generic [ref=e119]: Article
+              - generic [ref=e120]: Open Access
+              - time [ref=e121]: 27 Mar 2026
+        - listitem [ref=e122]:
+          - article [ref=e125]:
+            - generic [ref=e127]:
+              - 'heading "The doctor is not in, but the Chatbot is: Utah’s experience regulating mental health AI" [level=3] [ref=e128]':
+                - 'link "The doctor is not in, but the Chatbot is: Utah’s experience regulating mental health AI" [ref=e129] [cursor=pointer]':
+                  - /url: /articles/s41746-026-02580-y
+              - paragraph [ref=e131]: Generative AI mental health agents offer scalable, low-cost support for unmet behavioral health needs, yet raise complex policy challenges. We summarize findings from Utah’s regulatory review, which informed legislation and best-practice guidance. Key insights include stakeholder divergence, evolving risk-benefit considerations, and the need for adaptive regulation. We advocate for evidence-based protocols, continuous monitoring, and holistic, inclusive policymaking to ensure safe, effective integration of these agents into mental health care.
+              - list [ref=e132]:
+                - listitem [ref=e133]: Nina de Lacy
+                - listitem [ref=e134]: "& Zach Boyd"
+            - generic [ref=e135]:
+              - generic [ref=e136]: Comment
+              - generic [ref=e137]: Open Access
+              - time [ref=e138]: 27 Mar 2026
+    - generic [ref=e140]:
+      - heading "Announcements" [level=2] [ref=e142]
+      - list [ref=e143]:
+        - listitem [ref=e144]:
+          - article [ref=e145]:
+            - generic [ref=e147]:
+              - heading "npj Digital Medicine new Journal metrics" [level=3] [ref=e148]:
+                - link "npj Digital Medicine new Journal metrics" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.nature.com/npjdigitalmed/journal-impact
+              - paragraph [ref=e151]: See our new journal metrics!
+        - listitem [ref=e152]:
+          - article [ref=e153]:
+            - generic [ref=e155]:
+              - heading "See our news and views articles here" [level=3] [ref=e156]:
+                - link "See our news and views articles here" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.nature.com/npjdigitalmed/reviews-and-analysis?type=news-and-views
+              - paragraph [ref=e159]: See our News and Views articles here!
+        - listitem [ref=e160]:
+          - article [ref=e161]:
+            - generic [ref=e163]:
+              - heading "Follow us on X" [level=3] [ref=e164]:
+                - link "Follow us on X" [ref=e165] [cursor=pointer]:
+                  - /url: https://twitter.com/npjDigitalMed
+              - paragraph [ref=e167]: "Keep up to date with the journal and new publications by following us on X. Share your work by tagging @npjDigitalMed and using our hashtag #npjDigitalMed."
+        - listitem [ref=e168]:
+          - article [ref=e169]:
+            - generic [ref=e171]:
+              - heading "We are always looking for new editorial team members" [level=3] [ref=e172]:
+                - link "We are always looking for new editorial team members" [ref=e173] [cursor=pointer]:
+                  - /url: https://app.smartsheet.com/b/form/c8fa6728f8fc4defbfff79d65ba60b0c
+              - paragraph [ref=e175]: If you are interested in becoming an Associate Editor or Editorial Board Member, please fill out the online application form.
+    - search [ref=e178]:
+      - generic [ref=e179]: Search npj Digital Medicine
+      - generic [ref=e180]:
+        - searchbox "Search npj Digital Medicine" [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]: Subject
+          - combobox "Subject" [ref=e185]:
+            - option "All Subjects" [selected]
+            - option "Biochemistry"
+            - option "Biological techniques"
+            - option "Biophysics"
+            - option "Biotechnology"
+            - option "Cancer"
+            - option "Cell biology"
+            - option "Chemical biology"
+            - option "Computational biology and bioinformatics"
+            - option "Developmental biology"
+            - option "Drug discovery"
+            - option "Ecology"
+            - option "Evolution"
+            - option "Genetics"
+            - option "Immunology"
+            - option "Microbiology"
+            - option "Molecular biology"
+            - option "Neuroscience"
+            - option "Physiology"
+            - option "Plant sciences"
+            - option "Psychology"
+            - option "Stem cells"
+            - option "Structural biology"
+            - option "Systems biology"
+            - option "Zoology"
+            - option "Biogeochemistry"
+            - option "Climate sciences"
+            - option "Ecology"
+            - option "Environmental sciences"
+            - option "Environmental social sciences"
+            - option "Hydrology"
+            - option "Limnology"
+            - option "Natural hazards"
+            - option "Ocean sciences"
+            - option "Planetary science"
+            - option "Solid Earth sciences"
+            - option "Space physics"
+            - option "Anatomy"
+            - option "Biomarkers"
+            - option "Diseases"
+            - option "Endocrinology"
+            - option "Health care"
+            - option "Health occupations"
+            - option "Medical research"
+            - option "Neurology"
+            - option "Pathogenesis"
+            - option "Risk factors"
+            - option "Signs and symptoms"
+            - option "Astronomy and planetary science"
+            - option "Chemistry"
+            - option "Energy science and technology"
+            - option "Engineering"
+            - option "Materials science"
+            - option "Mathematics and computing"
+            - option "Nanoscience and technology"
+            - option "Optics and photonics"
+            - option "Physics"
+            - option "Agriculture"
+            - option "Business and industry"
+            - option "Developing world"
+            - option "Energy and society"
+            - option "Forestry"
+            - option "Geography"
+            - option "Scientific community"
+            - option "Social sciences"
+            - option "Water resources"
+        - button "Search" [ref=e187] [cursor=pointer]:
+          - generic [ref=e188]: Search
+          - img [ref=e189]
+    - list [ref=e192]:
+      - listitem [ref=e193]:
+        - link "Part of the npj Series npj Series logo" [ref=e194] [cursor=pointer]:
+          - /url: https://www.nature.com/nature-portfolio/about/npj-series
+          - paragraph [ref=e195]: Part of the npj Series
+          - img "npj Series logo" [ref=e196]
+      - listitem [ref=e197]:
+        - link "Published in partnership with Seoul National University Bundang Hospital (SNUH) logo" [ref=e198] [cursor=pointer]:
+          - /url: https://www.snubh.org/dh/en/
+          - paragraph [ref=e199]: Published in partnership with
+          - img "Seoul National University Bundang Hospital (SNUH) logo" [ref=e200]
+    - generic [ref=e204]:
+      - heading "Browse articles" [level=2] [ref=e206]:
+        - link "Browse articles" [ref=e207] [cursor=pointer]:
+          - /url: /npjdigitalmed/articles
+          - text: Browse articles
+          - img [ref=e208]
+      - list [ref=e210]:
+        - listitem [ref=e211]:
+          - article [ref=e214]:
+            - generic [ref=e216]:
+              - heading "Evaluating real-world deployment of an HL7-CDA-aligned LLM for ICD-10-CM coding" [level=3] [ref=e217]:
+                - link "Evaluating real-world deployment of an HL7-CDA-aligned LLM for ICD-10-CM coding" [ref=e218] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02541-5
+              - list [ref=e219]:
+                - listitem [ref=e220]: Hong-Jie Dai
+                - listitem [ref=e221]: ", Zheng-Hao Li"
+                - listitem [ref=e222]: ... Ming-Ju Tsai
+            - generic [ref=e223]:
+              - generic [ref=e224]: Article
+              - generic [ref=e225]: Open Access
+              - time [ref=e226]: 14 Apr 2026
+        - listitem [ref=e227]:
+          - article [ref=e230]:
+            - generic [ref=e232]:
+              - 'heading "PsychiatryBench: a multi-task benchmark for LLMs in psychiatry" [level=3] [ref=e233]':
+                - 'link "PsychiatryBench: a multi-task benchmark for LLMs in psychiatry" [ref=e234] [cursor=pointer]':
+                  - /url: /articles/s41746-026-02582-w
+              - list [ref=e235]:
+                - listitem [ref=e236]: Aya E. Fouda
+                - listitem [ref=e237]: ", Abdelrahman A. Hassan"
+                - listitem [ref=e238]: ... Mohammed E. Fouda
+            - generic [ref=e239]:
+              - generic [ref=e240]: Article
+              - generic [ref=e241]: Open Access
+              - time [ref=e242]: 14 Apr 2026
+        - listitem [ref=e243]:
+          - article [ref=e246]:
+            - generic [ref=e248]:
+              - heading "Large language model-augmented offline reinforcement learning framework for sepsis management in critical care" [level=3] [ref=e249]:
+                - link "Large language model-augmented offline reinforcement learning framework for sepsis management in critical care" [ref=e250] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02611-8
+              - list [ref=e251]:
+                - listitem [ref=e252]: Yooseok Lim
+                - listitem [ref=e253]: ", Byoungjun Jeon"
+                - listitem [ref=e254]: ... Hyun-Lim Yang
+            - generic [ref=e255]:
+              - generic [ref=e256]: Article
+              - generic [ref=e257]: Open Access
+              - time [ref=e258]: 14 Apr 2026
+        - listitem [ref=e259]:
+          - article [ref=e262]:
+            - generic [ref=e264]:
+              - heading "Mapping AI startup investment and innovation in healthcare using a five-tier AI systems complexity framework" [level=3] [ref=e265]:
+                - link "Mapping AI startup investment and innovation in healthcare using a five-tier AI systems complexity framework" [ref=e266] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02595-5
+              - list [ref=e267]:
+                - listitem [ref=e268]: Ahmed Zahlan
+                - listitem [ref=e269]: ", Pek Hooi Soh"
+                - listitem [ref=e270]: "& Bart Clarysse"
+            - generic [ref=e271]:
+              - generic [ref=e272]: Article
+              - generic [ref=e273]: Open Access
+              - time [ref=e274]: 14 Apr 2026
+        - listitem [ref=e275]:
+          - article [ref=e278]:
+            - generic [ref=e280]:
+              - heading "An exploratory study of headache pain intensity using facial expressions and APEX frames" [level=3] [ref=e281]:
+                - link "An exploratory study of headache pain intensity using facial expressions and APEX frames" [ref=e282] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02617-2
+              - list [ref=e283]:
+                - listitem [ref=e284]: Jong-Ho Kim
+                - listitem [ref=e285]: ", Jong-Hee Sohn"
+                - listitem [ref=e286]: ... Young-Suk Kwon
+            - generic [ref=e287]:
+              - generic [ref=e288]: Article
+              - generic [ref=e289]: Open Access
+              - time [ref=e290]: 13 Apr 2026
+        - listitem [ref=e291]:
+          - article [ref=e294]:
+            - generic [ref=e296]:
+              - heading "Automating the quality monitoring of a hospital discharge summary improvement project utilising large language models" [level=3] [ref=e297]:
+                - link "Automating the quality monitoring of a hospital discharge summary improvement project utilising large language models" [ref=e298] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02636-z
+              - list [ref=e299]:
+                - listitem [ref=e300]: G. Thomas Hudson
+                - listitem [ref=e301]: ", Benjamin David James"
+                - listitem [ref=e302]: ... Noura Al Moubayed
+            - generic [ref=e303]:
+              - generic [ref=e304]: Article
+              - generic [ref=e305]: Open Access
+              - time [ref=e306]: 13 Apr 2026
+        - listitem [ref=e307]:
+          - article [ref=e310]:
+            - generic [ref=e312]:
+              - heading "A case study comparing anonymized and synthetic health insurance claims data for medication safety assessments" [level=3] [ref=e313]:
+                - link "A case study comparing anonymized and synthetic health insurance claims data for medication safety assessments" [ref=e314] [cursor=pointer]:
+                  - /url: /articles/s41746-026-02622-5
+              - list [ref=e315]:
+                - listitem [ref=e316]: Mehmed Halilovic
+                - listitem [ref=e317]: ", Thierry Meurers"
+                - listitem [ref=e318]: ... Karen Otte
+            - generic [ref=e319]:
+              - generic [ref=e320]: Article
+              - generic [ref=e321]: Open Access
+              - time [ref=e322]: 13 Apr 2026
+        - listitem [ref=e323]:
+          - article [ref=e326]:
+            - generic [ref=e328]:
+              - 'heading "Wearable ECG and PPG for anxiety detection: a translational digital medicine perspective" [level=3] [ref=e329]':
+                - 'link "Wearable ECG and PPG for anxiety detection: a translational digital medicine perspective" [ref=e330] [cursor=pointer]':
+                  - /url: /articles/s41746-026-02620-7
+              - list [ref=e331]:
+                - listitem [ref=e332]: Mohamed Elgendi
+                - listitem [ref=e333]: ", Azza Elkhalifa"
+                - listitem [ref=e334]: ... Rabab Ward
+            - generic [ref=e335]:
+              - generic [ref=e336]: Article
+              - generic [ref=e337]: Open Access
+              - time [ref=e338]: 13 Apr 2026
+        - listitem [ref=e339]:
+          - article [ref=e342]:
+            - generic [ref=e344]:
+              - 'heading "Unified multimodal learning for stroke triage: joint detection, scoring, and segmentation of acute ischemic stroke" [level=3] [ref=e345]':
+                - 'link "Unified multimodal learning for stroke triage: joint detection, scoring, and segmentation of acute ischemic stroke" [ref=e346] [cursor=pointer]':
+                  - /url: /articles/s41746-025-02255-0
+              - list [ref=e347]:
+                - listitem [ref=e348]: Tengfei Luan
+                - listitem [ref=e349]: ", Dianbei Wang"
+                - listitem [ref=e350]: ... Hao Yang
+            - generic [ref=e351]:
+              - generic [ref=e352]: Article
+              - generic [ref=e353]: Open Access
+              - time [ref=e354]: 13 Apr 2026
+    - generic [ref=e356]:
+      - heading "Trending - Altmetric" [level=2] [ref=e358]
+      - list [ref=e359]:
+        - listitem [ref=e360]:
+          - article [ref=e361]:
+            - link "Score 71 Using digital surveillance tools for near real-time mapping of the risk of infectious disease spread" [ref=e362] [cursor=pointer]:
+              - /url: http://dx.doi.org/10.1038/s41746-021-00442-3
+              - img "Score 71" [ref=e363]
+              - heading "Using digital surveillance tools for near real-time mapping of the risk of infectious disease spread" [level=3] [ref=e364]
+        - listitem [ref=e365]:
+          - article [ref=e366]:
+            - link "Score 67 Multi night digital assessment of sleep disordered breathing is associated with accelerated vascular aging" [ref=e367] [cursor=pointer]:
+              - /url: http://dx.doi.org/10.1038/s41746-026-02469-w
+              - img "Score 67" [ref=e368]
+              - heading "Multi night digital assessment of sleep disordered breathing is associated with accelerated vascular aging" [level=3] [ref=e369]
+        - listitem [ref=e370]:
+          - article [ref=e371]:
+            - 'link "Score 59 Navigating the EU AI Act: implications for regulated digital medical products" [ref=e372] [cursor=pointer]':
+              - /url: http://dx.doi.org/10.1038/s41746-024-01232-3
+              - img "Score 59" [ref=e373]
+              - 'heading "Navigating the EU AI Act: implications for regulated digital medical products" [level=3] [ref=e374]'
+        - listitem [ref=e375]:
+          - article [ref=e376]:
+            - 'link "Score 23 Language-based detection of depression with machine learning: systematic review and meta-analysis" [ref=e377] [cursor=pointer]':
+              - /url: http://dx.doi.org/10.1038/s41746-026-02448-1
+              - img "Score 23" [ref=e378]
+              - 'heading "Language-based detection of depression with machine learning: systematic review and meta-analysis" [level=3] [ref=e379]'
+    - generic [ref=e380]:
+      - heading "Nature Careers" [level=2] [ref=e382]:
+        - img "Nature Careers" [ref=e383]
+      - generic [ref=e386]:
+        - heading "Science jobs" [level=3] [ref=e387]:
+          - link "Science jobs" [ref=e388] [cursor=pointer]:
+            - /url: https://www.nature.com/naturecareers/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62
+            - text: Science jobs
+            - img [ref=e389]
+        - list [ref=e392]:
+          - listitem [ref=e393]:
+            - generic [ref=e394]:
+              - heading "Computational Neurogenomics / AI - Postdoctoral Associate" [level=4] [ref=e395]:
+                - link "Computational Neurogenomics / AI - Postdoctoral Associate" [ref=e396] [cursor=pointer]:
+                  - /url: https://www.nature.com/naturecareers/job/12857215/computational-neurogenomics-ai-postdoctoral-associate/?TrackID=3499&utm_source=widget&utm_medium=referral&utm_campaign=3499
+              - generic [ref=e397]:
+                - paragraph [ref=e398]: "Computational Postdoc at Yale: apply AI to multi-omics to build Parkinson’s digital twins, drive precision medicine, and lead high-impact research"
+                - paragraph [ref=e399]: New Haven, Connecticut
+                - paragraph [ref=e400]: Clemens Scherzer
+          - listitem [ref=e401]:
+            - generic [ref=e402]:
+              - heading "Chief Architect- Spatial Computing (AR/VR/XR)" [level=4] [ref=e403]:
+                - link "Chief Architect- Spatial Computing (AR/VR/XR)" [ref=e404] [cursor=pointer]:
+                  - /url: https://www.nature.com/naturecareers/job/12853276/chief-architect-spatial-computing-ar-vr-xr-/?TrackID=3499&utm_source=widget&utm_medium=referral&utm_campaign=3499
+              - generic [ref=e405]:
+                - paragraph [ref=e406]: Drive excellence in Spatial Computing (AR/VR/XR), building XR platforms, neural rendering, & digital twins for industry, healthcare, & education.
+                - paragraph [ref=e407]: Bangalore (Locality), Karnataka (IN)
+                - paragraph [ref=e408]: Dayananda Sagar University Bengaluru
+          - listitem [ref=e410]:
+            - generic [ref=e411]:
+              - 'heading "Chief Architect: Cyber Defence & Sovereign Security" [level=4] [ref=e412]':
+                - 'link "Chief Architect: Cyber Defence & Sovereign Security" [ref=e413] [cursor=pointer]':
+                  - /url: https://www.nature.com/naturecareers/job/12853275/chief-architect-cyber-defence-and-sovereign-security/?TrackID=3499&utm_source=widget&utm_medium=referral&utm_campaign=3499
+              - generic [ref=e414]:
+                - paragraph [ref=e415]: Leads sovereign Cyber Defence & Sovereign Security, advancing threat detection, adversarial AI, quantum-safe security, and national digital trust.
+                - paragraph [ref=e416]: Bangalore (Locality), Karnataka (IN)
+                - paragraph [ref=e417]: Dayananda Sagar University Bengaluru
+          - listitem [ref=e419]:
+            - generic [ref=e420]:
+              - heading "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science_3..." [level=4] [ref=e421]:
+                - link "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science_3..." [ref=e422] [cursor=pointer]:
+                  - /url: https://www.nature.com/naturecareers/job/12858411/assistant-professor-position-in-computer-science-with-a-focus-on-interdisciplinary-data-science_3-/?TrackID=3499&utm_source=widget&utm_medium=referral&utm_campaign=3499
+              - generic [ref=e423]:
+                - paragraph [ref=e424]: As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer Science at the University of Southern Denmark, Odense, invites applications for a 3-year assistant professor position
+                - paragraph [ref=e425]: Odense, Fyn (DK)
+                - paragraph [ref=e426]: University of Southern Denmark (SDU)
+          - listitem [ref=e428]:
+            - generic [ref=e429]:
+              - heading "Head of an independent Junior Research Group in Translational Gynecologic Cancer Research" [level=4] [ref=e430]:
+                - link "Head of an independent Junior Research Group in Translational Gynecologic Cancer Research" [ref=e431] [cursor=pointer]:
+                  - /url: https://www.nature.com/naturecareers/job/12858403/head-of-an-independent-junior-research-group-in-translational-gynecologic-cancer-research/?TrackID=3499&utm_source=widget&utm_medium=referral&utm_campaign=3499
+              - generic [ref=e432]:
+                - paragraph [ref=e433]: The successful candidate’s laboratory will be placed within the DKFZ based on our research topics.
+                - paragraph [ref=e434]: Heidelberg, Baden-Württemberg (DE)
+                - paragraph [ref=e435]: German Cancer Research Center in the Helmholtz Association (DKFZ)
+    - list [ref=e440]:
+      - listitem [ref=e441]:
+        - link "Committee on Publication Ethics" [ref=e442] [cursor=pointer]:
+          - /url: http://publicationethics.org/
+          - img "Committee on Publication Ethics" [ref=e443]
+        - paragraph [ref=e444]: This journal is a member of and subscribes to the principles of the Committee on Publication Ethics.
+      - listitem [ref=e445]:
+        - link "Ithenticate Plagiarism Detection" [ref=e446] [cursor=pointer]:
+          - /url: http://www.ithenticate.com/
+          - img "Ithenticate Plagiarism Detection" [ref=e447]
+  - contentinfo [ref=e448]:
+    - generic [ref=e452]:
+      - paragraph [ref=e453]: npj Digital Medicine (npj Digit. Med.)
+      - paragraph [ref=e454]: ISSN 2398-6352 (online)
+    - generic [ref=e455]:
+      - generic [ref=e456]:
+        - heading "nature.com footer links" [level=2] [ref=e457]
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - heading "About Nature Portfolio" [level=3] [ref=e461]
+            - list [ref=e462]:
+              - listitem [ref=e463]:
+                - link "About us" [ref=e464] [cursor=pointer]:
+                  - /url: https://www.nature.com/npg_/company_info/index.html
+              - listitem [ref=e465]:
+                - link "Press releases" [ref=e466] [cursor=pointer]:
+                  - /url: https://www.nature.com/npg_/press_room/press_releases.html
+              - listitem [ref=e467]:
+                - link "Press office" [ref=e468] [cursor=pointer]:
+                  - /url: https://press.nature.com/
+              - listitem [ref=e469]:
+                - link "Contact us" [ref=e470] [cursor=pointer]:
+                  - /url: https://support.nature.com/support/home
+          - generic [ref=e471]:
+            - heading "Discover content" [level=3] [ref=e472]
+            - list [ref=e473]:
+              - listitem [ref=e474]:
+                - link "Journals A-Z" [ref=e475] [cursor=pointer]:
+                  - /url: https://www.nature.com/siteindex
+              - listitem [ref=e476]:
+                - link "Articles by subject" [ref=e477] [cursor=pointer]:
+                  - /url: https://www.nature.com/subjects
+              - listitem [ref=e478]:
+                - link "protocols.io" [ref=e479] [cursor=pointer]:
+                  - /url: https://www.protocols.io/
+              - listitem [ref=e480]:
+                - link "Nature Index" [ref=e481] [cursor=pointer]:
+                  - /url: https://www.natureindex.com/
+          - generic [ref=e482]:
+            - heading "Publishing policies" [level=3] [ref=e483]
+            - list [ref=e484]:
+              - listitem [ref=e485]:
+                - link "Nature portfolio policies" [ref=e486] [cursor=pointer]:
+                  - /url: https://www.nature.com/authors/editorial_policies
+              - listitem [ref=e487]:
+                - link "Open access" [ref=e488] [cursor=pointer]:
+                  - /url: https://www.nature.com/nature-research/open-access
+          - generic [ref=e489]:
+            - heading "Author & Researcher services" [level=3] [ref=e490]
+            - list [ref=e491]:
+              - listitem [ref=e492]:
+                - link "Reprints & permissions" [ref=e493] [cursor=pointer]:
+                  - /url: https://www.nature.com/reprints
+              - listitem [ref=e494]:
+                - link "Research data" [ref=e495] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/authors/research-data
+              - listitem [ref=e496]:
+                - link "Language editing" [ref=e497] [cursor=pointer]:
+                  - /url: https://authorservices.springernature.com/language-editing/
+              - listitem [ref=e498]:
+                - link "Scientific editing" [ref=e499] [cursor=pointer]:
+                  - /url: https://authorservices.springernature.com/scientific-editing/
+              - listitem [ref=e500]:
+                - link "Nature Masterclasses" [ref=e501] [cursor=pointer]:
+                  - /url: https://masterclasses.nature.com/
+              - listitem [ref=e502]:
+                - link "Research Solutions" [ref=e503] [cursor=pointer]:
+                  - /url: https://solutions.springernature.com/
+          - generic [ref=e504]:
+            - heading "Libraries & institutions" [level=3] [ref=e505]
+            - list [ref=e506]:
+              - listitem [ref=e507]:
+                - link "Librarian service & tools" [ref=e508] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/librarians/tools-services
+              - listitem [ref=e509]:
+                - link "Librarian portal" [ref=e510] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/librarians/manage-your-account/librarianportal
+              - listitem [ref=e511]:
+                - link "Open research" [ref=e512] [cursor=pointer]:
+                  - /url: https://www.nature.com/openresearch/about-open-access/information-for-institutions
+              - listitem [ref=e513]:
+                - link "Recommend to library" [ref=e514] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/librarians/recommend-to-your-library
+          - generic [ref=e515]:
+            - heading "Advertising & partnerships" [level=3] [ref=e516]
+            - list [ref=e517]:
+              - listitem [ref=e518]:
+                - link "Advertising" [ref=e519] [cursor=pointer]:
+                  - /url: https://partnerships.nature.com/product/digital-advertising/
+              - listitem [ref=e520]:
+                - link "Partnerships & Services" [ref=e521] [cursor=pointer]:
+                  - /url: https://partnerships.nature.com/
+              - listitem [ref=e522]:
+                - link "Media kits" [ref=e523] [cursor=pointer]:
+                  - /url: https://partnerships.nature.com/media-kits/
+              - listitem [ref=e524]:
+                - link "Branded content" [ref=e525] [cursor=pointer]:
+                  - /url: https://partnerships.nature.com/product/branded-content-native-advertising/
+          - generic [ref=e526]:
+            - heading "Professional development" [level=3] [ref=e527]
+            - list [ref=e528]:
+              - listitem [ref=e529]:
+                - link "Nature Awards" [ref=e530] [cursor=pointer]:
+                  - /url: https://www.nature.com/immersive/natureawards/index.html
+              - listitem [ref=e531]:
+                - link "Nature Careers" [ref=e532] [cursor=pointer]:
+                  - /url: https://www.nature.com/naturecareers/
+              - listitem [ref=e533]:
+                - link "Nature Conferences" [ref=e534] [cursor=pointer]:
+                  - /url: https://conferences.nature.com
+                  - text: Nature
+                  - text: Conferences
+          - generic [ref=e536]:
+            - heading "Regional websites" [level=3] [ref=e537]
+            - list [ref=e538]:
+              - listitem [ref=e539]:
+                - link "Nature Africa" [ref=e540] [cursor=pointer]:
+                  - /url: https://www.nature.com/natafrica
+              - listitem [ref=e541]:
+                - link "Nature China" [ref=e542] [cursor=pointer]:
+                  - /url: http://www.naturechina.com
+              - listitem [ref=e543]:
+                - link "Nature India" [ref=e544] [cursor=pointer]:
+                  - /url: https://www.nature.com/nindia
+              - listitem [ref=e545]:
+                - link "Nature Japan" [ref=e546] [cursor=pointer]:
+                  - /url: https://www.natureasia.com/ja-jp
+              - listitem [ref=e547]:
+                - link "Nature Middle East" [ref=e548] [cursor=pointer]:
+                  - /url: https://www.nature.com/nmiddleeast
+        - list [ref=e550]:
+          - listitem [ref=e551]:
+            - link "Privacy Policy" [ref=e552] [cursor=pointer]:
+              - /url: https://www.nature.com/info/privacy
+          - listitem [ref=e553]:
+            - link "Use of cookies" [ref=e554] [cursor=pointer]:
+              - /url: https://www.nature.com/info/cookies
+          - listitem [ref=e555]:
+            - button "Your privacy choices/Manage cookies" [ref=e556] [cursor=pointer]
+          - listitem [ref=e557]:
+            - link "Legal notice" [ref=e558] [cursor=pointer]:
+              - /url: https://www.nature.com/info/legal-notice
+          - listitem [ref=e559]:
+            - link "Accessibility statement" [ref=e560] [cursor=pointer]:
+              - /url: https://www.nature.com/info/accessibility-statement
+          - listitem [ref=e561]:
+            - link "Terms & Conditions" [ref=e562] [cursor=pointer]:
+              - /url: https://www.nature.com/info/terms-and-conditions
+          - listitem [ref=e563]:
+            - link "Your US state privacy rights" [ref=e564] [cursor=pointer]:
+              - /url: https://www.springernature.com/ccpa
+      - generic [ref=e565]:
+        - link "Springer Nature" [ref=e566] [cursor=pointer]:
+          - /url: https://www.springernature.com/
+          - img "Springer Nature" [ref=e567]
+        - paragraph [ref=e568]: © 2026 Springer Nature Limited
+    - img [ref=e570]

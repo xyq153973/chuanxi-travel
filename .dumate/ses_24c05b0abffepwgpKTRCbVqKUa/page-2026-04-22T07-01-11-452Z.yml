@@ -1,0 +1,542 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - text:  
+    - generic [ref=e746]:
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - button "" [ref=e750] [cursor=pointer]:
+            - generic [ref=e752]: 
+          - generic [ref=e754]:
+            - generic [ref=e755]: 制造业务解决方案组-刘冰 周报
+            - generic [ref=e756]:
+              - generic [ref=e759]:
+                - generic [ref=e761]:
+                  - generic "04/20~04/26 (本周)" [ref=e763]:
+                    - button "" [ref=e766] [cursor=pointer]:
+                      - generic [ref=e768]: 
+                    - textbox [ref=e769] [cursor=pointer]: 04/20~04/26 (本周)
+                    - button "" [disabled] [ref=e772]:
+                      - generic [ref=e774]: 
+                  - generic: 04/20~04/26 (本周)
+                - generic:
+                  - paragraph
+              - generic [ref=e946]: 保存于15:00:02
+        - generic [ref=e776]:
+          - generic [ref=e777]:
+            - button " 提醒我写周报" [ref=e778] [cursor=pointer]:
+              - generic [ref=e779]:
+                - generic [ref=e780]: 
+                - generic [ref=e781]: 提醒我写周报
+            - button " 当前周权限" [ref=e782] [cursor=pointer]:
+              - generic [ref=e783]:
+                - generic [ref=e784]: 
+                - generic [ref=e785]: 当前周权限
+            - button " 周报参考" [ref=e786] [cursor=pointer]:
+              - generic [ref=e787]:
+                - generic [ref=e788]: 
+                - generic [ref=e789]: 周报参考
+          - generic [ref=e790]:
+            - banner
+            - generic [ref=e791]:
+              - button "" [ref=e793] [cursor=pointer]:
+                - generic [ref=e795]: 
+              - button "" [ref=e797] [cursor=pointer]:
+                - generic [ref=e799]: 
+              - generic [ref=e800]:
+                - button " 提交" [ref=e801] [cursor=pointer]:
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: 
+                    - generic [ref=e804]: 提交
+                - button "保存" [ref=e805] [cursor=pointer]:
+                  - generic [ref=e807]: 保存
+              - button "" [ref=e809] [cursor=pointer]:
+                - generic [ref=e811]: 
+      - generic [ref=e821]:
+        - generic [ref=e948]:
+          - generic [ref=e950]:
+            - generic [ref=e951]:
+              - button [ref=e952] [cursor=pointer]:
+                - img [ref=e953]
+              - button [ref=e957]:
+                - img [ref=e958]
+              - button [ref=e962] [cursor=pointer]:
+                - img [ref=e963]
+              - button [ref=e966] [cursor=pointer]:
+                - img [ref=e967]
+              - generic [ref=e971] [cursor=pointer]:
+                - generic [ref=e972]:
+                  - combobox [ref=e974]
+                  - generic "正文"
+                - generic:
+                  - img
+              - button [ref=e976] [cursor=pointer]:
+                - img [ref=e977]
+              - button [ref=e981] [cursor=pointer]:
+                - img [ref=e982]
+              - button [ref=e986] [cursor=pointer]:
+                - img [ref=e987]
+              - button [ref=e990] [cursor=pointer]:
+                - img [ref=e991]
+              - generic [ref=e997]:
+                - generic [ref=e998]:
+                  - combobox [ref=e1000] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - img
+                - generic:
+                  - img
+              - generic [ref=e1003] [cursor=pointer]:
+                - generic [ref=e1004]:
+                  - combobox [ref=e1006]
+                  - generic:
+                    - img
+                - generic:
+                  - img
+              - button [ref=e1007]:
+                - img [ref=e1008]
+              - button [ref=e1011] [cursor=pointer]:
+                - img [ref=e1012]
+              - button [ref=e1016] [cursor=pointer]:
+                - img [ref=e1017]
+              - button [ref=e1020] [cursor=pointer]:
+                - img [ref=e1021]
+              - button [ref=e1024] [cursor=pointer]:
+                - img [ref=e1025]
+              - button [ref=e1030] [cursor=pointer]:
+                - img [ref=e1031]
+              - img [ref=e1035] [cursor=pointer]
+              - generic [ref=e1038] [cursor=pointer]:
+                - generic [ref=e1039]:
+                  - combobox [ref=e1041]
+                  - generic:
+                    - img
+                - generic:
+                  - img
+              - button [ref=e1042] [cursor=pointer]:
+                - img [ref=e1043]
+              - button [ref=e1046] [cursor=pointer]:
+                - img [ref=e1047]
+              - button [ref=e1051] [cursor=pointer]:
+                - img [ref=e1052]
+              - button "智能生成" [ref=e1056] [cursor=pointer]:
+                - img [ref=e1057]
+                - generic [ref=e1065]: 智能生成
+              - generic [ref=e1069] [cursor=pointer]:
+                - generic [ref=e1070]:
+                  - combobox [ref=e1072]
+                  - generic:
+                    - generic: 插入
+                - generic:
+                  - img
+            - button [ref=e1073] [cursor=pointer]:
+              - img [ref=e1075]
+          - main [ref=e1086]:
+            - generic [ref=e1088]:
+              - complementary [ref=e1089]:
+                - generic [ref=e1091]:
+                  - img [ref=e1096] [cursor=pointer]
+                  - list [ref=e1102]:
+                    - listitem [ref=e1925]:
+                      - link:
+                        - /url: https://okr.baidu-int.com/pages/weekly.html#anchor-5ff7e4c0-bf4a-11ed-8c40-7f2f14273954
+                    - listitem [ref=e1926]:
+                      - link:
+                        - /url: https://okr.baidu-int.com/pages/weekly.html#anchor-63436640-bf4a-11ed-8c40-7f2f14273954
+                    - listitem [ref=e1927]:
+                      - link:
+                        - /url: https://okr.baidu-int.com/pages/weekly.html#anchor-693ddb20-bf4a-11ed-8c40-7f2f14273954
+                    - listitem [ref=e1928]:
+                      - link:
+                        - /url: https://okr.baidu-int.com/pages/weekly.html#anchor-693ddb21-bf4a-11ed-8c40-7f2f14273954
+              - generic [ref=e1108]:
+                - generic [ref=e1110]:
+                  - generic [ref=e1114]:
+                    - generic [ref=e1116]:
+                      - generic "04/20~04/26 (本周)" [ref=e1118]:
+                        - button "" [ref=e1121] [cursor=pointer]:
+                          - generic [ref=e1123]: 
+                        - textbox [ref=e1124] [cursor=pointer]: 04/20~04/26 (本周)
+                        - button "" [disabled] [ref=e1127]:
+                          - generic [ref=e1129]: 
+                      - generic: 04/20~04/26 (本周)
+                    - paragraph [ref=e1131]: 制造业务解决方案组-刘冰 周报
+                  - generic [ref=e1132]:
+                    - button " 上周参考" [ref=e1133] [cursor=pointer]:
+                      - generic [ref=e1134]:
+                        - generic [ref=e1135]: 
+                        - generic [ref=e1136]: 上周参考
+                    - generic [ref=e1141] [cursor=pointer]: 默认生成智能周报
+                - generic [ref=e1142]:
+                  - generic:
+                    - generic [ref=e1143]:
+                      - generic [ref=e1145]: 复制
+                      - generic [ref=e1147]: 剪切
+                      - generic [ref=e1149]: 删除
+                    - generic [ref=e1150]:
+                      - generic [ref=e1151]: AI
+                      - generic [ref=e1153] [cursor=pointer]:
+                        - img [ref=e1154]
+                        - generic [ref=e1162]: 智能生成
+                      - generic [ref=e1163]: 通用
+                      - generic [ref=e1164]:
+                        - generic [ref=e1165] [cursor=pointer]:
+                          - img [ref=e1166]
+                          - generic [ref=e1171]: 图片
+                        - generic [ref=e1172] [cursor=pointer]:
+                          - img [ref=e1173]
+                          - generic [ref=e1175]: 表格
+                        - generic [ref=e1176] [cursor=pointer]:
+                          - img [ref=e1177]
+                          - generic [ref=e1179]: 分栏
+                        - generic [ref=e1180] [cursor=pointer]:
+                          - img [ref=e1181]
+                          - generic [ref=e1183]: 附件
+                        - generic [ref=e1184] [cursor=pointer]:
+                          - img [ref=e1185]
+                          - generic [ref=e1188]: 代码块
+                        - generic [ref=e1189] [cursor=pointer]:
+                          - img [ref=e1190]
+                          - generic [ref=e1192]: 公式
+                        - generic [ref=e1193] [cursor=pointer]:
+                          - img [ref=e1194]
+                          - generic [ref=e1198]: 超链接
+                        - generic [ref=e1199] [cursor=pointer]:
+                          - img [ref=e1200]
+                          - generic [ref=e1205]: 提及
+                        - generic [ref=e1206] [cursor=pointer]:
+                          - img [ref=e1207]
+                          - generic [ref=e1210]: 阅读统计
+                        - generic [ref=e1211] [cursor=pointer]:
+                          - img [ref=e1212]
+                          - generic [ref=e1215]: 高亮信息
+                        - generic [ref=e1216] [cursor=pointer]:
+                          - img [ref=e1217]
+                          - generic [ref=e1221]: 流程图
+                        - generic [ref=e1222] [cursor=pointer]:
+                          - img [ref=e1223]
+                          - generic [ref=e1227]: 思维导图
+                        - generic [ref=e1228] [cursor=pointer]:
+                          - img [ref=e1229]
+                          - generic [ref=e1231]: 保密区
+                        - generic [ref=e1232] [cursor=pointer]:
+                          - img [ref=e1233]
+                          - generic [ref=e1235]: OKR
+                        - generic [ref=e1236] [cursor=pointer]:
+                          - img [ref=e1237]
+                          - generic [ref=e1240]: 在此处拆分卡片
+                      - generic [ref=e1241]: 布局
+                      - generic [ref=e1242]:
+                        - generic [ref=e1243] [cursor=pointer]:
+                          - img [ref=e1244]
+                          - generic [ref=e1247]: 布局块
+                          - generic [ref=e1248]: New
+                        - generic [ref=e1249] [cursor=pointer]:
+                          - img [ref=e1250]
+                          - generic [ref=e1252]: 默认分栏
+                        - generic [ref=e1253] [cursor=pointer]:
+                          - img [ref=e1254]
+                          - generic [ref=e1256]: 模块分栏
+                        - generic [ref=e1257] [cursor=pointer]:
+                          - img [ref=e1258]
+                          - generic [ref=e1261]: 编号分栏
+                        - generic [ref=e1262] [cursor=pointer]:
+                          - img [ref=e1263]
+                          - generic [ref=e1265]: 时间线分栏
+                        - generic [ref=e1266] [cursor=pointer]:
+                          - img [ref=e1267]
+                          - generic [ref=e1269]: 箭头分栏
+                      - generic [ref=e1270]: 文本格式
+                      - generic [ref=e1271]:
+                        - generic [ref=e1272] [cursor=pointer]:
+                          - img [ref=e1273]
+                          - generic [ref=e1277]: 正文
+                        - generic [ref=e1278] [cursor=pointer]:
+                          - img [ref=e1279]
+                          - generic [ref=e1283]: 一级标题
+                        - generic [ref=e1284] [cursor=pointer]:
+                          - img [ref=e1285]
+                          - generic [ref=e1289]: 二级标题
+                        - generic [ref=e1290] [cursor=pointer]:
+                          - img [ref=e1291]
+                          - generic [ref=e1295]: 三级标题
+                        - generic [ref=e1296] [cursor=pointer]:
+                          - img [ref=e1297]
+                          - generic [ref=e1301]: 四级标题
+                        - generic [ref=e1302] [cursor=pointer]:
+                          - img [ref=e1303]
+                          - generic [ref=e1307]: 五级标题
+                        - generic [ref=e1308] [cursor=pointer]:
+                          - img [ref=e1309]
+                          - generic [ref=e1313]: 六级标题
+                        - generic [ref=e1314] [cursor=pointer]:
+                          - img [ref=e1315]
+                          - generic [ref=e1318]: 无序列表
+                        - generic [ref=e1319] [cursor=pointer]:
+                          - img [ref=e1320]
+                          - generic [ref=e1323]: 有序列表
+                        - generic [ref=e1324] [cursor=pointer]:
+                          - img [ref=e1325]
+                          - generic [ref=e1329]: 待办列表
+                        - generic [ref=e1330] [cursor=pointer]:
+                          - img [ref=e1331]
+                          - generic [ref=e1336]: 引用
+                        - generic [ref=e1337] [cursor=pointer]:
+                          - img [ref=e1338]
+                          - generic [ref=e1340]: 分割线
+                      - generic [ref=e1341]: 数据表
+                      - generic [ref=e1342]:
+                        - generic [ref=e1343] [cursor=pointer]:
+                          - img [ref=e1344]
+                          - generic [ref=e1349]: 表格视图
+                        - generic [ref=e1350] [cursor=pointer]:
+                          - img [ref=e1351]
+                          - generic [ref=e1357]: 相册视图
+                        - generic [ref=e1358] [cursor=pointer]:
+                          - img [ref=e1359]
+                          - generic [ref=e1364]: 看板视图
+                        - generic [ref=e1365] [cursor=pointer]:
+                          - img [ref=e1366]
+                          - generic [ref=e1371]: 甘特视图
+                        - generic [ref=e1372] [cursor=pointer]:
+                          - img [ref=e1373]
+                          - generic [ref=e1381]: 日历视图
+                        - generic [ref=e1382] [cursor=pointer]:
+                          - img [ref=e1383]
+                          - generic [ref=e1391]: 架构视图
+                      - generic [ref=e1392]: 图表
+                      - generic [ref=e1393]:
+                        - generic [ref=e1394] [cursor=pointer]:
+                          - img [ref=e1395]
+                          - generic [ref=e1400]: 柱状图
+                        - generic [ref=e1401] [cursor=pointer]:
+                          - img [ref=e1402]
+                          - generic [ref=e1407]: 条形图
+                        - generic [ref=e1408] [cursor=pointer]:
+                          - img [ref=e1409]
+                          - generic [ref=e1415]: 饼状图
+                        - generic [ref=e1416] [cursor=pointer]:
+                          - img [ref=e1417]
+                          - generic [ref=e1422]: 折线图
+                        - generic [ref=e1423] [cursor=pointer]:
+                          - img [ref=e1424]
+                          - generic [ref=e1434]: 散点图
+                      - generic [ref=e1435]: 第三方应用
+                      - generic [ref=e1436]:
+                        - generic [ref=e1437] [cursor=pointer]:
+                          - img [ref=e1438]
+                          - generic [ref=e1444]: DuChat
+                          - generic [ref=e1445]: Beta
+                        - generic [ref=e1446] [cursor=pointer]:
+                          - img [ref=e1447]
+                          - generic [ref=e1475]: 百度地图
+                        - generic [ref=e1476] [cursor=pointer]:
+                          - img [ref=e1477]
+                          - generic [ref=e1482]: CodePen
+                        - generic [ref=e1483] [cursor=pointer]:
+                          - img [ref=e1484]
+                          - generic [ref=e1490]: Figma
+                    - generic: 点击「智能生成」可自动汇总近七天的工作摘要，输入“/”可快捷插入
+                    - img [ref=e1959]
+                  - textbox [active] [ref=e1510]:
+                    - heading "Summary" [level=1] [ref=e1584]:
+                      - img [ref=e1936] [cursor=pointer]
+                      - generic [ref=e1587]: Summary
+                    - heading "OKR本周进展" [level=1] [ref=e1589]:
+                      - img [ref=e1942] [cursor=pointer]
+                      - generic [ref=e1592]: OKR本周进展
+                    - generic [ref=e1597]:
+                      - generic [ref=e1601]:
+                        - generic [ref=e1607]:
+                          - generic [ref=e1608]: 刘冰的OKR
+                          - generic [ref=e1609]: 期间：2026-Q2
+                          - button "切换" [ref=e1610] [cursor=pointer]:
+                            - generic [ref=e1611]: 切换
+                        - generic [ref=e1612]:
+                          - button "检查更新" [ref=e1614] [cursor=pointer]:
+                            - generic [ref=e1615]:
+                              - img [ref=e1617]
+                              - generic [ref=e1619]: 检查更新
+                          - button "删除" [ref=e1620] [cursor=pointer]:
+                            - generic [ref=e1621]:
+                              - img [ref=e1623]
+                              - text: 删除
+                      - generic [ref=e1625]:
+                        - generic [ref=e1626]:
+                          - generic [ref=e1632]:
+                            - generic [ref=e1634]:
+                              - generic [ref=e1636]: O1
+                              - generic [ref=e1637]: 高效推进 KA 深耕与订阅制落地，积极开拓制造、零售潜力市场
+                            - generic [ref=e1638]:
+                              - generic "定期 Review 完成 O/KR 的信心，及时体现达成 O/KR 可能面临的挑战" [ref=e1642]:
+                                - generic [ref=e1644]: not surport
+                                - text: 
+                              - generic [ref=e1648]:
+                                - generic [ref=e1650]: not surport
+                                - generic [ref=e1651]: 正常
+                          - generic [ref=e1652]:
+                            - generic [ref=e1653]:
+                              - generic [ref=e1659]:
+                                - generic [ref=e1661]:
+                                  - generic [ref=e1663]: KR1
+                                  - generic [ref=e1664]: 【KA 客户】探索 智能营销平台、龙虾、DB、伐谋在统一、君乐宝、康师傅、思念、三全等零售 KA 客户及重点制造客户上对底座的拉动，持续明显提升 KA 收入规模。
+                                - generic [ref=e1670]:
+                                  - generic [ref=e1671]:
+                                    - generic [ref=e1672]: not surport
+                                    - textbox [ref=e1673]: "0"
+                                    - generic: "%"
+                                  - generic [ref=e1674]:
+                                    - generic [ref=e1676]: 
+                                    - generic [ref=e1678]: 
+                              - generic [ref=e1681]:
+                                - generic [ref=e1682]: 本周工作
+                                - generic [ref=e1683]: 0%
+                            - generic [ref=e1686]:
+                              - generic [ref=e1692]:
+                                - generic [ref=e1694]:
+                                  - generic [ref=e1696]: KR2
+                                  - generic [ref=e1697]: 【订阅制】聚焦 GPU 云、公有云底座产品，围绕制造、零售行业客户需求，扩展新快速起量产品进行落地。
+                                - generic [ref=e1703]:
+                                  - generic [ref=e1704]:
+                                    - generic [ref=e1705]: not surport
+                                    - textbox [ref=e1706]: "0"
+                                    - generic: "%"
+                                  - generic [ref=e1707]:
+                                    - generic [ref=e1709]: 
+                                    - generic [ref=e1711]: 
+                              - generic [ref=e1714]:
+                                - generic [ref=e1715]: 本周工作
+                                - generic [ref=e1716]: 0%
+                            - generic [ref=e1719]:
+                              - generic [ref=e1725]:
+                                - generic [ref=e1727]:
+                                  - generic [ref=e1729]: KR3
+                                  - generic [ref=e1730]: 【创新模式】加快探索业务增长曲线，探索AI在零售行业的规模化机会，DB、伐谋在零售等行业落地行业标杆跑通RaaS模式
+                                - generic [ref=e1736]:
+                                  - generic [ref=e1737]:
+                                    - generic [ref=e1738]: not surport
+                                    - textbox [ref=e1739]: "0"
+                                    - generic: "%"
+                                  - generic [ref=e1740]:
+                                    - generic [ref=e1742]: 
+                                    - generic [ref=e1744]: 
+                              - generic [ref=e1747]:
+                                - generic [ref=e1748]: 本周工作
+                                - generic [ref=e1749]: 0%
+                        - generic [ref=e1752]:
+                          - generic [ref=e1758]:
+                            - generic [ref=e1760]:
+                              - generic [ref=e1762]: O2
+                              - generic [ref=e1763]: 强化 AI 专业能力，深化消费行业认知，持续为团队成长与行业影响力提升贡献价值
+                            - generic [ref=e1764]:
+                              - generic "定期 Review 完成 O/KR 的信心，及时体现达成 O/KR 可能面临的挑战" [ref=e1768]:
+                                - generic [ref=e1770]: not surport
+                                - text: 
+                              - generic [ref=e1774]:
+                                - generic [ref=e1776]: not surport
+                                - generic [ref=e1777]: 正常
+                          - generic [ref=e1778]:
+                            - generic [ref=e1779]:
+                              - generic [ref=e1785]:
+                                - generic [ref=e1787]:
+                                  - generic [ref=e1789]: KR1
+                                  - generic [ref=e1790]: 整合公司内外部资源打造具备竞争力的行业解决方案，丰富 AI 高价值场景供给，协同产品基于前线真实业务需求实现规模化迭代升级
+                                - generic [ref=e1796]:
+                                  - generic [ref=e1797]:
+                                    - generic [ref=e1798]: not surport
+                                    - textbox [ref=e1799]: "0"
+                                    - generic: "%"
+                                  - generic [ref=e1800]:
+                                    - generic [ref=e1802]: 
+                                    - generic [ref=e1804]: 
+                              - generic [ref=e1807]:
+                                - generic [ref=e1808]: 本周工作
+                                - generic [ref=e1809]: 0%
+                            - generic [ref=e1812]:
+                              - generic [ref=e1818]:
+                                - generic [ref=e1820]:
+                                  - generic [ref=e1822]: KR2
+                                  - generic [ref=e1823]: 强化AI思维、AI能力和工具使用要求并形成衡量标准，强化ownership精神，提升团队学习力、协同力、执行力，组织及参加市场洞察、知识分享3场以上
+                                - generic [ref=e1829]:
+                                  - generic [ref=e1830]:
+                                    - generic [ref=e1831]: not surport
+                                    - textbox [ref=e1832]: "0"
+                                    - generic: "%"
+                                  - generic [ref=e1833]:
+                                    - generic [ref=e1835]: 
+                                    - generic [ref=e1837]: 
+                              - generic [ref=e1840]:
+                                - generic [ref=e1841]: 本周工作
+                                - generic [ref=e1842]: 0%
+                    - heading "下周计划" [level=1] [ref=e1847]:
+                      - img [ref=e1948] [cursor=pointer]
+                      - generic [ref=e1850]: 下周计划
+                    - heading "风险及问题" [level=1] [ref=e1852]:
+                      - img [ref=e1954] [cursor=pointer]
+                      - generic [ref=e1855]: 风险及问题
+                  - generic [ref=e1860]:
+                    - generic [ref=e1861]: 
+                    - text: 提交截止时间：04/26（周日）24:00之前
+                  - img [ref=e1863] [cursor=pointer]
+        - generic [ref=e832]:
+          - generic [ref=e833]:
+            - generic [ref=e834]:
+              - button "辅助区" [ref=e835] [cursor=pointer]
+              - button "人员汇总" [ref=e836] [cursor=pointer]
+              - button "iCafe" [ref=e837] [cursor=pointer]
+            - button "" [ref=e839] [cursor=pointer]:
+              - generic [ref=e841]: 
+          - generic [ref=e842]:
+            - generic [ref=e849]:
+              - banner [ref=e850]
+              - main [ref=e852]:
+                - generic [ref=e853]:
+                  - generic [ref=e855]:
+                    - generic [ref=e856]: Hi刘冰同学，欢迎使用辅助区
+                    - generic [ref=e857] [cursor=pointer]: 忽略
+                  - generic [ref=e859]:
+                    - generic [ref=e860]:
+                      - text: 你可以尝试提问以下内容，会反馈相关内容
+                      - img [ref=e862] [cursor=pointer]
+                    - generic [ref=e864] [cursor=pointer]:
+                      - generic "周报的内容丢失怎么办？" [ref=e865]
+                      - img [ref=e866]
+                    - generic [ref=e867] [cursor=pointer]:
+                      - generic "周报页面怎么设置页宽" [ref=e868]
+                      - img [ref=e869]
+                    - generic [ref=e870] [cursor=pointer]:
+                      - generic "主管设置模板为什么没有了？" [ref=e871]
+                      - img [ref=e872]
+                - generic [ref=e1878]:
+                  - generic [ref=e1881]: 基于近7天的工作内容为你推荐
+                  - generic [ref=e1886] [cursor=pointer]:
+                    - img "网络资源图片" [ref=e1890]
+                    - generic [ref=e1893]:
+                      - generic "【0417-协同会】视频云X消费电子" [ref=e1894]:
+                        - generic [ref=e1895]: 【0417-协同会】视频云...
+                      - generic [ref=e1896]: 周会文档
+                  - generic [ref=e1899]:
+                    - generic [ref=e1902]: 来源:智能知识助手
+                    - generic [ref=e1904] [cursor=pointer]:
+                      - img "网络资源图片" [ref=e1908]
+                      - generic [ref=e1910]: 有用
+                - generic [ref=e893]:
+                  - generic "怎么插入OKR或切换期间？" [ref=e896] [cursor=pointer]: 怎么插入OKR或切换期间？
+                  - generic "主管设置模板为什么没有了？" [ref=e900] [cursor=pointer]: 主管设置模板为什么没有了？
+                  - generic "周报的内容丢失怎么办？" [ref=e904] [cursor=pointer]: 周报的内容丢失怎么办？
+                  - generic "周报页面怎么设置页宽" [ref=e908] [cursor=pointer]: 周报页面怎么设置页宽
+                - generic [ref=e914] [cursor=pointer]:
+                  - img "头像" [ref=e916]
+                  - generic [ref=e917]:
+                    - generic "周报用户反馈群" [ref=e918]
+                    - generic "2615185" [ref=e919]
+                    - img [ref=e922]
+              - contentinfo [ref=e928]:
+                - generic [ref=e930]:
+                  - textbox "请输入与当前系统所属业务相关的问题..." [ref=e934]
+                  - generic [ref=e937]: 0/2000
+            - text:  
+  - img [ref=e942] [cursor=pointer]
+  - generic [ref=e1914]:
+    - button "取消" [ref=e1915] [cursor=pointer]
+    - button "确定" [ref=e1916] [cursor=pointer]
+  - textbox

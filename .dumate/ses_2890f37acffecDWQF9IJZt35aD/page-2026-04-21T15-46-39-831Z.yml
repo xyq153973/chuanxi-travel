@@ -1,0 +1,1519 @@
+- generic [ref=e1]:
+  - link "欢迎进入 中国东方航空,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e2] [cursor=pointer]
+  - generic [ref=e6]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - generic "中国东方航空" [ref=e63]:
+          - link "logo" [ref=e14] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img "logo" [ref=e15]
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - img [ref=e20]
+            - generic "航班选择" [ref=e21]
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - generic "旅客信息" [ref=e24]
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic "我的购物车" [ref=e27]
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic "支付出票" [ref=e30]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - text:        
+            - link "会员 | 订单" [ref=e37] [cursor=pointer]:
+              - /url: javascript:;
+            - text: 
+          - listitem [ref=e38]:
+            - link "Language & Currency" [ref=e39] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e41]
+              - generic [ref=e42]: Language & Currency
+            - text:                                                                         
+        - text: 
+      - text: 
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: 单程
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: 西安
+                - generic [ref=e80]: 
+                - generic [ref=e81]: 上海
+              - generic [ref=e83]: 2026年05月05日
+            - generic [ref=e84] [cursor=pointer]: 更改
+          - generic [ref=e86]:
+            - generic [ref=e89] [cursor=pointer]: 
+            - generic [ref=e91]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e95]: 05-03 星期日
+                - generic [ref=e96]:
+                  - generic [ref=e97]: ¥
+                  - generic [ref=e98]: "603"
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e102]: 05-04 星期一
+                - generic [ref=e103]:
+                  - generic [ref=e104]: ¥
+                  - generic [ref=e105]: "736"
+              - generic [ref=e108] [cursor=pointer]:
+                - generic [ref=e110]: 05-05 星期二
+                - generic [ref=e111]:
+                  - generic [ref=e112]: ¥
+                  - generic [ref=e113]: 1,500
+              - generic [ref=e115] [cursor=pointer]:
+                - generic [ref=e117]: 05-06 星期三
+                - generic [ref=e118]:
+                  - generic [ref=e119]: ¥
+                  - generic [ref=e120]: 1,100
+              - generic [ref=e122] [cursor=pointer]:
+                - generic [ref=e124]: 05-07 星期四
+                - generic [ref=e125]:
+                  - generic [ref=e126]: ¥
+                  - generic [ref=e127]: "683"
+              - generic [ref=e129] [cursor=pointer]:
+                - generic [ref=e131]: 05-08 星期五
+                - generic [ref=e132]:
+                  - generic [ref=e133]: ¥
+                  - generic [ref=e134]: "649"
+              - generic [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: 05-09 星期六
+                - generic [ref=e139]:
+                  - generic [ref=e140]: ¥
+                  - generic [ref=e141]: "554"
+            - generic [ref=e144] [cursor=pointer]: 
+            - generic [ref=e145] [cursor=pointer]:
+              - generic [ref=e147]: 
+              - generic [ref=e151]: 低价日历
+        - generic:                                               
+      - generic [ref=e152]:
+        - generic [ref=e154]: 所有出发到达时间均为当地时间｜机型以实际航班为准。
+        - generic [ref=e156]:
+          - generic [ref=e157] [cursor=pointer]:
+            - generic [ref=e161]: 直飞
+            - generic [ref=e164]: 
+          - generic [ref=e165] [cursor=pointer]:
+            - generic [ref=e169]: 起飞时间
+            - generic [ref=e172]: 
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e177]: 到达时间
+            - generic [ref=e180]: 
+          - generic [ref=e184] [cursor=pointer]:
+            - generic "更多条件" [ref=e185]
+            - generic [ref=e188]: 
+          - generic [ref=e190] [cursor=pointer]:
+            - generic [ref=e194]: 价格
+            - generic [ref=e197]: 
+          - radiogroup [ref=e198]:
+            - radio "现金-含税" [ref=e199] [cursor=pointer]:
+              - radio [ref=e202]
+              - generic [ref=e206]: 现金-含税
+            - radio "现金-不含税" [checked] [ref=e207] [cursor=pointer]:
+              - radio [checked] [ref=e210]
+              - generic [ref=e214]: 现金-不含税
+            - radio "积分" [ref=e215] [cursor=pointer]:
+              - radio [ref=e218]
+              - generic [ref=e222]: 积分
+          - generic [ref=e223]:
+            - generic [ref=e225]: 经济舱
+            - generic [ref=e227]: 超级经济舱
+            - generic [ref=e229]: 公务/头等舱
+        - generic "视窗区,出发信息" [active] [ref=e230]:
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e237]:
+                    - img "icon-flight-company" [ref=e238]
+                    - generic [ref=e239]: MU2239
+                  - generic [ref=e240]:
+                    - generic [ref=e244]: 
+                    - generic [ref=e245]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e247]
+                      - img [ref=e251]
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: 06:30
+                    - generic [ref=e255]: 咸阳 T5
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: 直达
+                    - img "dot" [ref=e258]
+                    - generic [ref=e259]: 总时长：2小时5分
+                  - generic [ref=e260]:
+                    - generic [ref=e261]: 08:35
+                    - generic [ref=e262]:
+                      - text: 虹桥
+                      - generic [ref=e263]: T2
+              - generic [ref=e264] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e265]
+            - generic [ref=e266]:
+              - generic [ref=e270] [cursor=pointer]: ¥ 1,500
+              - generic [ref=e274]: — —
+              - generic [ref=e278] [cursor=pointer]: ¥ 1,986
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - generic [ref=e285]:
+                      - img "icon-flight-company" [ref=e286]
+                      - generic [ref=e287]: MU2194
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: 空客321(窄)
+                      - generic [ref=e292]: 
+                      - generic [ref=e293]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                        - img [ref=e297]
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: 07:30
+                      - generic [ref=e301]: 咸阳 T5
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: 直达
+                      - img "dot" [ref=e304]
+                      - generic [ref=e305]: 总时长：2小时25分
+                    - generic [ref=e306]:
+                      - generic [ref=e307]: 09:55
+                      - generic [ref=e308]:
+                        - text: 浦东
+                        - generic [ref=e309]: T1
+                - generic [ref=e310] [cursor=pointer]:
+                  - text: 航班详情
+                  - img "detail" [ref=e311]
+              - generic [ref=e312]:
+                - generic [ref=e316] [cursor=pointer]: ¥ 1,700
+                - generic [ref=e320]: — —
+                - generic [ref=e324] [cursor=pointer]: ¥ 2,186
+            - generic [ref=e2009]:
+              - generic [ref=e2016]:
+                - generic [ref=e2017]:
+                  - img "icon-flight-company" [ref=e2019]
+                  - generic [ref=e2020]: 中国东方航空公司 MU2194
+                  - generic [ref=e2024]: 空客321(窄)
+                - generic [ref=e2026]:
+                  - generic [ref=e2027]:
+                    - generic [ref=e2028]: 2026-05-05
+                    - generic [ref=e2029]: 07:30
+                    - generic [ref=e2030]: 咸阳T5
+                  - generic [ref=e2031]:
+                    - generic [ref=e2032]:
+                      - img [ref=e2034]
+                      - generic [ref=e2036]: 直达
+                    - generic [ref=e2037]: "时长: 2小时25分"
+                  - generic [ref=e2038]:
+                    - generic [ref=e2039]: 2026-05-05
+                    - generic [ref=e2040]: 09:55
+                    - generic [ref=e2041]: 浦东T1
+              - generic [ref=e2042]:
+                - generic [ref=e2043]: 注：
+                - generic [ref=e2045]: 所有出发到达时间均为当地时间
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - img "icon-flight-company" [ref=e332]
+                    - generic [ref=e333]: MU2151
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: 机型326
+                    - generic [ref=e338]: 
+                    - generic [ref=e339]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e341]
+                      - img [ref=e345]
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 09:00
+                    - generic [ref=e349]: 咸阳 T5
+                  - generic [ref=e350]:
+                    - generic [ref=e351]: 直达
+                    - img "dot" [ref=e352]
+                    - generic [ref=e353]: 总时长：2小时20分
+                  - generic [ref=e354]:
+                    - generic [ref=e355]: 11:20
+                    - generic [ref=e356]:
+                      - text: 虹桥
+                      - generic [ref=e357]: T2
+              - generic [ref=e358] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e359]
+            - generic [ref=e360]:
+              - generic [ref=e364] [cursor=pointer]: ¥ 1,500
+              - generic [ref=e368]: — —
+              - generic [ref=e372] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - img "icon-flight-company" [ref=e380]
+                    - generic [ref=e381]: MU2153
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: 空客320(窄)
+                    - generic [ref=e386]: 
+                    - generic [ref=e387]:
+                      - img [ref=e389]
+                      - img [ref=e393]
+                - generic [ref=e394]:
+                  - generic [ref=e395]:
+                    - generic [ref=e396]: 10:00
+                    - generic [ref=e397]: 咸阳 T5
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: 直达
+                    - img "dot" [ref=e400]
+                    - generic [ref=e401]: 总时长：2小时15分
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: 12:15
+                    - generic [ref=e404]:
+                      - text: 虹桥
+                      - generic [ref=e405]: T2
+              - generic [ref=e406] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e407]
+            - generic [ref=e408]:
+              - generic [ref=e412] [cursor=pointer]: ¥ 1,700
+              - generic [ref=e416]: — —
+              - generic [ref=e420] [cursor=pointer]: ¥ 5,120
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - img "icon-flight-company" [ref=e428]
+                    - generic [ref=e429]: MU2155
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: 空客321(窄)
+                    - generic [ref=e434]: 
+                    - generic [ref=e435]:
+                      - img [ref=e437]
+                      - img [ref=e441]
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]: 11:00
+                    - generic [ref=e445]: 咸阳 T5
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: 直达
+                    - img "dot" [ref=e448]
+                    - generic [ref=e449]: 总时长：2小时10分
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: 13:10
+                    - generic [ref=e452]:
+                      - text: 虹桥
+                      - generic [ref=e453]: T2
+              - generic [ref=e454] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e455]
+            - generic [ref=e456]:
+              - generic [ref=e460] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e464]: — —
+              - generic [ref=e468] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - img "icon-flight-company" [ref=e476]
+                    - generic [ref=e477]: MU2157
+                  - generic [ref=e478]:
+                    - generic [ref=e482]: 
+                    - generic [ref=e483]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e485]
+                      - img [ref=e489]
+                - generic [ref=e490]:
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: 12:00
+                    - generic [ref=e493]: 咸阳 T5
+                  - generic [ref=e494]:
+                    - generic [ref=e495]: 直达
+                    - img "dot" [ref=e496]
+                    - generic [ref=e497]: 总时长：2小时20分
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: 14:20
+                    - generic [ref=e500]:
+                      - text: 虹桥
+                      - generic [ref=e501]: T2
+              - generic [ref=e502] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e503]
+            - generic [ref=e504]:
+              - generic [ref=e508] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e512]: — —
+              - generic [ref=e516] [cursor=pointer]: ¥ 5,120
+          - generic [ref=e519]:
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - generic [ref=e523]:
+                    - img "icon-flight-company" [ref=e524]
+                    - generic [ref=e525]: MU2226
+                  - generic [ref=e526]:
+                    - generic [ref=e530]: 
+                    - generic [ref=e531]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e533]
+                      - img [ref=e537]
+                - generic [ref=e538]:
+                  - generic [ref=e539]:
+                    - generic [ref=e540]: 13:00
+                    - generic [ref=e541]: 咸阳 T5
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: 直达
+                    - img "dot" [ref=e544]
+                    - generic [ref=e545]: 总时长：2小时10分
+                  - generic [ref=e546]:
+                    - generic [ref=e547]: 15:10
+                    - generic [ref=e548]:
+                      - text: 虹桥
+                      - generic [ref=e549]: T2
+              - generic [ref=e550] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e551]
+            - generic [ref=e552]:
+              - generic [ref=e556] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e560]: — —
+              - generic [ref=e564] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e567]:
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - img "icon-flight-company" [ref=e572]
+                    - generic [ref=e573]: MU2176
+                  - generic [ref=e574]:
+                    - generic [ref=e575]: 空客320N(窄)
+                    - generic [ref=e578]: 
+                    - generic [ref=e579]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e583]
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: 13:30
+                    - generic [ref=e587]: 咸阳 T5
+                  - generic [ref=e588]:
+                    - generic [ref=e589]: 直达
+                    - img "dot" [ref=e590]
+                    - generic [ref=e591]: 总时长：2小时25分
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: 15:55
+                    - generic [ref=e594]:
+                      - text: 浦东
+                      - generic [ref=e595]: T1
+              - generic [ref=e596] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e597]
+            - generic [ref=e598]:
+              - generic [ref=e602] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e606]: — —
+              - generic [ref=e610] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e613]:
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - img "icon-flight-company" [ref=e618]
+                    - generic [ref=e619]: MU2159
+                  - generic [ref=e620]:
+                    - generic [ref=e621]: 空客320N(窄)
+                    - generic [ref=e624]: 
+                    - generic [ref=e625]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e627]
+                      - img [ref=e631]
+                - generic [ref=e632]:
+                  - generic [ref=e633]:
+                    - generic [ref=e634]: 14:00
+                    - generic [ref=e635]: 咸阳 T5
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: 直达
+                    - img "dot" [ref=e638]
+                    - generic [ref=e639]: 总时长：2小时25分
+                  - generic [ref=e640]:
+                    - generic [ref=e641]: 16:25
+                    - generic [ref=e642]:
+                      - text: 虹桥
+                      - generic [ref=e643]: T2
+              - generic [ref=e644] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e645]
+            - generic [ref=e646]:
+              - generic [ref=e650] [cursor=pointer]: ¥ 2,060
+              - generic [ref=e654]: — —
+              - generic [ref=e658] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e661]:
+            - generic [ref=e662]:
+              - generic [ref=e663]:
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - img "icon-flight-company" [ref=e666]
+                    - generic [ref=e667]: MU2161
+                  - generic [ref=e668]:
+                    - generic [ref=e669]: 空客321(窄)
+                    - generic [ref=e672]: 
+                    - generic [ref=e673]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e675]
+                      - img [ref=e679]
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e682]: 16:00
+                    - generic [ref=e683]: 咸阳 T5
+                  - generic [ref=e684]:
+                    - generic [ref=e685]: 直达
+                    - img "dot" [ref=e686]
+                    - generic [ref=e687]: 总时长：2小时15分
+                  - generic [ref=e688]:
+                    - generic [ref=e689]: 18:15
+                    - generic [ref=e690]:
+                      - text: 虹桥
+                      - generic [ref=e691]: T2
+              - generic [ref=e692] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e693]
+            - generic [ref=e694]:
+              - generic [ref=e698] [cursor=pointer]: ¥ 2,430
+              - generic [ref=e702]: — —
+              - generic [ref=e706] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e709]:
+            - generic [ref=e710]:
+              - generic [ref=e711]:
+                - generic [ref=e712]:
+                  - generic [ref=e713]:
+                    - img "icon-flight-company" [ref=e714]
+                    - generic [ref=e715]: MU2165
+                  - generic [ref=e716]:
+                    - generic [ref=e717]: 空客332(宽)
+                    - generic [ref=e718]:
+                      - generic [ref=e720]: 
+                      - generic [ref=e722]: 
+                    - generic [ref=e723]:
+                      - img [ref=e725]
+                      - img [ref=e729]
+                - generic [ref=e730]:
+                  - generic [ref=e731]:
+                    - generic [ref=e732]: 17:00
+                    - generic [ref=e733]: 咸阳 T5
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: 直达
+                    - img "dot" [ref=e736]
+                    - generic [ref=e737]: 总时长：2小时15分
+                  - generic [ref=e738]:
+                    - generic [ref=e739]: 19:15
+                    - generic [ref=e740]:
+                      - text: 虹桥
+                      - generic [ref=e741]: T2
+              - generic [ref=e742] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e743]
+            - generic [ref=e744]:
+              - generic [ref=e748] [cursor=pointer]: ¥ 2,430
+              - generic [ref=e752]: — —
+              - generic [ref=e756] [cursor=pointer]: ¥ 5,120
+          - generic [ref=e759]:
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - generic [ref=e763]:
+                    - img "icon-flight-company" [ref=e764]
+                    - generic [ref=e765]: MU2167
+                  - generic [ref=e766]:
+                    - generic [ref=e767]: 空客332(宽)
+                    - generic [ref=e768]:
+                      - generic [ref=e770]: 
+                      - generic [ref=e772]: 
+                    - generic [ref=e773]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e777]
+                - generic [ref=e778]:
+                  - generic [ref=e779]:
+                    - generic [ref=e780]: 18:00
+                    - generic [ref=e781]: 咸阳 T5
+                  - generic [ref=e782]:
+                    - generic [ref=e783]: 直达
+                    - img "dot" [ref=e784]
+                    - generic [ref=e785]: 总时长：2小时25分
+                  - generic [ref=e786]:
+                    - generic [ref=e787]: 20:25
+                    - generic [ref=e788]:
+                      - text: 浦东
+                      - generic [ref=e789]: T1
+              - generic [ref=e790] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e791]
+            - generic [ref=e792]:
+              - generic [ref=e796] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e800]: — —
+              - generic [ref=e804] [cursor=pointer]: ¥ 2,579
+          - generic [ref=e807]:
+            - generic [ref=e808]:
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - generic [ref=e811]:
+                    - img "icon-flight-company" [ref=e812]
+                    - generic [ref=e813]: MU2336
+                  - generic [ref=e814]:
+                    - generic [ref=e818]: 
+                    - generic [ref=e819]:
+                      - img [ref=e821]
+                      - img [ref=e825]
+                - generic [ref=e826]:
+                  - generic [ref=e827]:
+                    - generic [ref=e828]: 19:30
+                    - generic [ref=e829]: 咸阳 T5
+                  - generic [ref=e830]:
+                    - generic [ref=e831]: 直达
+                    - img "dot" [ref=e832]
+                    - generic [ref=e833]: 总时长：2小时20分
+                  - generic [ref=e834]:
+                    - generic [ref=e835]: 21:50
+                    - generic [ref=e836]:
+                      - text: 虹桥
+                      - generic [ref=e837]: T1
+              - generic [ref=e838] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e839]
+            - generic [ref=e840]:
+              - generic [ref=e844] [cursor=pointer]: ¥ 2,430
+              - generic [ref=e848]: — —
+              - generic [ref=e852] [cursor=pointer]: ¥ 7,320
+          - generic [ref=e855]:
+            - generic [ref=e856]:
+              - generic [ref=e857]:
+                - generic [ref=e858]:
+                  - generic [ref=e859]:
+                    - img "icon-flight-company" [ref=e860]
+                    - generic [ref=e861]: FM9204
+                  - generic [ref=e862]:
+                    - generic [ref=e863]: 机型325
+                    - generic [ref=e866]: 
+                    - generic [ref=e867]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e869]
+                      - img [ref=e873]
+                - generic [ref=e874]:
+                  - generic [ref=e875]:
+                    - generic [ref=e876]: 20:00
+                    - generic [ref=e877]: 咸阳 T5
+                  - generic [ref=e878]:
+                    - generic [ref=e879]: 直达
+                    - img "dot" [ref=e880]
+                    - generic [ref=e881]: 总时长：2小时25分
+                  - generic [ref=e882]:
+                    - generic [ref=e883]: 22:25
+                    - generic [ref=e884]:
+                      - text: 虹桥
+                      - generic [ref=e885]: T2
+              - generic [ref=e886] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e887]
+            - generic [ref=e888]:
+              - generic [ref=e892] [cursor=pointer]: ¥ 2,010
+              - generic [ref=e896]: — —
+              - generic [ref=e900] [cursor=pointer]: ¥ 2,900
+          - generic [ref=e903]:
+            - generic [ref=e904]:
+              - generic [ref=e905]:
+                - generic [ref=e906]:
+                  - generic [ref=e907]:
+                    - img "icon-flight-company" [ref=e908]
+                    - generic [ref=e909]: MU8360
+                  - generic [ref=e910]:
+                    - generic [ref=e911]: 机型325
+                    - generic [ref=e913]: 共享
+                    - generic [ref=e916]: 
+                    - generic [ref=e917]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e919]
+                      - img [ref=e923]
+                - generic [ref=e924]:
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: 20:00
+                    - generic [ref=e927]: 咸阳 T5
+                  - generic [ref=e928]:
+                    - generic [ref=e929]: 直达
+                    - img "dot" [ref=e930]
+                    - generic [ref=e931]: 总时长：2小时25分
+                  - generic [ref=e932]:
+                    - generic [ref=e933]: 22:25
+                    - generic [ref=e934]:
+                      - text: 虹桥
+                      - generic [ref=e935]: T2
+              - generic [ref=e936] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e937]
+            - generic [ref=e938]:
+              - generic [ref=e942] [cursor=pointer]: ¥ 2,430
+              - generic [ref=e946]: — —
+              - generic [ref=e950] [cursor=pointer]: ¥ 2,900
+          - generic [ref=e953]:
+            - generic [ref=e954]:
+              - generic [ref=e955]:
+                - generic [ref=e956]:
+                  - generic [ref=e957]:
+                    - img "icon-flight-company" [ref=e958]
+                    - generic [ref=e959]: MU2169
+                  - generic [ref=e960]:
+                    - generic [ref=e964]: 
+                    - generic [ref=e965]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e967]
+                      - img [ref=e971]
+                - generic [ref=e972]:
+                  - generic [ref=e973]:
+                    - generic [ref=e974]: 21:00
+                    - generic [ref=e975]: 咸阳 T5
+                  - generic [ref=e976]:
+                    - generic [ref=e977]: 直达
+                    - img "dot" [ref=e978]
+                    - generic [ref=e979]: 总时长：2小时20分
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: 23:20
+                    - generic [ref=e982]:
+                      - text: 虹桥
+                      - generic [ref=e983]: T2
+              - generic [ref=e984] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e985]
+            - generic [ref=e986]:
+              - generic [ref=e990] [cursor=pointer]: ¥ 1,850
+              - generic [ref=e994]: — —
+              - generic [ref=e998] [cursor=pointer]: ¥ 3,200
+          - generic [ref=e1001]:
+            - generic [ref=e1002]:
+              - generic [ref=e1003]:
+                - generic [ref=e1004]:
+                  - generic [ref=e1005]:
+                    - img "icon-flight-company" [ref=e1006]
+                    - generic [ref=e1007]: HO1236
+                  - generic [ref=e1008]:
+                    - generic [ref=e1009]: 机型32A
+                    - generic [ref=e1012]: 
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]:
+                    - generic [ref=e1015]: 07:35
+                    - generic [ref=e1016]: 咸阳 T3
+                  - generic [ref=e1017]:
+                    - generic [ref=e1018]: 直达
+                    - img "dot" [ref=e1019]
+                    - generic [ref=e1020]: 总时长：2小时10分
+                  - generic [ref=e1021]:
+                    - generic [ref=e1022]: 09:45
+                    - generic [ref=e1023]:
+                      - text: 虹桥
+                      - generic [ref=e1024]: T2
+              - generic [ref=e1025] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1026]
+            - generic [ref=e1027]:
+              - generic [ref=e1031] [cursor=pointer]: ¥ 1,570
+              - generic [ref=e1035]: — —
+              - generic [ref=e1039] [cursor=pointer]: ¥ 4,420
+          - generic [ref=e1042]:
+            - generic [ref=e1043]:
+              - generic [ref=e1044]:
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]:
+                    - img "icon-flight-company" [ref=e1047]
+                    - generic [ref=e1048]: CZ5792
+                  - generic [ref=e1050]: 机型32J
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: 10:30
+                    - generic [ref=e1054]: 咸阳 T5
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]: 直达
+                    - img "dot" [ref=e1057]
+                    - generic [ref=e1058]: 总时长：2小时35分
+                  - generic [ref=e1059]:
+                    - generic [ref=e1060]: 13:05
+                    - generic [ref=e1061]:
+                      - text: 浦东
+                      - generic [ref=e1062]: T2
+              - generic [ref=e1063] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1064]
+            - generic [ref=e1065]:
+              - generic [ref=e1069] [cursor=pointer]: ¥ 1,520
+              - generic [ref=e1073]: — —
+              - generic [ref=e1077]: — —
+          - generic [ref=e1080]:
+            - generic [ref=e1081]:
+              - generic [ref=e1082]:
+                - generic [ref=e1083]:
+                  - generic [ref=e1084]:
+                    - img "icon-flight-company" [ref=e1085]
+                    - generic [ref=e1086]: HO1218
+                  - generic [ref=e1087]:
+                    - generic [ref=e1088]: 机型32S
+                    - generic [ref=e1091]: 
+                - generic [ref=e1092]:
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: 11:30
+                    - generic [ref=e1095]: 咸阳 T3
+                  - generic [ref=e1096]:
+                    - generic [ref=e1097]: 直达
+                    - img "dot" [ref=e1098]
+                    - generic [ref=e1099]: 总时长：2小时25分
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]: 13:55
+                    - generic [ref=e1102]:
+                      - text: 虹桥
+                      - generic [ref=e1103]: T2
+              - generic [ref=e1104] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1105]
+            - generic [ref=e1106]:
+              - generic [ref=e1110] [cursor=pointer]: ¥ 1,790
+              - generic [ref=e1114]: — —
+              - generic [ref=e1118] [cursor=pointer]: ¥ 7,420
+          - generic [ref=e1121]:
+            - generic [ref=e1122]:
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]:
+                    - img "icon-flight-company" [ref=e1126]
+                    - generic [ref=e1127]: CA8326
+                  - generic [ref=e1129]: 机型321
+                - generic [ref=e1130]:
+                  - generic [ref=e1131]:
+                    - generic [ref=e1132]: 12:30
+                    - generic [ref=e1133]: 咸阳 T2
+                  - generic [ref=e1134]:
+                    - generic [ref=e1135]: 直达
+                    - img "dot" [ref=e1136]
+                    - generic [ref=e1137]: 总时长：2小时30分
+                  - generic [ref=e1138]:
+                    - generic [ref=e1139]: 15:00
+                    - generic [ref=e1140]:
+                      - text: 浦东
+                      - generic [ref=e1141]: T2
+              - generic [ref=e1142] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1143]
+            - generic [ref=e1144]:
+              - generic [ref=e1148]: — —
+              - generic [ref=e1152]: — —
+              - generic [ref=e1156] [cursor=pointer]: ¥ 4,170
+          - generic [ref=e1159]:
+            - generic [ref=e1160]:
+              - generic [ref=e1161]:
+                - generic [ref=e1162]:
+                  - generic [ref=e1163]:
+                    - img "icon-flight-company" [ref=e1164]
+                    - generic [ref=e1165]: HO1212
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]: 机型32A
+                    - generic [ref=e1170]: 
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]:
+                    - generic [ref=e1173]: 14:40
+                    - generic [ref=e1174]: 咸阳 T3
+                  - generic [ref=e1175]:
+                    - generic [ref=e1176]: 直达
+                    - img "dot" [ref=e1177]
+                    - generic [ref=e1178]: 总时长：2小时30分
+                  - generic [ref=e1179]:
+                    - generic [ref=e1180]: 17:10
+                    - generic [ref=e1181]:
+                      - text: 虹桥
+                      - generic [ref=e1182]: T2
+              - generic [ref=e1183] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1184]
+            - generic [ref=e1185]:
+              - generic [ref=e1189] [cursor=pointer]: ¥ 2,210
+              - generic [ref=e1193]: — —
+              - generic [ref=e1197] [cursor=pointer]: ¥ 4,420
+          - generic [ref=e1200]:
+            - generic [ref=e1201]:
+              - generic [ref=e1202]:
+                - generic [ref=e1203]:
+                  - generic [ref=e1204]:
+                    - img "icon-flight-company" [ref=e1205]
+                    - generic [ref=e1206]: HO1048
+                  - generic [ref=e1207]:
+                    - generic [ref=e1208]: 机型32S
+                    - generic [ref=e1211]: 
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]:
+                    - generic [ref=e1214]: 15:35
+                    - generic [ref=e1215]: 咸阳 T3
+                  - generic [ref=e1216]:
+                    - generic [ref=e1217]: 直达
+                    - img "dot" [ref=e1218]
+                    - generic [ref=e1219]: 总时长：2小时25分
+                  - generic [ref=e1220]:
+                    - generic [ref=e1221]: 18:00
+                    - generic [ref=e1222]:
+                      - text: 浦东
+                      - generic [ref=e1223]: T2
+              - generic [ref=e1224] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1225]
+            - generic [ref=e1226]:
+              - generic [ref=e1230] [cursor=pointer]: ¥ 1,790
+              - generic [ref=e1234]: — —
+              - generic [ref=e1238] [cursor=pointer]: ¥ 4,420
+          - generic [ref=e1241]:
+            - generic [ref=e1242]:
+              - generic [ref=e1243]:
+                - generic [ref=e1244]:
+                  - generic [ref=e1245]:
+                    - img "icon-flight-company" [ref=e1246]
+                    - generic [ref=e1247]: CA8344
+                  - generic [ref=e1249]: 机型321
+                - generic [ref=e1250]:
+                  - generic [ref=e1251]:
+                    - generic [ref=e1252]: 19:10
+                    - generic [ref=e1253]: 咸阳 T2
+                  - generic [ref=e1254]:
+                    - generic [ref=e1255]: 直达
+                    - img "dot" [ref=e1256]
+                    - generic [ref=e1257]: 总时长：2小时50分
+                  - generic [ref=e1258]:
+                    - generic [ref=e1259]: 22:00
+                    - generic [ref=e1260]:
+                      - text: 浦东
+                      - generic [ref=e1261]: T2
+              - generic [ref=e1262] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1263]
+            - generic [ref=e1264]:
+              - generic [ref=e1268]: — —
+              - generic [ref=e1272]: — —
+              - generic [ref=e1276] [cursor=pointer]: ¥ 4,170
+          - generic [ref=e1279]:
+            - generic [ref=e1280]:
+              - generic [ref=e1281]:
+                - generic [ref=e1282]:
+                  - generic [ref=e1283]:
+                    - img "icon-flight-company" [ref=e1284]
+                    - generic [ref=e1285]: HO1216
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287]: 机型32N
+                    - generic [ref=e1290]: 
+                - generic [ref=e1291]:
+                  - generic [ref=e1292]:
+                    - generic [ref=e1293]: 19:35
+                    - generic [ref=e1294]: 咸阳 T3
+                  - generic [ref=e1295]:
+                    - generic [ref=e1296]: 直达
+                    - img "dot" [ref=e1297]
+                    - generic [ref=e1298]: 总时长：2小时25分
+                  - generic [ref=e1299]:
+                    - generic [ref=e1300]: 22:00
+                    - generic [ref=e1301]:
+                      - text: 浦东
+                      - generic [ref=e1302]: T2
+              - generic [ref=e1303] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1304]
+            - generic [ref=e1305]:
+              - generic [ref=e1309] [cursor=pointer]: ¥ 1,970
+              - generic [ref=e1313]: — —
+              - generic [ref=e1317] [cursor=pointer]: ¥ 4,420
+          - generic [ref=e1320]:
+            - generic [ref=e1321]:
+              - generic [ref=e1322]:
+                - generic [ref=e1323]:
+                  - generic [ref=e1324]:
+                    - img "icon-flight-company" [ref=e1325]
+                    - generic [ref=e1326]: HO1194
+                  - generic [ref=e1327]:
+                    - generic [ref=e1328]: 机型32S
+                    - generic [ref=e1331]: 
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]:
+                    - generic [ref=e1334]: 20:45
+                    - generic [ref=e1335]: 咸阳 T3
+                  - generic [ref=e1336]:
+                    - generic [ref=e1337]: 直达
+                    - img "dot" [ref=e1338]
+                    - generic [ref=e1339]: 总时长：2小时25分
+                  - generic [ref=e1340]:
+                    - generic [ref=e1341]: 23:10
+                    - generic [ref=e1342]:
+                      - text: 浦东
+                      - generic [ref=e1343]: T2
+              - generic [ref=e1344] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1345]
+            - generic [ref=e1346]:
+              - generic [ref=e1350] [cursor=pointer]: ¥ 1,790
+              - generic [ref=e1354]: — —
+              - generic [ref=e1358] [cursor=pointer]: ¥ 2,450
+          - generic [ref=e1361]: 更多出行方案推荐
+          - generic [ref=e1365]:
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]:
+                    - img "icon-flight-company" [ref=e1370]
+                    - generic [ref=e1371]: MU2199
+                    - generic [ref=e1372]: —
+                  - generic [ref=e1373]:
+                    - img "icon-flight-company" [ref=e1374]
+                    - generic [ref=e1375]: FM9242
+                  - generic [ref=e1376]:
+                    - generic [ref=e1377]: 机型
+                    - generic [ref=e1380]: 
+                - generic [ref=e1381]:
+                  - generic [ref=e1382]:
+                    - generic [ref=e1383]: 06:15
+                    - generic [ref=e1384]: 咸阳 T5
+                  - generic [ref=e1385]:
+                    - generic [ref=e1386]: "中转烟台: 1小时25分"
+                    - img "dot" [ref=e1387]
+                    - generic [ref=e1388]: 总时长：5小时20分
+                  - generic [ref=e1389]:
+                    - generic [ref=e1390]: 11:35
+                    - generic [ref=e1391]:
+                      - text: 虹桥
+                      - generic [ref=e1392]: T2
+              - generic [ref=e1393] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1394]
+            - generic [ref=e1395]:
+              - generic [ref=e1399] [cursor=pointer]: ¥ 2,390
+              - generic [ref=e1403]: — —
+              - generic [ref=e1407] [cursor=pointer]: ¥ 3,763
+          - generic [ref=e1410]:
+            - generic [ref=e1411]:
+              - generic [ref=e1412]:
+                - generic [ref=e1413]:
+                  - generic [ref=e1414]:
+                    - img "icon-flight-company" [ref=e1415]
+                    - generic [ref=e1416]: MU2199
+                    - generic [ref=e1417]: —
+                  - generic [ref=e1418]:
+                    - img "icon-flight-company" [ref=e1419]
+                    - generic [ref=e1420]: MU8380
+                  - generic [ref=e1421]:
+                    - generic [ref=e1422]: 机型
+                    - generic [ref=e1424]: 共享
+                    - generic [ref=e1427]: 
+                - generic [ref=e1428]:
+                  - generic [ref=e1429]:
+                    - generic [ref=e1430]: 06:15
+                    - generic [ref=e1431]: 咸阳 T5
+                  - generic [ref=e1432]:
+                    - generic [ref=e1433]: "中转烟台: 1小时25分"
+                    - img "dot" [ref=e1434]
+                    - generic [ref=e1435]: 总时长：5小时20分
+                  - generic [ref=e1436]:
+                    - generic [ref=e1437]: 11:35
+                    - generic [ref=e1438]:
+                      - text: 虹桥
+                      - generic [ref=e1439]: T2
+              - generic [ref=e1440] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1441]
+            - generic [ref=e1442]:
+              - generic [ref=e1446] [cursor=pointer]: ¥ 2,530
+              - generic [ref=e1450]: — —
+              - generic [ref=e1454] [cursor=pointer]: ¥ 3,763
+          - generic [ref=e1457]:
+            - generic [ref=e1458]:
+              - generic [ref=e1459]:
+                - generic [ref=e1460]:
+                  - generic [ref=e1461]:
+                    - img "icon-flight-company" [ref=e1462]
+                    - generic [ref=e1463]: MU2125
+                    - generic [ref=e1464]: —
+                  - generic [ref=e1465]:
+                    - img "icon-flight-company" [ref=e1466]
+                    - generic [ref=e1467]: MU2507
+                  - generic [ref=e1468]:
+                    - generic [ref=e1469]: 机型
+                    - generic [ref=e1472]: 
+                    - generic [ref=e1473]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e1474]:
+                  - generic [ref=e1475]:
+                    - generic [ref=e1476]: 06:40
+                    - generic [ref=e1477]: 咸阳 T5
+                  - generic [ref=e1478]:
+                    - generic [ref=e1479]: "中转武汉: 2小时15分"
+                    - img "dot" [ref=e1480]
+                    - generic [ref=e1481]: 总时长：5小时15分
+                  - generic [ref=e1482]:
+                    - generic [ref=e1483]: 11:55
+                    - generic [ref=e1484]:
+                      - text: 虹桥
+                      - generic [ref=e1485]: T2
+              - generic [ref=e1486] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1487]
+            - generic [ref=e1488]:
+              - generic [ref=e1492] [cursor=pointer]: ¥ 2,121
+              - generic [ref=e1496]: — —
+              - generic [ref=e1500] [cursor=pointer]: ¥ 5,550
+          - generic [ref=e1503]:
+            - generic [ref=e1504]:
+              - generic [ref=e1505]:
+                - generic [ref=e1506]:
+                  - generic [ref=e1507]:
+                    - img "icon-flight-company" [ref=e1508]
+                    - generic [ref=e1509]: MU5021
+                    - generic [ref=e1510]: —
+                  - generic [ref=e1511]:
+                    - img "icon-flight-company" [ref=e1512]
+                    - generic [ref=e1513]: MU5540
+                  - generic [ref=e1514]:
+                    - generic [ref=e1515]: 机型
+                    - generic [ref=e1518]: 
+                - generic [ref=e1519]:
+                  - generic [ref=e1520]:
+                    - generic [ref=e1521]: 07:30
+                    - generic [ref=e1522]: 咸阳 T5
+                  - generic [ref=e1523]:
+                    - generic [ref=e1524]: "中转青岛: 1小时20分"
+                    - img "dot" [ref=e1525]
+                    - generic [ref=e1526]: 总时长：4小时50分
+                  - generic [ref=e1527]:
+                    - generic [ref=e1528]: 12:20
+                    - generic [ref=e1529]:
+                      - text: 虹桥
+                      - generic [ref=e1530]: T2
+              - generic [ref=e1531] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1532]
+            - generic [ref=e1533]:
+              - generic [ref=e1537] [cursor=pointer]: ¥ 1,835
+              - generic [ref=e1541]: — —
+              - generic [ref=e1545] [cursor=pointer]: ¥ 3,887
+          - generic [ref=e1548]:
+            - generic [ref=e1549]:
+              - generic [ref=e1550]:
+                - generic [ref=e1551]:
+                  - generic [ref=e1552]:
+                    - img "icon-flight-company" [ref=e1553]
+                    - generic [ref=e1554]: MU9913
+                    - generic [ref=e1555]: —
+                  - generic [ref=e1556]:
+                    - img "icon-flight-company" [ref=e1557]
+                    - generic [ref=e1558]: MU9026
+                  - generic [ref=e1559]:
+                    - generic [ref=e1560]: 机型
+                    - generic [ref=e1563]: 
+                    - generic [ref=e1564]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e1565]:
+                  - generic [ref=e1566]:
+                    - generic [ref=e1567]: 07:50
+                    - generic [ref=e1568]: 咸阳 T5
+                  - generic [ref=e1569]:
+                    - generic [ref=e1570]: "中转合肥: 2小时5分"
+                    - img "dot" [ref=e1571]
+                    - generic [ref=e1572]: 总时长：5小时5分
+                  - generic [ref=e1573]:
+                    - generic [ref=e1574]: 12:55
+                    - generic [ref=e1575]:
+                      - text: 浦东
+                      - generic [ref=e1576]: T1
+              - generic [ref=e1577] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1578]
+            - generic [ref=e1579]:
+              - generic [ref=e1583] [cursor=pointer]: ¥ 1,810
+              - generic [ref=e1587]: — —
+              - generic [ref=e1591]: — —
+          - generic [ref=e1594]:
+            - generic [ref=e1595]:
+              - generic [ref=e1596]:
+                - generic [ref=e1597]:
+                  - generic [ref=e1598]:
+                    - img "icon-flight-company" [ref=e1599]
+                    - generic [ref=e1600]: MU6225
+                    - generic [ref=e1601]: —
+                  - generic [ref=e1602]:
+                    - img "icon-flight-company" [ref=e1603]
+                    - generic [ref=e1604]: MU5564
+                  - generic [ref=e1605]:
+                    - generic [ref=e1606]: 机型
+                    - generic [ref=e1609]: 
+                    - generic [ref=e1610]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e1611]:
+                  - generic [ref=e1612]:
+                    - generic [ref=e1613]: 13:25
+                    - generic [ref=e1614]: 咸阳 T5
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]: "中转青岛: 1小时25分"
+                    - img "dot" [ref=e1617]
+                    - generic [ref=e1618]: 总时长：5小时
+                  - generic [ref=e1619]:
+                    - generic [ref=e1620]: 18:25
+                    - generic [ref=e1621]:
+                      - text: 浦东
+                      - generic [ref=e1622]: T1
+              - generic [ref=e1623] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1624]
+            - generic [ref=e1625]:
+              - generic [ref=e1629] [cursor=pointer]: ¥ 2,222
+              - generic [ref=e1633]: — —
+              - generic [ref=e1637] [cursor=pointer]: ¥ 6,169
+          - generic [ref=e1640]:
+            - generic [ref=e1641]:
+              - generic [ref=e1642]:
+                - generic [ref=e1643]:
+                  - generic [ref=e1644]:
+                    - img "icon-flight-company" [ref=e1645]
+                    - generic [ref=e1646]: MU2111
+                    - generic [ref=e1647]: —
+                  - generic [ref=e1648]:
+                    - img "icon-flight-company" [ref=e1649]
+                    - generic [ref=e1650]: FM9102
+                  - generic [ref=e1651]:
+                    - generic [ref=e1652]: 机型
+                    - generic [ref=e1655]: 
+                - generic [ref=e1656]:
+                  - generic [ref=e1657]:
+                    - generic [ref=e1658]: 14:00
+                    - generic [ref=e1659]: 咸阳 T5
+                  - generic [ref=e1660]:
+                    - generic [ref=e1661]: "中转北京: 45分"
+                    - img "dot" [ref=e1662]
+                    - generic [ref=e1663]: 总时长：5小时10分
+                  - generic [ref=e1664]:
+                    - generic [ref=e1665]: 19:10
+                    - generic [ref=e1666]:
+                      - text: 虹桥
+                      - generic [ref=e1667]: T2
+              - generic [ref=e1668] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1669]
+            - generic [ref=e1670]:
+              - generic [ref=e1674] [cursor=pointer]: ¥ 2,653
+              - generic [ref=e1678]: — —
+              - generic [ref=e1682] [cursor=pointer]: ¥ 5,245
+          - generic [ref=e1685]:
+            - generic [ref=e1686]:
+              - generic [ref=e1687]:
+                - generic [ref=e1688]:
+                  - generic [ref=e1689]:
+                    - img "icon-flight-company" [ref=e1690]
+                    - generic [ref=e1691]: MU2111
+                    - generic [ref=e1692]: —
+                  - generic [ref=e1693]:
+                    - img "icon-flight-company" [ref=e1694]
+                    - generic [ref=e1695]: MU8332
+                  - generic [ref=e1696]:
+                    - generic [ref=e1697]: 机型
+                    - generic [ref=e1699]: 共享
+                    - generic [ref=e1702]: 
+                - generic [ref=e1703]:
+                  - generic [ref=e1704]:
+                    - generic [ref=e1705]: 14:00
+                    - generic [ref=e1706]: 咸阳 T5
+                  - generic [ref=e1707]:
+                    - generic [ref=e1708]: "中转北京: 45分"
+                    - img "dot" [ref=e1709]
+                    - generic [ref=e1710]: 总时长：5小时10分
+                  - generic [ref=e1711]:
+                    - generic [ref=e1712]: 19:10
+                    - generic [ref=e1713]:
+                      - text: 虹桥
+                      - generic [ref=e1714]: T2
+              - generic [ref=e1715] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1716]
+            - generic [ref=e1717]:
+              - generic [ref=e1721] [cursor=pointer]: ¥ 2,886
+              - generic [ref=e1725]: — —
+              - generic [ref=e1729] [cursor=pointer]: ¥ 5,400
+          - generic [ref=e1732]:
+            - generic [ref=e1733]:
+              - generic [ref=e1734]:
+                - generic [ref=e1735]:
+                  - generic [ref=e1736]:
+                    - img "icon-flight-company" [ref=e1737]
+                    - generic [ref=e1738]: MU2265
+                    - generic [ref=e1739]: —
+                  - generic [ref=e1740]:
+                    - img "icon-flight-company" [ref=e1741]
+                    - generic [ref=e1742]: FM9394
+                  - generic [ref=e1743]:
+                    - generic [ref=e1744]: 机型
+                    - generic [ref=e1747]: 
+                - generic [ref=e1748]:
+                  - generic [ref=e1749]:
+                    - generic [ref=e1750]: 16:05
+                    - generic [ref=e1751]: 咸阳 T5
+                  - generic [ref=e1752]:
+                    - generic [ref=e1753]: "中转长沙: 1小时25分"
+                    - img "dot" [ref=e1754]
+                    - generic [ref=e1755]: 总时长：5小时15分
+                  - generic [ref=e1756]:
+                    - generic [ref=e1757]: 21:20
+                    - generic [ref=e1758]:
+                      - text: 浦东
+                      - generic [ref=e1759]: T1
+              - generic [ref=e1760] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1761]
+            - generic [ref=e1762]:
+              - generic [ref=e1766] [cursor=pointer]: ¥ 3,310
+              - generic [ref=e1770]: — —
+              - generic [ref=e1774] [cursor=pointer]: ¥ 8,810
+          - generic [ref=e1777]:
+            - generic [ref=e1778]:
+              - generic [ref=e1779]:
+                - generic [ref=e1780]:
+                  - generic [ref=e1781]:
+                    - img "icon-flight-company" [ref=e1782]
+                    - generic [ref=e1783]: MU2265
+                    - generic [ref=e1784]: —
+                  - generic [ref=e1785]:
+                    - img "icon-flight-company" [ref=e1786]
+                    - generic [ref=e1787]: MU8524
+                  - generic [ref=e1788]:
+                    - generic [ref=e1789]: 机型
+                    - generic [ref=e1791]: 共享
+                    - generic [ref=e1794]: 
+                - generic [ref=e1795]:
+                  - generic [ref=e1796]:
+                    - generic [ref=e1797]: 16:05
+                    - generic [ref=e1798]: 咸阳 T5
+                  - generic [ref=e1799]:
+                    - generic [ref=e1800]: "中转长沙: 1小时25分"
+                    - img "dot" [ref=e1801]
+                    - generic [ref=e1802]: 总时长：5小时15分
+                  - generic [ref=e1803]:
+                    - generic [ref=e1804]: 21:20
+                    - generic [ref=e1805]:
+                      - text: 浦东
+                      - generic [ref=e1806]: T1
+              - generic [ref=e1807] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1808]
+            - generic [ref=e1809]:
+              - generic [ref=e1813] [cursor=pointer]: ¥ 3,530
+              - generic [ref=e1817]: — —
+              - generic [ref=e1821] [cursor=pointer]: ¥ 8,810
+          - generic [ref=e1824]:
+            - generic [ref=e1825]:
+              - generic [ref=e1826]:
+                - generic [ref=e1827]:
+                  - generic [ref=e1828]:
+                    - img "icon-flight-company" [ref=e1829]
+                    - generic [ref=e1830]: MU2265
+                    - generic [ref=e1831]: —
+                  - generic [ref=e1832]:
+                    - img "icon-flight-company" [ref=e1833]
+                    - generic [ref=e1834]: MU5324
+                  - generic [ref=e1835]:
+                    - generic [ref=e1836]: 机型
+                    - generic [ref=e1839]: 
+                - generic [ref=e1840]:
+                  - generic [ref=e1841]:
+                    - generic [ref=e1842]: 16:05
+                    - generic [ref=e1843]: 咸阳 T5
+                  - generic [ref=e1844]:
+                    - generic [ref=e1845]: "中转长沙: 1小时40分"
+                    - img "dot" [ref=e1846]
+                    - generic [ref=e1847]: 总时长：5小时20分
+                  - generic [ref=e1848]:
+                    - generic [ref=e1849]: 21:25
+                    - generic [ref=e1850]:
+                      - text: 虹桥
+                      - generic [ref=e1851]: T2
+              - generic [ref=e1852] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1853]
+            - generic [ref=e1854]:
+              - generic [ref=e1858] [cursor=pointer]: ¥ 3,530
+              - generic [ref=e1862]: — —
+              - generic [ref=e1866] [cursor=pointer]: ¥ 8,810
+          - generic [ref=e1869]:
+            - generic [ref=e1870]:
+              - generic [ref=e1871]:
+                - generic [ref=e1872]:
+                  - generic [ref=e1873]:
+                    - img "icon-flight-company" [ref=e1874]
+                    - generic [ref=e1875]: MU2115
+                    - generic [ref=e1876]: —
+                  - generic [ref=e1877]:
+                    - img "icon-flight-company" [ref=e1878]
+                    - generic [ref=e1879]: MU5130
+                  - generic [ref=e1880]:
+                    - generic [ref=e1881]: 机型
+                    - generic [ref=e1882]:
+                      - generic [ref=e1884]: 
+                      - generic [ref=e1886]: 
+                    - generic [ref=e1887]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e1888]:
+                  - generic [ref=e1889]:
+                    - generic [ref=e1890]: 17:00
+                    - generic [ref=e1891]: 咸阳 T5
+                  - generic [ref=e1892]:
+                    - generic [ref=e1893]: "中转北京: 45分"
+                    - img "dot" [ref=e1894]
+                    - generic [ref=e1895]: 总时长：4小时55分
+                  - generic [ref=e1896]:
+                    - generic [ref=e1897]: 21:55
+                    - generic [ref=e1898]:
+                      - text: 浦东
+                      - generic [ref=e1899]: T1
+              - generic [ref=e1900] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1901]
+            - generic [ref=e1902]:
+              - generic [ref=e1906] [cursor=pointer]: ¥ 2,315
+              - generic [ref=e1910]: — —
+              - generic [ref=e1914] [cursor=pointer]: ¥ 5,060
+          - generic [ref=e1917]:
+            - generic [ref=e1918]:
+              - generic [ref=e1919]:
+                - generic [ref=e1920]:
+                  - generic [ref=e1921]:
+                    - img "icon-flight-company" [ref=e1922]
+                    - generic [ref=e1923]: MU2156
+                    - generic [ref=e1924]: —
+                  - generic [ref=e1925]:
+                    - img "icon-flight-company" [ref=e1926]
+                    - generic [ref=e1927]: MU6412
+                  - generic [ref=e1928]:
+                    - generic [ref=e1929]: 机型
+                    - generic [ref=e1932]: 
+                - generic [ref=e1933]:
+                  - generic [ref=e1934]:
+                    - generic [ref=e1935]: 17:05
+                    - generic [ref=e1936]: 咸阳 T5
+                  - generic [ref=e1937]:
+                    - generic [ref=e1938]: "中转西宁: 55分"
+                    - img "dot" [ref=e1939]
+                    - generic [ref=e1940]: 总时长：5小时20分
+                  - generic [ref=e1941]:
+                    - generic [ref=e1942]: 22:25
+                    - generic [ref=e1943]:
+                      - text: 虹桥
+                      - generic [ref=e1944]: T2
+              - generic [ref=e1945] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1946]
+            - generic [ref=e1947]:
+              - generic [ref=e1951] [cursor=pointer]: ¥ 3,370
+              - generic [ref=e1955]: — —
+              - generic [ref=e1959] [cursor=pointer]: ¥ 9,760
+          - generic [ref=e1962]:
+            - generic [ref=e1963]:
+              - generic [ref=e1964]:
+                - generic [ref=e1965]:
+                  - generic [ref=e1966]:
+                    - img "icon-flight-company" [ref=e1967]
+                    - generic [ref=e1968]: MU2117
+                    - generic [ref=e1969]: —
+                  - generic [ref=e1970]:
+                    - img "icon-flight-company" [ref=e1971]
+                    - generic [ref=e1972]: MU9192
+                  - generic [ref=e1973]:
+                    - generic [ref=e1974]: 机型
+                    - generic [ref=e1977]: 
+                    - generic [ref=e1978]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e1979]:
+                  - generic [ref=e1980]:
+                    - generic [ref=e1981]: 18:00
+                    - generic [ref=e1982]: 咸阳 T5
+                  - generic [ref=e1983]:
+                    - generic [ref=e1984]: "中转北京: 45分"
+                    - img "dot" [ref=e1985]
+                    - generic [ref=e1986]: 总时长：5小时10分
+                  - generic [ref=e1987]:
+                    - generic [ref=e1988]: 23:10
+                    - generic [ref=e1989]:
+                      - text: 虹桥
+                      - generic [ref=e1990]: T2
+              - generic [ref=e1991] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1992]
+            - generic [ref=e1993]:
+              - generic [ref=e1997] [cursor=pointer]: ¥ 2,365
+              - generic [ref=e2001]: — —
+              - generic [ref=e2005] [cursor=pointer]: ¥ 5,115
+        - generic [ref=e2006]: 没有更多
+    - generic "服务区,当前为网页底部服务区，有关于东航，联系我们，友情链接等内容" [ref=e2007]:
+      - generic [ref=e45]:
+        - img [ref=e47]
+        - generic [ref=e49]:
+          - paragraph [ref=e50]:
+            - generic [ref=e51]: 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com
+          - generic [ref=e52]:
+            - paragraph [ref=e53]:
+              - link "Copyright © 中国东方航空 沪ICP备 10009470号-9" [ref=e54] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/#/Integrated/index
+            - paragraph [ref=e55]:
+              - link "沪公网安备31011202021009号" [ref=e56] [cursor=pointer]:
+                - /url: https://beian.mps.gov.cn/#/query/webSearch?code=31011202021009
+                - img [ref=e57]
+                - text: 沪公网安备31011202021009号
+            - paragraph [ref=e58]:
+              - link [ref=e59] [cursor=pointer]:
+                - /url: "/mid-page?eyJ1cmwiOiJodHRwcyUzQSUyRiUyRndlYmNlcnQuY25tc3RsLm5ldCUyRmNlcnQlMkZjb2RlJTNGc24lM0QwYzRhMTRiYzgzZDA0Mzg4YWI1NWQwOWZkZDc0MmY4NiJ9encoded}"
+                - img [ref=e60]
+              - link [ref=e61]:
+                - /url: javascript:void(0);
+                - img [ref=e62]
+  - generic:     
+  - generic:       

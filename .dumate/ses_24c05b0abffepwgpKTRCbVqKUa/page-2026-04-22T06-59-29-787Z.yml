@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - text:  
+    - generic [ref=e746]:
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - button "" [ref=e750] [cursor=pointer]:
+            - generic [ref=e752]: 
+          - generic [ref=e754]:
+            - generic [ref=e755]: 制造业务解决方案组-刘冰 周报
+            - generic [ref=e759]:
+              - generic [ref=e761]:
+                - generic "04/20~04/26 (本周)" [ref=e763]:
+                  - button "" [ref=e766] [cursor=pointer]:
+                    - generic [ref=e768]: 
+                  - textbox [ref=e769] [cursor=pointer]: 04/20~04/26 (本周)
+                  - button "" [disabled] [ref=e772]:
+                    - generic [ref=e774]: 
+                - generic: 04/20~04/26 (本周)
+              - generic:
+                - paragraph
+        - generic [ref=e776]:
+          - generic [ref=e777]:
+            - button " 提醒我写周报" [ref=e778] [cursor=pointer]:
+              - generic [ref=e779]:
+                - generic [ref=e780]: 
+                - generic [ref=e781]: 提醒我写周报
+            - button " 当前周权限" [ref=e782] [cursor=pointer]:
+              - generic [ref=e783]:
+                - generic [ref=e784]: 
+                - generic [ref=e785]: 当前周权限
+            - button " 周报参考" [ref=e786] [cursor=pointer]:
+              - generic [ref=e787]:
+                - generic [ref=e788]: 
+                - generic [ref=e789]: 周报参考
+          - generic [ref=e790]:
+            - banner
+            - generic [ref=e791]:
+              - button "" [ref=e793] [cursor=pointer]:
+                - generic [ref=e795]: 
+              - button "" [ref=e797] [cursor=pointer]:
+                - generic [ref=e799]: 
+              - generic [ref=e800]:
+                - button " 提交" [disabled] [ref=e801]:
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: 
+                    - generic [ref=e804]: 提交
+                - button "保存" [disabled] [ref=e805]:
+                  - generic [ref=e807]: 保存
+              - button "" [ref=e809] [cursor=pointer]:
+                - generic [ref=e811]: 
+      - generic [ref=e821]:
+        - generic [ref=e830]: 加载中...
+        - generic [ref=e832]:
+          - generic [ref=e833]:
+            - generic [ref=e834]:
+              - button "辅助区" [ref=e835] [cursor=pointer]
+              - button "人员汇总" [ref=e836] [cursor=pointer]
+              - button "iCafe" [ref=e837] [cursor=pointer]
+            - button "" [ref=e839] [cursor=pointer]:
+              - generic [ref=e841]: 
+          - generic [ref=e842]:
+            - generic [ref=e849]:
+              - banner [ref=e850]
+              - main [ref=e852]:
+                - generic [ref=e853]:
+                  - generic [ref=e855]:
+                    - generic [ref=e856]: Hi刘冰同学，欢迎使用辅助区
+                    - generic [ref=e857] [cursor=pointer]: 忽略
+                  - generic [ref=e859]:
+                    - generic [ref=e860]:
+                      - text: 你可以尝试提问以下内容，会反馈相关内容
+                      - img [ref=e862] [cursor=pointer]
+                    - generic [ref=e864] [cursor=pointer]:
+                      - generic "周报的内容丢失怎么办？" [ref=e865]
+                      - img [ref=e866]
+                    - generic [ref=e867] [cursor=pointer]:
+                      - generic "周报页面怎么设置页宽" [ref=e868]
+                      - img [ref=e869]
+                    - generic [ref=e870] [cursor=pointer]:
+                      - generic "主管设置模板为什么没有了？" [ref=e871]
+                      - img [ref=e872]
+                - generic [ref=e875]:
+                  - img "logo" [ref=e876]
+                  - img "logo" [ref=e877]
+                  - img [ref=e879]
+                - generic [ref=e893]:
+                  - generic "怎么插入OKR或切换期间？" [ref=e896] [cursor=pointer]: 怎么插入OKR或切换期间？
+                  - generic "主管设置模板为什么没有了？" [ref=e900] [cursor=pointer]: 主管设置模板为什么没有了？
+                  - generic "周报的内容丢失怎么办？" [ref=e904] [cursor=pointer]: 周报的内容丢失怎么办？
+                  - generic "周报页面怎么设置页宽" [ref=e908] [cursor=pointer]: 周报页面怎么设置页宽
+                - generic [ref=e914] [cursor=pointer]:
+                  - img "头像" [ref=e916]
+                  - generic [ref=e917]:
+                    - generic "周报用户反馈群" [ref=e918]
+                    - generic "2615185" [ref=e919]
+                    - img [ref=e922]
+              - contentinfo [ref=e928]:
+                - generic [ref=e930]:
+                  - textbox "请输入与当前系统所属业务相关的问题..." [ref=e934]
+                  - generic [ref=e937]: 0/2000
+            - text:  
+  - img [ref=e942] [cursor=pointer]

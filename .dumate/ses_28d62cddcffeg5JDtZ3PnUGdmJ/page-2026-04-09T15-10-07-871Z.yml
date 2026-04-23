@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - img "U.S. flag" [ref=e5]
+      - text: An official website of the United States government
+      - generic [ref=e6] [cursor=pointer]:
+        - text: Here’s how you know
+        - generic [ref=e7]: 
+    - generic [ref=e8]:
+      - link "Food and Drug Administration Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Food and Drug Administration Logo" [ref=e12]
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - button "Search" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+            - text: Search
+        - listitem [ref=e18]:
+          - button "Menu" [expanded] [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+            - text: Menu
+      - search [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Search FDA
+          - textbox "Search FDA" [ref=e24]
+          - button "Search" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]:
+              - text: 
+              - generic [ref=e28]: Submit search
+  - main [ref=e29]:
+    - article [ref=e30]:
+      - heading "Page Not Found" [ref=e31]:
+        - heading "Page Not Found" [level=1] [ref=e34]
+      - main [ref=e35]:
+        - paragraph [ref=e36]: We’re sorry. The page you are looking for is not available for one of the following reasons.
+        - list [ref=e37]:
+          - listitem [ref=e38]: The link to this page may not be correct or is out-of-date.
+          - listitem [ref=e39]: You have bookmarked a page that has moved.
+        - paragraph [ref=e40]: "Try one of these options:"
+        - paragraph [ref=e41]:
+          - button "Search FDA.gov" [ref=e42] [cursor=pointer]
+          - button "Check the FDA Archive" [ref=e43] [cursor=pointer]
+          - button "Contact FDA" [ref=e44] [cursor=pointer]
+        - separator [ref=e45]
+        - paragraph [ref=e46]: "Or try one of these helpful links to FDA topics:"
+        - generic [ref=e48]:
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - link "FDA.gov Homepage" [ref=e52] [cursor=pointer]:
+                - /url: /home
+            - listitem [ref=e53]:
+              - link "Food" [ref=e54] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e55]:
+              - link "Human Drugs" [ref=e56] [cursor=pointer]:
+                - /url: /drugs
+            - listitem [ref=e57]:
+              - link "Medical Devices" [ref=e58] [cursor=pointer]:
+                - /url: /medical-devices
+            - listitem [ref=e59]:
+              - link "Radiation-Emitting Products" [ref=e60] [cursor=pointer]:
+                - /url: /radiation-emitting-products
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Vaccines, Blood, and Biologics" [ref=e64] [cursor=pointer]:
+                - /url: /vaccines-blood-biologics
+            - listitem [ref=e65]:
+              - link "Animal and Veterinary" [ref=e66] [cursor=pointer]:
+                - /url: /animal-veterinary
+            - listitem [ref=e67]:
+              - link "Cosmetics" [ref=e68] [cursor=pointer]:
+                - /url: /cosmetics
+            - listitem [ref=e69]:
+              - link "Tobacco Products" [ref=e70] [cursor=pointer]:
+                - /url: /tobacco-products
+  - contentinfo [ref=e71]:
+    - generic [ref=e72]:
+      - heading "Footer Links" [level=2] [ref=e73]
+      - navigation:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "FDA Archive" [ref=e77] [cursor=pointer]:
+              - /url: /about-fda/about-website/fdagov-archive
+          - listitem [ref=e78]:
+            - link "About FDA" [ref=e79] [cursor=pointer]:
+              - /url: /about-fda
+          - listitem [ref=e80]:
+            - link "Accessibility" [ref=e81] [cursor=pointer]:
+              - /url: /about-fda/about-website/internet-accessibility
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - link "Visitor Information" [ref=e85] [cursor=pointer]:
+              - /url: /about-fda/visitor-information
+          - listitem [ref=e86]:
+            - link "Website Policies / Privacy" [ref=e87] [cursor=pointer]:
+              - /url: /about-fda/about-website/website-policies
+          - listitem [ref=e88]:
+            - link "No FEAR Act" [ref=e89] [cursor=pointer]:
+              - /url: /about-fda/jobs-and-training-fda/no-fear-act
+          - listitem [ref=e90]:
+            - link "Vulnerability Disclosure Policy" [ref=e91] [cursor=pointer]:
+              - /url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "FOIA" [ref=e95] [cursor=pointer]:
+              - /url: /regulatory-information/freedom-information
+          - listitem [ref=e96]:
+            - link "HHS.gov" [ref=e97] [cursor=pointer]:
+              - /url: https://www.hhs.gov/
+          - listitem [ref=e98]:
+            - link "USA.gov" [ref=e99] [cursor=pointer]:
+              - /url: https://www.usa.gov/
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - link "Contact FDA" [ref=e102] [cursor=pointer]:
+          - /url: /about-fda/contact-fda
+        - link "Follow FDA on Facebook" [ref=e103] [cursor=pointer]:
+          - /url: https://www.facebook.com/FDA
+          - generic [ref=e104]:
+            - text: 
+            - generic [ref=e105]: Follow FDA on Facebook
+        - link "Follow FDA on X" [ref=e106] [cursor=pointer]:
+          - /url: https://x.com/US_FDA
+          - img [ref=e107]
+          - generic [ref=e109]: Follow FDA on X
+        - link "Follow FDA on Instagram" [ref=e110] [cursor=pointer]:
+          - /url: https://instagram.com/FDA
+          - generic [ref=e111]:
+            - text: 
+            - generic [ref=e112]: Follow FDA on Instagram
+        - link "Follow FDA on LinkedIn" [ref=e113] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/fda/
+          - generic [ref=e114]:
+            - text: 
+            - generic [ref=e115]: Follow FDA on LinkedIn
+        - link "View FDA videos on YouTube" [ref=e116] [cursor=pointer]:
+          - /url: https://youtube.com/@US_FDA
+          - generic [ref=e117]:
+            - text: 
+            - generic [ref=e118]: View FDA videos on YouTube
+        - link "Subscribe to FDA RSS feeds" [ref=e119] [cursor=pointer]:
+          - /url: /about-fda/contact-fda/subscribe-podcasts-and-news-feeds
+          - generic [ref=e120]:
+            - text: 
+            - generic [ref=e121]: Subscribe to FDA RSS feeds
+      - link "FDA Homepage":
+        - /url: /
+      - generic [ref=e122]:
+        - generic [ref=e123]: 
+        - generic [ref=e124]: Contact Number
+        - text: 1-888-INFO-FDA (1-888-463-6332)
+  - link " Back to Top" [ref=e125] [cursor=pointer]:
+    - /url: ""
+    - text: 
+    - generic [ref=e126]: Back to
+    - text: Top

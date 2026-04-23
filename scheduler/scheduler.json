@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "appliedSeeds": [
+    "daily-memory-summary:v1"
+  ],
+  "jobs": [
+    {
+      "id": "6fc3544dea3ee1dc0bfdf913e278d5d8",
+      "workspaceId": "ws_a516bbe7261e",
+      "sessionId": "ses_28d62cddcffeg5JDtZ3PnUGdmJ",
+      "name": "医疗AI新闻每日更新",
+      "enabled": false,
+      "cronExpr": "0 7 * * *",
+      "timezone": "Local",
+      "executor": {
+        "message": "请执行医疗AI新闻更新任务（使用无头浏览器访问国外权威网站）：\n\n## 执行方式\n\n使用 dumate-browser-use 技能（无头模式）访问以下网站获取最新新闻：\n\n### 步骤1：访问 npj Digital Medicine\n- URL: https://www.nature.com/npjdigitalmed/\n- 获取最新发表的AI医疗相关文章（3-4篇）\n- 提取：标题、摘要、作者、发布日期、链接\n\n### 步骤2：访问 FDA AI/ML Medical Device 页面\n- URL: https://www.fda.gov/medical-devices/software-medical-device-samd\n- 获取最新的AI医疗器械审批公告（2-3条）\n- 提取：产品名称、公司、审批日期、用途\n\n### 步骤3：访问 MedTech Dive\n- URL: https://www.medtechdive.com/\n- 搜索关键词：AI, artificial intelligence, medical device\n- 获取最新产业动态（2-3条）\n- 提取：标题、摘要、发布日期、链接\n\n### 步骤4：访问 CB Insights Healthcare AI\n- URL: https://www.cbinsights.com/research/artificial-intelligence-healthcare/\n- 获取投融资动态和市场报告（1-2条）\n- 提取：公司名称、融资金额、轮次、投资方\n\n### 步骤5：访问 Fierce Biotech MedTech\n- URL: https://www.fiercebiotech.com/medtech\n- 获取AI医疗设备并购、产品发布新闻（1-2条）\n- 提取：标题、摘要、公司、链接\n\n## 新闻筛选标准\n\n✅ 必须是国外（中国以外）的医疗AI相关新闻\n✅ 优先选择权威来源（FDA、Nature、CB Insights等）\n✅ 重点关注AI医疗器械、SaMD、监管动态\n✅ 确保内容时效性（过去7天内）\n❌ 排除纯中国市场的新闻\n❌ 排除低质量营销内容\n\n## 输出格式\n\n每条新闻包含：\n- title: 新闻标题（英文原文）\n- summary: 50-100字摘要（英文原文或中文翻译）\n- source: 来源机构（如 FDA、Nature、CB Insights等）\n- url: 原文链接\n\n## 数据更新\n\n更新文件：/Users/icelyn/.qianfan/workspace/98c0878449ff4f33a2e4b42e0c9535a8/medical-ai-news/news-data.js\n\n按日期存储：{ \"YYYY-MM-DD\": [ { title, summary, source, url }, ... ] }\n\n请确保每天更新10条高质量国外医疗AI新闻。使用无头模式访问网站，不要显示浏览器窗口。",
+        "model": "QianfanPersonalQuota/glm-5"
+      },
+      "concurrency": "forbid",
+      "retry": {
+        "maxRetries": 0,
+        "maxDelayMs": 3600000
+      },
+      "timeoutSecs": 300,
+      "createdAt": 1775744985902,
+      "updatedAt": 1775747236531,
+      "state": {
+        "nextRunAtMs": 0,
+        "lastRunAtMs": 0,
+        "lastStatus": "",
+        "consecutiveErrors": 0,
+        "retryAfterMs": 0
+      }
+    },
+    {
+      "id": "3f96f5dbdebb5f09e51444a6beeb5a4a",
+      "workspaceId": "ws_a516bbe7261e",
+      "sessionId": "ses_28d62cddcffeg5JDtZ3PnUGdmJ",
+      "name": "检查并更新医疗AI新闻",
+      "enabled": false,
+      "cronExpr": "0 * * * *",
+      "timezone": "Local",
+      "executor": {
+        "message": "请检查今天是否已更新医疗AI新闻，如果没有则执行更新：\n\n## 检查步骤\n\n1. 读取文件：/Users/icelyn/.qianfan/workspace/98c0878449ff4f33a2e4b42e0c9535a8/medical-ai-news/news-data.js\n\n2. 检查是否包含今天的日期（YYYY-MM-DD格式）\n\n3. 如果今天已有新闻数据：\n   - 输出：\"今天已更新新闻，无需重复执行\"\n   - 结束任务\n\n4. 如果今天还没有新闻数据：\n   - 执行新闻更新任务（使用无头浏览器访问国外网站）\n   - 访问以下网站获取最新新闻：\n     * npj Digital Medicine (https://www.nature.com/npjdigitalmed/)\n     * FDA AI Device (https://www.fda.gov/medical-devices/software-medical-device-samd)\n     * MedTech Dive (https://www.medtechdive.com/)\n     * CB Insights (https://www.cbinsights.com/research/artificial-intelligence-healthcare/)\n     * Fierce Biotech (https://www.fiercebiotech.com/medtech)\n   - 更新news-data.js文件\n   - 输出：\"已更新今天的新闻，共X条\"\n\n## 注意事项\n\n- 使用无头模式访问网站\n- 每天只更新一次（避免重复）\n- 确保获取10条高质量国外医疗AI新闻",
+        "model": "QianfanPersonalQuota/glm-5"
+      },
+      "concurrency": "forbid",
+      "retry": {
+        "maxRetries": 0,
+        "maxDelayMs": 3600000
+      },
+      "timeoutSecs": 300,
+      "createdAt": 1775747226736,
+      "updatedAt": 1776192279136,
+      "state": {
+        "nextRunAtMs": 0,
+        "lastRunAtMs": 1776189600130,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "retryAfterMs": 0
+      }
+    },
+    {
+      "id": "0d178886e55fb1a21b389a4c882b2d09",
+      "workspaceId": "ws_a516bbe7261e",
+      "agent": "daily-summary",
+      "name": "每日记忆总结",
+      "enabled": false,
+      "cronExpr": "0 9 * * *",
+      "timezone": "Local",
+      "executor": {
+        "message": "总结记忆文件，生成结构化的每日总结报告"
+      },
+      "concurrency": "forbid",
+      "retry": {
+        "maxRetries": 0,
+        "maxDelayMs": 3600000
+      },
+      "timeoutSecs": 300,
+      "createdAt": 1776358847912,
+      "updatedAt": 1776358847912,
+      "state": {
+        "nextRunAtMs": 0,
+        "lastRunAtMs": 0,
+        "lastStatus": "",
+        "consecutiveErrors": 0,
+        "retryAfterMs": 0
+      }
+    }
+  ]
+}

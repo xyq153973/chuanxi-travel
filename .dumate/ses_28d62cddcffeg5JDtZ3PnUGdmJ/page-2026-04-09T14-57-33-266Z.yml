@@ -1,0 +1,186 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "🏥 医疗行业AI新闻合集" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 每日更新最新医疗AI资讯，聚焦行业前沿动态
+  - generic [ref=e6]:
+    - textbox "搜索新闻关键词..." [ref=e7]
+    - button "🔍 搜索" [ref=e8] [cursor=pointer]
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: "20"
+      - text: 总新闻数
+    - generic [ref=e12]:
+      - generic [ref=e13]: "2"
+      - text: 更新天数
+    - generic [ref=e14]:
+      - generic [ref=e15]: 4/9
+      - text: 最后更新
+  - generic [ref=e16]:
+    - button "全部" [ref=e17] [cursor=pointer]
+    - button "4月9日" [ref=e18] [cursor=pointer]
+    - button "4月8日" [ref=e19] [cursor=pointer]
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - heading "2026年4月9日" [level=2] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: 2026年4月9日
+        - heading "扬州深耕医学AI试验田 打造智慧医疗新标杆" [level=3] [ref=e25]
+        - paragraph [ref=e26]: 苏北人民医院正式签约成为国家人工智能应用中试基地生态合作伙伴，与联影医疗签署战略合作协议，深化人工智能+医疗卫生布局，推进影像大模型、AI手术规划等合作。
+        - generic [ref=e27]:
+          - generic [ref=e28]: 来源：百家号
+          - link "阅读全文 →" [ref=e29] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861956483024715388
+      - generic [ref=e30]:
+        - generic [ref=e31]: 2026年4月9日
+        - heading "医渡科技当选中国医疗保险研究会理事单位 以AI技术赋能医疗保障" [level=3] [ref=e32]
+        - paragraph [ref=e33]: 依托AI医疗大脑YiduCore技术底座，创新应用于疾病预测、智能核保与理赔等方向，推出主动式快赔服务，理赔时效提升60%-70%。
+        - generic [ref=e34]:
+          - generic [ref=e35]: 来源：百家号
+          - link "阅读全文 →" [ref=e36] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861976143854303308
+      - generic [ref=e37]:
+        - generic [ref=e38]: 2026年4月9日
+        - heading "小肝人智能体亮相江苏省政府路演推进会 助力医疗普惠" [level=3] [ref=e39]
+        - paragraph [ref=e40]: 中国科学院院士滕皋军团队与医渡科技联合研发肝病诊疗智能体，在人工智能+医疗健康路演推进会上展示AI与医疗深度融合成果。
+        - generic [ref=e41]:
+          - generic [ref=e42]: 来源：百家号
+          - link "阅读全文 →" [ref=e43] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861897254535743255
+      - generic [ref=e44]:
+        - generic [ref=e45]: 2026年4月9日
+        - heading "北电数智联合北京清华长庚医院发布清智·AI合理用药大模型" [level=3] [ref=e46]
+        - paragraph [ref=e47]: 全国首个AI合理用药大模型发布，突破传统规则审方系统局限，实现针对多药共用、多病共存等高复杂场景的精准应对，引领千人千方新时代。
+        - generic [ref=e48]:
+          - generic [ref=e49]: 来源：百家号
+          - link "阅读全文 →" [ref=e50] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861882277693437143
+      - generic [ref=e51]:
+        - generic [ref=e52]: 2026年4月9日
+        - heading "村里来了AI医生 基层医疗迎来智能化变革" [level=3] [ref=e53]
+        - paragraph [ref=e54]: 清镇市投入3100万元建成县域医疗数据中心，推动人工智能医疗辅助系统县乡村三级全覆盖，252家医疗机构数据实现互联互通。
+        - generic [ref=e55]:
+          - generic [ref=e56]: 来源：百家号
+          - link "阅读全文 →" [ref=e57] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861871077680594494
+      - generic [ref=e58]:
+        - generic [ref=e59]: 2026年4月9日
+        - heading "MedMate打造中国首个医生超级助理 医生智能体双端协同" [level=3] [ref=e60]
+        - paragraph [ref=e61]: 整合超过4000万篇中英文学术文献、3万余份临床指南及30万+份药品说明书，首创五维循证架构，打造医生智能助理。
+        - generic [ref=e62]:
+          - generic [ref=e63]: 来源：百家号
+          - link "阅读全文 →" [ref=e64] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861891215934249499
+      - generic [ref=e65]:
+        - generic [ref=e66]: 2026年4月9日
+        - heading "凯文·凯利对话未来医生CEO：医疗AGI时刻正在到来" [level=3] [ref=e67]
+        - paragraph [ref=e68]: 科技先知凯文·凯利与未来医生创始人王仕锐展开对话，探讨人工智能在医疗领域的未来发展趋势和AGI时代的医疗变革。
+        - generic [ref=e69]:
+          - generic [ref=e70]: 来源：百家号
+          - link "阅读全文 →" [ref=e71] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861871807261152471
+      - generic [ref=e72]:
+        - generic [ref=e73]: 2026年4月9日
+        - heading "多领域应用助力提升临床诊断和药品研发效率 AI注入新动力" [level=3] [ref=e74]
+        - paragraph [ref=e75]: 人工智能在临床诊断、药品研发等多个医疗领域应用，显著提升诊疗效率和研发速度，为健康服务注入新动力。
+        - generic [ref=e76]:
+          - generic [ref=e77]: 来源：新浪
+          - link "阅读全文 →" [ref=e78] [cursor=pointer]:
+            - /url: http://k.sina.com.cn/article_7879848900_1d5acf3c401902wgzw.html
+      - generic [ref=e79]:
+        - generic [ref=e80]: 2026年4月9日
+        - heading "德适-B核心业务为医学影像AI基座大模型 支持超90%临床场景" [level=3] [ref=e81]
+        - paragraph [ref=e82]: 医学影像大模型第一股德适专注AI医学影像底层技术创新，自主研发iMedImage医学影像基座模型，支持19种影像模态。
+        - generic [ref=e83]:
+          - generic [ref=e84]: 来源：百家号
+          - link "阅读全文 →" [ref=e85] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861867710921325193
+      - generic [ref=e86]:
+        - generic [ref=e87]: 2026年4月9日
+        - heading "江苏率先实现医疗器械智能化审评审批 效率提升50%" [level=3] [ref=e88]
+        - paragraph [ref=e89]: 江苏在全国率先启动医疗器械智能化审评审批项目，AI赋能审评审批，吻合器类产品初审由5个工作日缩短为5分钟，审评效率提升50%。
+        - generic [ref=e90]:
+          - generic [ref=e91]: 来源：百家号
+          - link "阅读全文 →" [ref=e92] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861897254535743255
+    - generic [ref=e93]:
+      - heading "2026年4月8日" [level=2] [ref=e94]
+      - generic [ref=e95]:
+        - generic [ref=e96]: 2026年4月8日
+        - heading "北京发布32条新举措 AI融入医药研发全环节" [level=3] [ref=e97]
+        - paragraph [ref=e98]: 北京发布创新药械加速转化措施，布局AI人工智能预测、类器官与器官芯片等领域，开发不少于15种模型，推动手术机器人入院使用，加速医药工业数智化转型。
+        - generic [ref=e99]:
+          - generic [ref=e100]: 来源：百家号
+          - link "阅读全文 →" [ref=e101] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861892815399244710
+      - generic [ref=e102]:
+        - generic [ref=e103]: 2026年4月8日
+        - heading "2026年AI医疗新政全面解读 800家三甲医院率先试点" [level=3] [ref=e104]
+        - paragraph [ref=e105]: 自2026年4月起，全国800家三甲医院率先开展AI医疗试点，重点覆盖肺结节筛查、糖尿病视网膜病变识别等12个高频应用场景，相关服务纳入医保乙类报销目录。
+        - generic [ref=e106]:
+          - generic [ref=e107]: 来源：百度
+          - link "阅读全文 →" [ref=e108] [cursor=pointer]:
+            - /url: http://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4140568449442723356
+      - generic [ref=e109]:
+        - generic [ref=e110]: 2026年4月8日
+        - heading "AI+医疗告别单点智能 2026年胜负手在于全流程协同" [level=3] [ref=e111]
+        - paragraph [ref=e112]: 医疗智能体驱动协同网络，实现诊前精准导航、诊中决策支持、诊后连续性健康管理闭环，构建从院内到院外的连续性服务闭环，显著提升患者依从性。
+        - generic [ref=e113]:
+          - generic [ref=e114]: 来源：腾讯云
+          - link "阅读全文 →" [ref=e115] [cursor=pointer]:
+            - /url: https://cloud.tencent.com/developer/news/3777100
+      - generic [ref=e116]:
+        - generic [ref=e117]: 2026年4月8日
+        - heading "斯坦福普林斯顿发布首个医学世界模型MedOS" [level=3] [ref=e118]
+        - paragraph [ref=e119]: 全球首个通用医疗具身世界模型MedOS发布，从临床诊断到治疗、从外科手术到药物研发，AI真正读懂生老病死的物理现实，实现感知-模拟-干预的医疗闭环。
+        - generic [ref=e120]:
+          - generic [ref=e121]: 来源：BAAI
+          - link "阅读全文 →" [ref=e122] [cursor=pointer]:
+            - /url: https://hub.baai.ac.cn/view/52650
+      - generic [ref=e123]:
+        - generic [ref=e124]: 2026年4月8日
+        - heading "京东健康持续开源医疗大模型京医千询" [level=3] [ref=e125]
+        - paragraph [ref=e126]: 京东健康宣布京医千询8B、32B模型持续开源，在医疗视觉问答、影像报告生成等多个维度表现优于同参数级别主流模型，获MedBench双榜单冠军。
+        - generic [ref=e127]:
+          - generic [ref=e128]: 来源：百家号
+          - link "阅读全文 →" [ref=e129] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861454870589148561
+      - generic [ref=e130]:
+        - generic [ref=e131]: 2026年4月8日
+        - heading "深睿医疗大模型新品闪耀2026医学装备展" [level=3] [ref=e132]
+        - paragraph [ref=e133]: 深睿医疗发布前列腺MR AI辅助诊断系统及胸片大模型报告中心两大新品，实现从单点效率提升到全流程系统赋能的战略跨越，AI-PACS平台显著提升影像调阅效率。
+        - generic [ref=e134]:
+          - generic [ref=e135]: 来源：中国日报
+          - link "阅读全文 →" [ref=e136] [cursor=pointer]:
+            - /url: http://tech.chinadaily.com.cn/a/202603/30/WS69c9ecdca310942cc49a57f6.html
+      - generic [ref=e137]:
+        - generic [ref=e138]: 2026年4月8日
+        - heading "2026医生AI使用报告：超80%医生已在执业中使用AI" [level=3] [ref=e139]
+        - paragraph [ref=e140]: 美国医学会调查显示，2026年超80%受访医生已在执业中使用AI，较2024年翻倍，平均使用场景从1.1个增至2.3个，文档类和摘要类应用增长最快。
+        - generic [ref=e141]:
+          - generic [ref=e142]: 来源：百家号
+          - link "阅读全文 →" [ref=e143] [cursor=pointer]:
+            - /url: https://baijiahao.baidu.com/s?id=1861624278740556608
+      - generic [ref=e144]:
+        - generic [ref=e145]: 2026年4月8日
+        - heading "AI遇上医学 开启智慧医疗新时代" [level=3] [ref=e146]
+        - paragraph [ref=e147]: AI深度重构医疗体系，通过精准诊断、药物研发、个性化治疗及医疗普惠四大维度推动医疗行业向智慧医疗时代跃迁，实现效率提升与人文关怀的双重突破。
+        - generic [ref=e148]:
+          - generic [ref=e149]: 来源：百度
+          - link "阅读全文 →" [ref=e150] [cursor=pointer]:
+            - /url: http://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4659079273870858445
+      - generic [ref=e151]:
+        - generic [ref=e152]: 2026年4月8日
+        - heading "中国AI医疗大模型八强 医诊大模型技术全景解析" [level=3] [ref=e153]
+        - paragraph [ref=e154]: 医疗大模型在长文本处理、医学推理增强、小样本学习等方面取得突破，某模型引入滑动窗口注意力机制将推理速度提升40%，复杂病例诊断一致性达89%。
+        - generic [ref=e155]:
+          - generic [ref=e156]: 来源：百度云
+          - link "阅读全文 →" [ref=e157] [cursor=pointer]:
+            - /url: https://cloud.baidu.com/article/5573693
+      - generic [ref=e158]:
+        - generic [ref=e159]: 2026年4月8日
+        - heading "AI医疗的下一个五年：从诊疗辅助迈向主动健康管理" [level=3] [ref=e160]
+        - paragraph [ref=e161]: AI覆盖范围将从疾病治疗前置到全生命周期健康维持，构建个人数字孪生体，实现疾病超早期风险预测和个性化健康干预，医疗服务模式从病发治疗转向实时监测、主动预警。
+        - generic [ref=e162]:
+          - generic [ref=e163]: 来源：科学网
+          - link "阅读全文 →" [ref=e164] [cursor=pointer]:
+            - /url: https://wap.sciencenet.cn/home.php?mod=space&blog=280034&do=blog&id=1528816

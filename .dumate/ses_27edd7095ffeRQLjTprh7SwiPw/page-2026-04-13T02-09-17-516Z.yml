@@ -1,0 +1,272 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "跳至主要内容" [ref=e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - navigation "Firebase 控制台产品" [ref=e86]:
+          - heading "Firebase 控制台（前往项目列表）" [level=2] [ref=e87]:
+            - link "Firebase 控制台（前往项目列表）" [ref=e88] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e89]:
+                - img [ref=e90]
+                - img "Firebase 徽标" [ref=e91]
+          - generic [ref=e95]:
+            - img [ref=e96]: search
+            - combobox "搜索产品和功能" [ref=e97]
+          - link "项目概览" [ref=e99] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e100]: gmp_nav20_overview
+            - generic [ref=e101]: 项目概览
+          - menu [ref=e102]:
+            - menuitem "设置" [ref=e103]:
+              - generic [ref=e104] [cursor=pointer]:
+                - img [ref=e105]: settings
+                - generic [ref=e106]: 设置
+                - img [ref=e107]: chevron_right
+        - separator [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: 最新资讯
+          - group "最新资讯" [ref=e111]:
+            - link "Data Connect" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e114]: gmp_nav20_dataconnect
+              - generic [ref=e115]: Data Connect
+              - generic [ref=e119]: 新
+              - tooltip "免费试用我们的 PostgreSQL 数据库，最长可达三个月 — 现在还可以在 Spark 方案中使用（无需支付方式）" [ref=e120]:
+                - generic: 免费试用我们的 PostgreSQL 数据库，最长可达三个月 — 现在还可以在 Spark 方案中使用（无需支付方式）
+            - link "Phone Verification" [ref=e124] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e125]: gmp_nav20_phone_verification
+              - generic [ref=e126]: Phone Verification
+              - generic [ref=e130]: 新
+              - tooltip "“电话号码验证”是一种快速安全的用户电话号码验证方法" [ref=e131]:
+                - generic: “电话号码验证”是一种快速安全的用户电话号码验证方法
+        - separator [ref=e134]
+        - generic [ref=e135]:
+          - generic [ref=e136]: 项目快捷方式
+          - group "项目快捷方式" [ref=e137]:
+            - link "Hosting" [ref=e139] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e140]: gmp_nav20_hosting
+              - generic [ref=e141]: Hosting
+              - generic [ref=e142]:
+                - button "隐藏“Hosting”" [ref=e143]
+                - button "固定“Hosting”" [ref=e144]
+            - link "Firestore" [ref=e146] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e147]: gmp_firestore
+              - generic [ref=e148]: Firestore
+              - generic [ref=e149]:
+                - button "隐藏“Firestore”" [ref=e150]
+                - button "固定“Firestore”" [ref=e151]
+            - link "Authentication" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e154]: gmp_nav20_auth
+              - generic [ref=e155]: Authentication
+              - generic [ref=e156]:
+                - button "隐藏“Authentication”" [ref=e157]
+                - button "固定“Authentication”" [ref=e158]
+            - link "Realtime Database" [ref=e160] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e161]: gmp_nav20_database
+              - generic [ref=e162]: Realtime Database
+              - generic [ref=e163]:
+                - button "隐藏“Realtime Database”" [ref=e164]
+                - button "固定“Realtime Database”" [ref=e165]
+        - separator [ref=e166]
+        - generic [ref=e167]:
+          - generic [ref=e168]: 产品类别
+          - menu "产品类别" [ref=e169]:
+            - menuitem "数据库和存储" [ref=e170]:
+              - generic [ref=e171] [cursor=pointer]:
+                - generic [ref=e172]: 数据库和存储
+                - img [ref=e173]: chevron_right
+            - menuitem "安全" [ref=e174]:
+              - generic [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]: 安全
+                - img [ref=e177]: chevron_right
+            - menuitem "AI 服务" [ref=e178]:
+              - generic [ref=e179] [cursor=pointer]:
+                - generic [ref=e180]: AI 服务
+                - img [ref=e181]: chevron_right
+            - menuitem "托管和无服务器" [ref=e182]:
+              - generic [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: 托管和无服务器
+                - img [ref=e185]: chevron_right
+            - menuitem "DevOps 和互动" [ref=e186]:
+              - generic [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: DevOps 和互动
+                - img [ref=e189]: chevron_right
+            - menuitem "分析" [ref=e190]:
+              - generic [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: 分析
+                - img [ref=e193]: chevron_right
+      - generic [ref=e194]:
+        - separator [ref=e195]
+        - group "结算方案： Spark" [ref=e196]:
+          - generic [ref=e197]:
+            - generic "结算方案名称" [ref=e198]:
+              - generic [ref=e199]: 结算方案：
+              - text: Spark
+            - generic "结算方案说明" [ref=e200]: 免费（每月 0 美元）
+          - button "升级结算方案" [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e204]: 升级
+              - generic [ref=e207]: 新
+            - tooltip "点击“升级”，了解如何领取 300 美元的免费赠金。" [ref=e210]:
+              - generic: 点击“升级”，了解如何领取 300 美元的免费赠金。
+        - separator [ref=e213]
+        - button "切换导航边栏" [expanded] [ref=e215] [cursor=pointer]:
+          - img [ref=e216]: chevron_left
+    - banner:
+      - button "Icelyn Fitness（打开“选择项目”菜单）" [ref=e220] [cursor=pointer]:
+        - text: Icelyn Fitness
+        - img [ref=e221]: arrow_drop_down
+    - main [ref=e13]:
+      - generic [ref=e225]:
+        - generic [ref=e235]:
+          - heading "Hosting" [level=1] [ref=e237]
+          - generic [ref=e238]: 快速安全地托管静态网站
+          - generic [ref=e239]:
+            - button "开始使用" [ref=e240]:
+              - generic [ref=e241]: 开始使用
+            - button "问问 Gemini" [ref=e245]:
+              - generic [ref=e247]:
+                - img [ref=e248]: spark
+                - text: 问问 Gemini
+        - generic [ref=e252]:
+          - img [ref=e253]: auto_awesome
+          - generic [ref=e254]: 您是否正在构建由服务器渲染的全栈 Web 应用？不妨试一试 Firebase App Hosting
+          - link "了解详情（在新标签页中打开相关 Firebase 文档）" [ref=e255] [cursor=pointer]:
+            - /url: https://firebase.google.com/docs/app-hosting/index?hl=zh-CN&authuser=0
+            - generic [ref=e256]: 了解详情
+            - text: open_in_new
+        - generic "Hosting" [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - heading "了解详情" [level=2] [ref=e263]
+              - generic [ref=e265]:
+                - link "settings应该怎么开始？ 查看文档（在新标签页中打开相关 Firebase 文档）" [ref=e267] [cursor=pointer]:
+                  - /url: https://firebase.google.com/docs/hosting/?hl=zh-CN&authuser=0#implementation_path
+                  - generic [ref=e268]:
+                    - img [ref=e269]:
+                      - img [ref=e270]: settings
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: 应该怎么开始？
+                      - generic [ref=e273]: 查看文档
+                - link "infoHosting 的工作原理 查看文档（在新标签页中打开相关 Firebase 文档）" [ref=e275] [cursor=pointer]:
+                  - /url: https://firebase.google.com/docs/hosting/?hl=zh-CN&authuser=0#how_does_it_work
+                  - generic [ref=e276]:
+                    - img [ref=e277]:
+                      - img [ref=e278]: info
+                    - generic [ref=e279]:
+                      - generic [ref=e281]: Hosting 的工作原理
+                      - generic [ref=e282]: 查看文档
+                - link "sentiment_satisfied_altHosting 的用途 了解详情（在新标签页中打开相关 Firebase 文档）" [ref=e284] [cursor=pointer]:
+                  - /url: https://firebase.google.com/products/hosting/?hl=zh-CN&authuser=0
+                  - generic [ref=e285]:
+                    - img [ref=e286]:
+                      - img [ref=e287]: sentiment_satisfied_alt
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: Hosting 的用途
+                      - generic [ref=e290]: 了解详情
+              - iframe [ref=e293]:
+                - generic [active] [ref=f14e1]:
+                  - generic "YouTube 视频播放器" [ref=f14e3]
+                  - generic [ref=f14e5]:
+                    - generic:
+                      - generic:
+                        - button "播放视频" [ref=f14e10] [cursor=pointer]:
+                          - generic [ref=f14e13]:
+                            - img
+                        - button "隐藏播放器控件" [ref=f14e14] [cursor=pointer]
+                        - generic [ref=f14e16]:
+                          - generic [ref=f14e21]:
+                            - generic [ref=f14e22]:
+                              - link "Introducing Firebase Hosting" [ref=f14e23] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=jsRVHeQd5kU
+                              - link "Firebase" [ref=f14e24] [cursor=pointer]:
+                                - /url: /channel/UCP4bf6IHJJQehibu6ai__cg
+                                - generic [ref=f14e25]: Firebase
+                            - generic [ref=f14e26]:
+                              - button "thumbnail-image" [ref=f14e27] [cursor=pointer]:
+                                - img "thumbnail-image" [ref=f14e28]
+                              - generic [ref=f14e30]:
+                                - generic: Firebase
+                                - generic: 41.5万位订阅者
+                          - generic [ref=f14e31]:
+                            - button "分享" [ref=f14e34] [cursor=pointer]:
+                              - generic [ref=f14e38]:
+                                - img
+                            - link "在 YouTube 上观看" [ref=f14e45] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=jsRVHeQd5kU
+                              - generic [ref=f14e48]:
+                                - text: 前往平台观看：
+                                - img [ref=f14e50]:
+                                  - generic [ref=f14e52]:
+                                    - img
+            - generic [ref=e294]:
+              - separator [ref=e296]
+              - generic [ref=e297]:
+                - heading "更多面向开发者的产品" [level=2] [ref=e298]
+                - generic [ref=e299]:
+                  - link "Authentication 以不到 10 行代码实现端到端的用户身份解决方案" [ref=e300] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e302]:
+                      - img [ref=e303]
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: Authentication
+                        - generic [ref=e306]: 以不到 10 行代码实现端到端的用户身份解决方案
+                  - link "Cloud Firestore 实时更新、强大的查询和自动调节" [ref=e307] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e309]:
+                      - img [ref=e310]
+                      - generic [ref=e311]:
+                        - generic [ref=e312]: Cloud Firestore
+                        - generic [ref=e313]: 实时更新、强大的查询和自动调节
+                  - link "Storage 存储和检索由用户生成的内容" [ref=e314] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e316]:
+                      - img [ref=e317]
+                      - generic [ref=e318]:
+                        - generic [ref=e319]: Storage
+                        - generic [ref=e320]: 存储和检索由用户生成的内容
+                - link "查看更多相关产品（在新标签页中打开相关 Firebase 文档）" [ref=e322] [cursor=pointer]:
+                  - /url: https://firebase.google.com/docs/build?hl=zh-CN&authuser=0
+                  - text: 查看更多相关产品 open_in_new
+    - iframe [ref=e331]:
+      - generic [ref=f16e3]:
+        - img [ref=f16e4]:
+          - img [ref=f16e6]
+        - progressbar "正在加载" [ref=f16e10]:
+          - img [ref=f16e12]
+          - generic [ref=f16e15]:
+            - img [ref=f16e17]
+            - img [ref=f16e20]
+            - img [ref=f16e23]
+        - alert [ref=f16e25]: 正在加载
+    - generic "Gemini 在 Firebase 中" [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - button "Google 账号： 刘冰 (liubing103187@gmail.com)" [ref=e42] [cursor=pointer]:
+            - img [ref=e44]
+          - button "打开提醒" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]: notifications
+          - button "与 Gemini 对话 (Option+G)" [ref=e55] [cursor=pointer]:
+            - img [ref=e57]: spark
+          - button "帮助" [ref=e60] [cursor=pointer]:
+            - img [ref=e61]: contact_support
+          - separator [ref=e64]
+          - button "激活 Cloud Shell" [disabled]:
+            - img:
+              - img
+            - tooltip "让开发工作如虎添翼！试用 Cloud Shell，直接在虚拟机中访问内置的 Firebase CLI 并运行 Firebase 模拟器。" [ref=e71]:
+              - generic: 让开发工作如虎添翼！试用 Cloud Shell，直接在虚拟机中访问内置的 Firebase CLI 并运行 Firebase 模拟器。
+        - button "当前主题：浅色；调整主题" [ref=e75] [cursor=pointer]:
+          - img [ref=e76]: dark_mode
+  - generic [ref=e339]:
+    - generic [ref=e340]: error
+    - generic [ref=e341]:
+      - generic [ref=e342]: "Error:"
+      - text: 加载 Cloud Shell 时出了点问题。请重试。

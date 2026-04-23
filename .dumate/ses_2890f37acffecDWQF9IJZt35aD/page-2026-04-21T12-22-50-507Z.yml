@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - link "logo" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img "logo" [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - img [ref=e18]
+            - generic "航班选择" [ref=e19]
+          - generic [ref=e20]:
+            - img [ref=e21]
+            - generic "旅客信息" [ref=e22]
+          - generic [ref=e23]:
+            - img [ref=e24]
+            - generic "我的购物车" [ref=e25]
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - generic "支付出票" [ref=e28]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - text:        
+            - link "会员 | 订单" [ref=e35] [cursor=pointer]:
+              - /url: javascript:;
+            - text: 
+          - listitem [ref=e36]:
+            - link "Language & Currency" [ref=e37] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e39]
+              - generic [ref=e40]: Language & Currency
+            - text:                                                                         
+        - text: 
+      - text: 
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: 单程
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: 兰州
+              - generic [ref=e57]: 
+              - generic [ref=e58]: 上海
+            - generic [ref=e60]: 2026年05月06日
+          - generic [ref=e61] [cursor=pointer]: 更改
+        - generic:                                               
+      - generic [ref=e62]:
+        - generic [ref=e64]: 所有出发到达时间均为当地时间｜机型以实际航班为准。
+        - generic [ref=e66]:
+          - generic [ref=e67] [cursor=pointer]:
+            - generic [ref=e71]: 直飞
+            - generic [ref=e74]: 
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e79]: 起飞时间
+            - generic [ref=e82]: 
+          - generic [ref=e83] [cursor=pointer]:
+            - generic [ref=e87]: 到达时间
+            - generic [ref=e90]: 
+          - generic [ref=e92] [cursor=pointer]:
+            - generic [ref=e96]: 价格
+            - generic [ref=e99]: 
+          - radiogroup [ref=e100]:
+            - radio "现金-含税" [ref=e101] [cursor=pointer]:
+              - radio [ref=e104]
+              - generic [ref=e108]: 现金-含税
+            - radio "现金-不含税" [checked] [ref=e109] [cursor=pointer]:
+              - radio [checked] [ref=e112]
+              - generic [ref=e116]: 现金-不含税
+            - radio "积分" [ref=e117] [cursor=pointer]:
+              - radio [ref=e120]
+              - generic [ref=e124]: 积分
+          - generic [ref=e125]:
+            - generic [ref=e127]: 经济舱
+            - generic [ref=e129]: 超级经济舱
+            - generic [ref=e131]: 公务/头等舱
+        - img [ref=e135]
+    - generic [ref=e154]:
+      - img [ref=e156]
+      - generic [ref=e158]:
+        - paragraph [ref=e159]:
+          - generic [ref=e160]: 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com
+        - generic [ref=e161]:
+          - paragraph [ref=e162]:
+            - link "Copyright © 中国东方航空 沪ICP备 10009470号-9" [ref=e163] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/#/Integrated/index
+          - paragraph [ref=e164]:
+            - link "沪公网安备31011202021009号" [ref=e165] [cursor=pointer]:
+              - /url: https://beian.mps.gov.cn/#/query/webSearch?code=31011202021009
+              - img [ref=e166]
+              - text: 沪公网安备31011202021009号
+          - paragraph [ref=e167]:
+            - link [ref=e168] [cursor=pointer]:
+              - /url: "/mid-page?eyJ1cmwiOiJodHRwcyUzQSUyRiUyRndlYmNlcnQuY25tc3RsLm5ldCUyRmNlcnQlMkZjb2RlJTNGc24lM0QwYzRhMTRiYzgzZDA0Mzg4YWI1NWQwOWZkZDc0MmY4NiJ9encoded}"
+              - img [ref=e169]
+            - link [ref=e170]:
+              - /url: javascript:void(0);
+              - img [ref=e171]
+  - generic: 

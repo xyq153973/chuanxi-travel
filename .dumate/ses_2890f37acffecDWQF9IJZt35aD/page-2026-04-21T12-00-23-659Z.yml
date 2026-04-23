@@ -1,0 +1,510 @@
+- generic [ref=e1]:
+  - link "欢迎进入 中国东方航空,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e62] [cursor=pointer]
+  - generic [ref=e5]:
+    - banner [ref=e8]:
+      - generic [ref=e10]:
+        - generic "中国东方航空" [ref=e63]:
+          - link "logo" [ref=e13] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img "logo" [ref=e14]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - generic "航班选择" [ref=e20]
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - generic "旅客信息" [ref=e23]
+          - generic [ref=e24]:
+            - img [ref=e25]
+            - generic "我的购物车" [ref=e26]
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic "支付出票" [ref=e29]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - text:        
+            - link "会员 | 订单" [ref=e36] [cursor=pointer]:
+              - /url: javascript:;
+            - text: 
+          - listitem [ref=e37]:
+            - link "Language & Currency" [ref=e38] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e40]
+              - generic [ref=e41]: Language & Currency
+            - text:                                                                         
+        - text: 
+      - text: 
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: 单程
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: 乌鲁木齐
+              - generic [ref=e80]: 
+              - generic [ref=e81]: 上海
+            - generic [ref=e83]: 2026年05月05日
+          - generic [ref=e84] [cursor=pointer]: 更改
+        - generic:                                               
+      - generic [ref=e152]:
+        - generic [ref=e154]: 所有出发到达时间均为当地时间｜机型以实际航班为准。
+        - generic [ref=e156]:
+          - generic [ref=e157] [cursor=pointer]:
+            - generic [ref=e161]: 直飞
+            - generic [ref=e164]: 
+          - generic [ref=e165] [cursor=pointer]:
+            - generic [ref=e169]: 起飞时间
+            - generic [ref=e172]: 
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e177]: 到达时间
+            - generic [ref=e180]: 
+          - generic [ref=e184] [cursor=pointer]:
+            - generic "更多条件" [ref=e185]
+            - generic [ref=e188]: 
+          - generic [ref=e190] [cursor=pointer]:
+            - generic [ref=e194]: 价格
+            - generic [ref=e197]: 
+          - radiogroup [ref=e198]:
+            - radio "现金-含税" [ref=e199] [cursor=pointer]:
+              - radio [ref=e202]
+              - generic [ref=e206]: 现金-含税
+            - radio "现金-不含税" [ref=e207] [cursor=pointer]:
+              - radio [ref=e210]
+              - generic [ref=e214]: 现金-不含税
+            - radio "积分" [checked] [ref=e215] [cursor=pointer]:
+              - radio [checked] [active] [ref=e218]
+              - generic [ref=e222]: 积分
+          - generic [ref=e223]:
+            - generic [ref=e225]: 经济舱
+            - generic [ref=e227]: 超级经济舱
+            - generic [ref=e229]: 公务/头等舱
+        - generic "视窗区,出发信息" [ref=e230]:
+          - generic [ref=e1748]:
+            - generic [ref=e1749]:
+              - generic [ref=e1750]:
+                - generic [ref=e1751]:
+                  - generic [ref=e1752]:
+                    - img "icon-flight-company" [ref=e1753]
+                    - generic [ref=e1754]: FM9222
+                  - generic [ref=e1755]:
+                    - generic [ref=e1756]: 机型73M
+                    - generic [ref=e1759]: 
+                    - generic [ref=e1760]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1764]
+                - generic [ref=e1765]:
+                  - generic [ref=e1766]:
+                    - generic [ref=e1767]: 09:05
+                    - generic [ref=e1768]: 乌鲁木齐
+                  - generic [ref=e1769]:
+                    - generic [ref=e1770]: 直达
+                    - img "dot" [ref=e1771]
+                    - generic [ref=e1772]: 总时长：4小时50分
+                  - generic [ref=e1773]:
+                    - generic [ref=e1774]: 13:55
+                    - generic [ref=e1775]:
+                      - text: 浦东
+                      - generic [ref=e1776]: T1
+              - generic [ref=e1777] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1778]
+            - generic [ref=e1779]:
+              - generic [ref=e1783] [cursor=pointer]: 积分 67,360
+              - generic [ref=e1787]: — —
+              - generic [ref=e1791] [cursor=pointer]: 积分 189,380
+          - generic [ref=e1794]:
+            - generic [ref=e1795]:
+              - generic [ref=e1796]:
+                - generic [ref=e1797]:
+                  - generic [ref=e1798]:
+                    - img "icon-flight-company" [ref=e1799]
+                    - generic [ref=e1800]: MU8368
+                  - generic [ref=e1801]:
+                    - generic [ref=e1802]: 机型73M
+                    - generic [ref=e1804]: 共享
+                    - generic [ref=e1807]: 
+                    - generic [ref=e1808]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1812]
+                - generic [ref=e1813]:
+                  - generic [ref=e1814]:
+                    - generic [ref=e1815]: 09:05
+                    - generic [ref=e1816]: 乌鲁木齐
+                  - generic [ref=e1817]:
+                    - generic [ref=e1818]: 直达
+                    - img "dot" [ref=e1819]
+                    - generic [ref=e1820]: 总时长：4小时50分
+                  - generic [ref=e1821]:
+                    - generic [ref=e1822]: 13:55
+                    - generic [ref=e1823]:
+                      - text: 浦东
+                      - generic [ref=e1824]: T1
+              - generic [ref=e1825] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1826]
+            - generic [ref=e1827]:
+              - generic [ref=e1831] [cursor=pointer]: 积分 104,000
+              - generic [ref=e1835]: — —
+              - generic [ref=e1839] [cursor=pointer]: 积分 292,400
+          - generic [ref=e1842]:
+            - generic [ref=e1843]:
+              - generic [ref=e1844]:
+                - generic [ref=e1845]:
+                  - generic [ref=e1846]:
+                    - img "icon-flight-company" [ref=e1847]
+                    - generic [ref=e1848]: FM9220
+                  - generic [ref=e1849]:
+                    - generic [ref=e1850]: 机型73M
+                    - generic [ref=e1853]: 
+                    - generic [ref=e1854]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1858]
+                - generic [ref=e1859]:
+                  - generic [ref=e1860]:
+                    - generic [ref=e1861]: 09:30
+                    - generic [ref=e1862]: 乌鲁木齐
+                  - generic [ref=e1863]:
+                    - generic [ref=e1864]: 直达
+                    - img "dot" [ref=e1865]
+                    - generic [ref=e1866]: 总时长：4小时40分
+                  - generic [ref=e1867]:
+                    - generic [ref=e1868]: 14:10
+                    - generic [ref=e1869]:
+                      - text: 虹桥
+                      - generic [ref=e1870]: T2
+              - generic [ref=e1871] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1872]
+            - generic [ref=e1873]:
+              - generic [ref=e1877] [cursor=pointer]: 积分 69,150
+              - generic [ref=e1881]: — —
+              - generic [ref=e1885] [cursor=pointer]: 积分 228,730
+          - generic [ref=e1888]:
+            - generic [ref=e1889]:
+              - generic [ref=e1890]:
+                - generic [ref=e1891]:
+                  - generic [ref=e1892]:
+                    - img "icon-flight-company" [ref=e1893]
+                    - generic [ref=e1894]: MU8366
+                  - generic [ref=e1895]:
+                    - generic [ref=e1896]: 机型73M
+                    - generic [ref=e1898]: 共享
+                    - generic [ref=e1901]: 
+                    - generic [ref=e1902]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1906]
+                - generic [ref=e1907]:
+                  - generic [ref=e1908]:
+                    - generic [ref=e1909]: 09:30
+                    - generic [ref=e1910]: 乌鲁木齐
+                  - generic [ref=e1911]:
+                    - generic [ref=e1912]: 直达
+                    - img "dot" [ref=e1913]
+                    - generic [ref=e1914]: 总时长：4小时40分
+                  - generic [ref=e1915]:
+                    - generic [ref=e1916]: 14:10
+                    - generic [ref=e1917]:
+                      - text: 虹桥
+                      - generic [ref=e1918]: T2
+              - generic [ref=e1919] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1920]
+            - generic [ref=e1921]:
+              - generic [ref=e1925] [cursor=pointer]: 积分 104,000
+              - generic [ref=e1929]: — —
+              - generic [ref=e1933] [cursor=pointer]: 积分 344,000
+          - generic [ref=e1936]:
+            - generic [ref=e1937]:
+              - generic [ref=e1938]:
+                - generic [ref=e1939]:
+                  - generic [ref=e1940]:
+                    - img "icon-flight-company" [ref=e1941]
+                    - generic [ref=e1942]: MU5688
+                  - generic [ref=e1943]:
+                    - generic [ref=e1944]: 空客320N(窄)
+                    - generic [ref=e1947]: 
+                    - generic [ref=e1948]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1952]
+                - generic [ref=e1953]:
+                  - generic [ref=e1954]:
+                    - generic [ref=e1955]: 11:05
+                    - generic [ref=e1956]: 乌鲁木齐
+                  - generic [ref=e1957]:
+                    - generic [ref=e1958]: 直达
+                    - img "dot" [ref=e1959]
+                    - generic [ref=e1960]: 总时长：4小时45分
+                  - generic [ref=e1961]:
+                    - generic [ref=e1962]: 15:50
+                    - generic [ref=e1963]:
+                      - text: 浦东
+                      - generic [ref=e1964]: T1
+              - generic [ref=e1965] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e1966]
+            - generic [ref=e1967]:
+              - generic [ref=e1971] [cursor=pointer]: 积分 67,360
+              - generic [ref=e1975]: — —
+              - generic [ref=e1979] [cursor=pointer]: 积分 189,380
+          - generic [ref=e1982]:
+            - generic [ref=e1983]:
+              - generic [ref=e1984]:
+                - generic [ref=e1985]:
+                  - generic [ref=e1986]:
+                    - img "icon-flight-company" [ref=e1987]
+                    - generic [ref=e1988]: MU5634
+                  - generic [ref=e1989]:
+                    - generic [ref=e1990]: 机型326
+                    - generic [ref=e1993]: 
+                    - generic [ref=e1994]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e1998]
+                - generic [ref=e1999]:
+                  - generic [ref=e2000]:
+                    - generic [ref=e2001]: 13:10
+                    - generic [ref=e2002]: 乌鲁木齐
+                  - generic [ref=e2003]:
+                    - generic [ref=e2004]: 直达
+                    - img "dot" [ref=e2005]
+                    - generic [ref=e2006]: 总时长：4小时45分
+                  - generic [ref=e2007]:
+                    - generic [ref=e2008]: 17:55
+                    - generic [ref=e2009]:
+                      - text: 虹桥
+                      - generic [ref=e2010]: T2
+              - generic [ref=e2011] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2012]
+            - generic [ref=e2013]:
+              - generic [ref=e2017] [cursor=pointer]: 积分 69,150
+              - generic [ref=e2021]: — —
+              - generic [ref=e2025] [cursor=pointer]: 积分 194,420
+          - generic [ref=e2028]:
+            - generic [ref=e2029]:
+              - generic [ref=e2030]:
+                - generic [ref=e2031]:
+                  - generic [ref=e2032]:
+                    - img "icon-flight-company" [ref=e2033]
+                    - generic [ref=e2034]: FM9216
+                  - generic [ref=e2035]:
+                    - generic [ref=e2036]: 机型73L
+                    - generic [ref=e2039]: 
+                    - generic [ref=e2040]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e2044]
+                - generic [ref=e2045]:
+                  - generic [ref=e2046]:
+                    - generic [ref=e2047]: 14:55
+                    - generic [ref=e2048]: 乌鲁木齐
+                  - generic [ref=e2049]:
+                    - generic [ref=e2050]: 直达
+                    - img "dot" [ref=e2051]
+                    - generic [ref=e2052]: 总时长：4小时45分
+                  - generic [ref=e2053]:
+                    - generic [ref=e2054]: 19:40
+                    - generic [ref=e2055]:
+                      - text: 虹桥
+                      - generic [ref=e2056]: T2
+              - generic [ref=e2057] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2058]
+            - generic [ref=e2059]:
+              - generic [ref=e2063] [cursor=pointer]: 积分 69,150
+              - generic [ref=e2067]: — —
+              - generic [ref=e2071] [cursor=pointer]: 积分 228,730
+          - generic [ref=e2074]:
+            - generic [ref=e2075]:
+              - generic [ref=e2076]:
+                - generic [ref=e2077]:
+                  - generic [ref=e2078]:
+                    - img "icon-flight-company" [ref=e2079]
+                    - generic [ref=e2080]: MU8352
+                  - generic [ref=e2081]:
+                    - generic [ref=e2082]: 机型73L
+                    - generic [ref=e2084]: 共享
+                    - generic [ref=e2087]: 
+                    - generic [ref=e2088]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e2092]
+                - generic [ref=e2093]:
+                  - generic [ref=e2094]:
+                    - generic [ref=e2095]: 14:55
+                    - generic [ref=e2096]: 乌鲁木齐
+                  - generic [ref=e2097]:
+                    - generic [ref=e2098]: 直达
+                    - img "dot" [ref=e2099]
+                    - generic [ref=e2100]: 总时长：4小时45分
+                  - generic [ref=e2101]:
+                    - generic [ref=e2102]: 19:40
+                    - generic [ref=e2103]:
+                      - text: 虹桥
+                      - generic [ref=e2104]: T2
+              - generic [ref=e2105] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2106]
+            - generic [ref=e2107]:
+              - generic [ref=e2111] [cursor=pointer]: 积分 104,000
+              - generic [ref=e2115]: — —
+              - generic [ref=e2119] [cursor=pointer]: 积分 344,000
+          - generic [ref=e2122]:
+            - generic [ref=e2123]:
+              - generic [ref=e2124]:
+                - generic [ref=e2125]:
+                  - generic [ref=e2126]:
+                    - img "icon-flight-company" [ref=e2127]
+                    - generic [ref=e2128]: MU5700
+                  - generic [ref=e2129]:
+                    - generic [ref=e2130]: 机型326
+                    - generic [ref=e2133]: 
+                    - generic [ref=e2134]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e2138]
+                - generic [ref=e2139]:
+                  - generic [ref=e2140]:
+                    - generic [ref=e2141]: 16:10
+                    - generic [ref=e2142]: 乌鲁木齐
+                  - generic [ref=e2143]:
+                    - generic [ref=e2144]: 直达
+                    - img "dot" [ref=e2145]
+                    - generic [ref=e2146]: 总时长：4小时55分
+                  - generic [ref=e2147]:
+                    - generic [ref=e2148]: 21:05
+                    - generic [ref=e2149]:
+                      - text: 虹桥
+                      - generic [ref=e2150]: T2
+              - generic [ref=e2151] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2152]
+            - generic [ref=e2153]:
+              - generic [ref=e2157] [cursor=pointer]: 积分 69,150
+              - generic [ref=e2161]: — —
+              - generic [ref=e2165] [cursor=pointer]: 积分 106,890
+          - generic [ref=e2168]:
+            - generic [ref=e2169]:
+              - generic [ref=e2170]:
+                - generic [ref=e2171]:
+                  - generic [ref=e2172]:
+                    - img "icon-flight-company" [ref=e2173]
+                    - generic [ref=e2174]: FM9224
+                  - generic [ref=e2175]:
+                    - generic [ref=e2176]: 机型73M
+                    - generic [ref=e2179]: 
+                    - generic [ref=e2180]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e2184]
+                - generic [ref=e2185]:
+                  - generic [ref=e2186]:
+                    - generic [ref=e2187]: 20:20
+                    - generic [ref=e2188]: 乌鲁木齐
+                  - generic [ref=e2189]:
+                    - generic [ref=e2190]: 直达
+                    - img "dot" [ref=e2191]
+                    - generic [ref=e2192]: 总时长：4小时55分
+                  - generic [ref=e2193]:
+                    - generic [ref=e2194]:
+                      - text: 01:15
+                      - generic [ref=e2195]: +1 天
+                    - generic [ref=e2196]:
+                      - text: 浦东
+                      - generic [ref=e2197]: T1
+              - generic [ref=e2198] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2199]
+            - generic [ref=e2200]:
+              - generic [ref=e2204] [cursor=pointer]: 积分 57,000
+              - generic [ref=e2208]: — —
+              - generic [ref=e2212] [cursor=pointer]: 积分 82,650
+          - generic [ref=e2215]:
+            - generic [ref=e2216]:
+              - generic [ref=e2217]:
+                - generic [ref=e2218]:
+                  - generic [ref=e2219]:
+                    - img "icon-flight-company" [ref=e2220]
+                    - generic [ref=e2221]: MU8370
+                  - generic [ref=e2222]:
+                    - generic [ref=e2223]: 机型73M
+                    - generic [ref=e2225]: 共享
+                    - generic [ref=e2228]: 
+                    - generic [ref=e2229]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                      - img [ref=e2233]
+                - generic [ref=e2234]:
+                  - generic [ref=e2235]:
+                    - generic [ref=e2236]: 20:20
+                    - generic [ref=e2237]: 乌鲁木齐
+                  - generic [ref=e2238]:
+                    - generic [ref=e2239]: 直达
+                    - img "dot" [ref=e2240]
+                    - generic [ref=e2241]: 总时长：4小时55分
+                  - generic [ref=e2242]:
+                    - generic [ref=e2243]:
+                      - text: 01:15
+                      - generic [ref=e2244]: +1 天
+                    - generic [ref=e2245]:
+                      - text: 浦东
+                      - generic [ref=e2246]: T1
+              - generic [ref=e2247] [cursor=pointer]:
+                - text: 航班详情
+                - img "detail" [ref=e2248]
+            - generic [ref=e2249]:
+              - generic [ref=e2253] [cursor=pointer]: 积分 88,000
+              - generic [ref=e2257]: — —
+              - generic [ref=e2261] [cursor=pointer]: 积分 135,320
+        - generic [ref=e2262]: 没有更多
+    - generic "服务区,当前为网页底部服务区，有关于东航，联系我们，友情链接等内容" [ref=e1709]:
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - generic [ref=e48]:
+          - paragraph [ref=e49]:
+            - generic [ref=e50]: 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com
+          - generic [ref=e51]:
+            - paragraph [ref=e52]:
+              - link "Copyright © 中国东方航空 沪ICP备 10009470号-9" [ref=e53] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/#/Integrated/index
+            - paragraph [ref=e54]:
+              - link "沪公网安备31011202021009号" [ref=e55] [cursor=pointer]:
+                - /url: https://beian.mps.gov.cn/#/query/webSearch?code=31011202021009
+                - img [ref=e56]
+                - text: 沪公网安备31011202021009号
+            - paragraph [ref=e57]:
+              - link [ref=e58] [cursor=pointer]:
+                - /url: "/mid-page?eyJ1cmwiOiJodHRwcyUzQSUyRiUyRndlYmNlcnQuY25tc3RsLm5ldCUyRmNlcnQlMkZjb2RlJTNGc24lM0QwYzRhMTRiYzgzZDA0Mzg4YWI1NWQwOWZkZDc0MmY4NiJ9encoded}"
+                - img [ref=e59]
+              - link [ref=e60]:
+                - /url: javascript:void(0);
+                - img [ref=e61]

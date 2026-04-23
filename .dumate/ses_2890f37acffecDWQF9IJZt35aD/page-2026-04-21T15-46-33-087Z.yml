@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 中国东方航空,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e2] [cursor=pointer]
+  - generic [ref=e6]:
+    - banner [ref=e9]:
+      - generic [ref=e11]:
+        - link "logo" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img "logo" [ref=e15]
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - img [ref=e20]
+            - generic "航班选择" [ref=e21]
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - generic "旅客信息" [ref=e24]
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic "我的购物车" [ref=e27]
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic "支付出票" [ref=e30]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - text:        
+            - link "会员 | 订单" [ref=e37] [cursor=pointer]:
+              - /url: javascript:;
+            - text: 
+          - listitem [ref=e38]:
+            - link "Language & Currency" [ref=e39] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e41]
+              - generic [ref=e42]: Language & Currency
+            - text:                                                                         
+        - text: 
+      - text: 
+    - generic [ref=e45]:
+      - img [ref=e47]
+      - generic [ref=e49]:
+        - paragraph [ref=e50]:
+          - generic [ref=e51]: 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com
+        - generic [ref=e52]:
+          - paragraph [ref=e53]:
+            - link "Copyright © 中国东方航空 沪ICP备 10009470号-9" [ref=e54] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn/#/Integrated/index
+          - paragraph [ref=e55]:
+            - link "沪公网安备31011202021009号" [ref=e56] [cursor=pointer]:
+              - /url: https://beian.mps.gov.cn/#/query/webSearch?code=31011202021009
+              - img [ref=e57]
+              - text: 沪公网安备31011202021009号
+          - paragraph [ref=e58]:
+            - link [ref=e59] [cursor=pointer]:
+              - /url: "/mid-page?eyJ1cmwiOiJodHRwcyUzQSUyRiUyRndlYmNlcnQuY25tc3RsLm5ldCUyRmNlcnQlMkZjb2RlJTNGc24lM0QwYzRhMTRiYzgzZDA0Mzg4YWI1NWQwOWZkZDc0MmY4NiJ9encoded}"
+              - img [ref=e60]
+            - link [ref=e61]:
+              - /url: javascript:void(0);
+              - img [ref=e62]

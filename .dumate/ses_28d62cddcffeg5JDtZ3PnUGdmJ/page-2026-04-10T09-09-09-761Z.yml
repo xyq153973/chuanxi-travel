@@ -1,0 +1,544 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skip-link-target"
+  - link "An Informa TechTarget Publication" [ref=e6] [cursor=pointer]:
+    - /url: https://www.informatechtarget.com/
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - navigation "Site menu" [ref=e9]:
+        - generic [ref=e10]:
+          - link "MedTech Dive" [ref=e12] [cursor=pointer]:
+            - /url: "#top"
+            - img "MedTech Dive" [ref=e13]
+          - generic [ref=e14]:
+            - link "Sign up" [ref=e15] [cursor=pointer]:
+              - /url: /signup/?signup_location=header&signup_path=/
+            - button "menu" [ref=e16] [cursor=pointer]:
+              - img "menu" [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e23]:
+          - generic [ref=e25]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e26]:
+              - 'link "One year in: How medtech companies are coping with tariff challenges" [ref=e27] [cursor=pointer]':
+                - /url: /news/one-year-in-how-medtech-companies-are-coping-with-tariff-challenges/816982/
+                - img "A crowd watches the president sign an executive order in the Rose Garden of the White House." [ref=e28]
+              - generic:
+                - img "Image attribution tooltip" [ref=e29]
+                - img "Image attribution tooltip" [ref=e30]
+            - generic [ref=e31]: Deep Dive
+            - 'heading "One year in: How medtech companies are coping with tariff challenges" [level=1] [ref=e32]':
+              - 'link "One year in: How medtech companies are coping with tariff challenges" [ref=e33] [cursor=pointer]':
+                - /url: /news/one-year-in-how-medtech-companies-are-coping-with-tariff-challenges/816982/
+            - paragraph [ref=e34]:
+              - text: A resilient medtech industry navigating the fallout from President Donald Trump’s trade wars is taking proactive steps to manage tariff costs as the administration’s policies continue to evolve.
+              - link "Read more ➔" [ref=e35] [cursor=pointer]:
+                - /url: /news/one-year-in-how-medtech-companies-are-coping-with-tariff-challenges/816982/
+          - generic [ref=e37]:
+            - heading "Top stories" [level=2] [ref=e38]
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - heading "FDA, medtech industry near MDUFA VI agreement" [level=3] [ref=e41]:
+                  - link "FDA, medtech industry near MDUFA VI agreement" [ref=e42] [cursor=pointer]:
+                    - /url: /news/fda-medtech-industry-near-mdufa-vi-agreement/817131/
+              - listitem [ref=e43]:
+                - heading "E2 raises $80M to market thrombectomy platform" [level=3] [ref=e44]:
+                  - link "E2 raises $80M to market thrombectomy platform" [ref=e45] [cursor=pointer]:
+                    - /url: /news/endovascular-engineering-e2-80M-funding-round-mechanical-thrombectomy/817138/
+              - listitem [ref=e46]:
+                - heading "Judge allows states’ lawsuit over HHS restructuring to move forward" [level=3] [ref=e47]:
+                  - link "Judge allows states’ lawsuit over HHS restructuring to move forward" [ref=e48] [cursor=pointer]:
+                    - /url: /news/judge-allows-states-lawsuit-hhs-restructuring-layoffs-move-forward/817117/
+              - listitem [ref=e49]:
+                - heading "CDRH targets hospital readmissions with home device innovation challenge" [level=3] [ref=e50]:
+                  - link "CDRH targets hospital readmissions with home device innovation challenge" [ref=e51] [cursor=pointer]:
+                    - /url: /news/cdrh-targets-hospital-readmissions-with-home-device-innovation-challenge/817071/
+              - listitem [ref=e52]:
+                - heading "Hologic hires former Baxter leader José Almeida as CEO" [level=3] [ref=e53]:
+                  - link "Hologic hires former Baxter leader José Almeida as CEO" [ref=e54] [cursor=pointer]:
+                    - /url: /news/hologic-hires-ex-baxter-leader-jose-almeida-as-ceo/816919/
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - generic [ref=e64]:
+              - iframe
+          - listitem [ref=e65]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e67]:
+              - link "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall" [ref=e68] [cursor=pointer]:
+                - /url: /news/philips-warns-not-to-use-certain-nebulizers-in-trilogy-evo-ventilator-recal/816981/
+                - img "Philips, Trilogy, evo, respirator" [ref=e69]
+              - generic:
+                - img "Image attribution tooltip" [ref=e70]
+                - img "Image attribution tooltip" [ref=e71]
+            - generic [ref=e72]:
+              - heading "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall" [level=3] [ref=e73]:
+                - link "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall" [ref=e74] [cursor=pointer]:
+                  - /url: /news/philips-warns-not-to-use-certain-nebulizers-in-trilogy-evo-ventilator-recal/816981/
+              - paragraph [ref=e75]: Using non-pneumatic nebulizers with the ventilators can lead to under-delivery of therapy to patients, the company said.
+              - text: Updated 18 hours ago
+              - link "Medical Devices" [ref=e77] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e78]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e80]:
+              - link "UK steps up push to align medtech regulations with the US" [ref=e81] [cursor=pointer]:
+                - /url: /news/uk-steps-up-push-to-align-medtech-regulations-with-the-us/816790/
+                - img "A skyline shot of a large city, bifurcated by a large river." [ref=e82]
+              - generic:
+                - img "Image attribution tooltip" [ref=e83]
+                - img "Image attribution tooltip" [ref=e84]
+            - generic [ref=e85]:
+              - heading "UK steps up push to align medtech regulations with the US" [level=3] [ref=e86]:
+                - link "UK steps up push to align medtech regulations with the US" [ref=e87] [cursor=pointer]:
+                  - /url: /news/uk-steps-up-push-to-align-medtech-regulations-with-the-us/816790/
+              - paragraph [ref=e88]: Health regulators on both sides of the Atlantic are assessing alignment opportunities and exploring mutual recognition mechanisms.
+              - link "Medical Devices" [ref=e90] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e91]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e93]:
+              - link "‘Cracks show’ as CDRH staff contend with heavy workloads" [ref=e94] [cursor=pointer]:
+                - /url: /news/cracks-show-as-cdrh-staff-contend-with-heavy-workloads/815847/
+                - img "A stylized collage centers on a handheld medical device resembling a glucose monitor, overlaid on bold red and blue geometric shapes, with faint overhead images of empty office desks in the background and the word “REJECTED” repeated in gray text." [ref=e95]
+              - generic:
+                - img "Image attribution tooltip" [ref=e96]
+                - img "Image attribution tooltip" [ref=e97]
+            - generic [ref=e98]:
+              - generic [ref=e99]: Deep Dive
+              - heading "‘Cracks show’ as CDRH staff contend with heavy workloads" [level=3] [ref=e100]:
+                - link "‘Cracks show’ as CDRH staff contend with heavy workloads" [ref=e101] [cursor=pointer]:
+                  - /url: /news/cracks-show-as-cdrh-staff-contend-with-heavy-workloads/815847/
+              - paragraph [ref=e102]: Former device leaders said a culture of “fear and anxiety” has driven experienced staff from the Food and Drug Administration. An overburdened workforce has affected communications from the agency.
+              - link "Medical Devices" [ref=e104] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e105]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e107]:
+              - 'link "Digital health funding concentrates in fewer startups: report" [ref=e108] [cursor=pointer]':
+                - /url: /news/digital-health-funding-concentrates-fewer-startups-q1-2026-rock-health/816933/
+                - img "A stethoscope rests on a pile of $100 bills." [ref=e109]
+              - generic:
+                - img "Image attribution tooltip" [ref=e110]
+                - img "Image attribution tooltip" [ref=e111]
+            - generic [ref=e112]:
+              - 'heading "Digital health funding concentrates in fewer startups: report" [level=3] [ref=e113]':
+                - 'link "Digital health funding concentrates in fewer startups: report" [ref=e114] [cursor=pointer]':
+                  - /url: /news/digital-health-funding-concentrates-fewer-startups-q1-2026-rock-health/816933/
+              - paragraph [ref=e115]: Companies raised $4 billion in the first quarter, an increase of $1 billion over the prior year, according to Rock Health. But nearly 60% of the capital deployed came from 12 large deals.
+              - link "Digital Health" [ref=e117] [cursor=pointer]:
+                - /url: /topic/digital-health/
+          - listitem [ref=e118]:
+            - generic [ref=e123]:
+              - iframe
+          - listitem [ref=e124]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e126]:
+              - link "J&J launches enhanced PFA device in Europe" [ref=e127] [cursor=pointer]:
+                - /url: /news/Johnson-jnj-varipulse-pro-pfa-pulsed-field-ablation-ce-mark/816836/
+                - img "A picture of a blue pulsed field ablation catheter against a gray background." [ref=e128]
+              - generic:
+                - img "Image attribution tooltip" [ref=e129]
+                - img "Image attribution tooltip" [ref=e130]
+            - generic [ref=e131]:
+              - heading "J&J launches enhanced PFA device in Europe" [level=3] [ref=e132]:
+                - link "J&J launches enhanced PFA device in Europe" [ref=e133] [cursor=pointer]:
+                  - /url: /news/Johnson-jnj-varipulse-pro-pfa-pulsed-field-ablation-ce-mark/816836/
+              - paragraph [ref=e134]: The Varipulse Pro pulsed field ablation platform, which has received a CE mark, will be a focus at the upcoming European Heart Rhythm Association annual meeting in Paris.
+              - link "Medical Devices" [ref=e136] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e137]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e139]:
+              - link "Zimmer hires chief science, technology and medical affairs officer" [ref=e140] [cursor=pointer]:
+                - /url: /news/zimmer-hires-chief-science-technology-and-medical-affairs-officer/816841/
+                - img "Zimmer Biomet's Rosa robotic surgery system." [ref=e141]
+              - generic:
+                - img "Image attribution tooltip" [ref=e142]
+                - img "Image attribution tooltip" [ref=e143]
+            - generic [ref=e144]:
+              - heading "Zimmer hires chief science, technology and medical affairs officer" [level=3] [ref=e145]:
+                - link "Zimmer hires chief science, technology and medical affairs officer" [ref=e146] [cursor=pointer]:
+                  - /url: /news/zimmer-hires-chief-science-technology-and-medical-affairs-officer/816841/
+              - paragraph [ref=e147]: Jonathan Vigdorchik, an orthopedic surgeon from the Hospital for Special Surgery, previously was chief medical technology adviser for the company.
+              - link "Medical Devices" [ref=e149] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e150]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e152]:
+              - link "VDyne secures FDA nod to start pivotal trial for tricuspid valve" [ref=e153] [cursor=pointer]:
+                - /url: /news/vdyne-fda-ide-approval-tricuspid-valve-replacement/816750/
+                - img "FDA" [ref=e154]
+              - generic:
+                - img "Image attribution tooltip" [ref=e155]
+                - img "Image attribution tooltip" [ref=e156]
+            - generic [ref=e157]:
+              - heading "VDyne secures FDA nod to start pivotal trial for tricuspid valve" [level=3] [ref=e158]:
+                - link "VDyne secures FDA nod to start pivotal trial for tricuspid valve" [ref=e159] [cursor=pointer]:
+                  - /url: /news/vdyne-fda-ide-approval-tricuspid-valve-replacement/816750/
+              - paragraph [ref=e160]: With approval to study the transcatheter replacement device in patients with severe tricuspid regurgitation, VDyne is advancing a treatment to compete with Edwards Lifesciences’ Evoque system.
+              - link "Clinical Trials" [ref=e162] [cursor=pointer]:
+                - /url: /topic/clinical-trials/
+          - listitem [ref=e163]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e165]:
+              - link "Hologic CEO Steve MacMillan to retire after go-private deal" [ref=e166] [cursor=pointer]:
+                - /url: /news/hologic-ceo-steve-macmillan-to-retire-after-go-private-deal/816710/
+                - img "Professional photo of Steve MacMillan" [ref=e167]
+              - generic:
+                - img "Image attribution tooltip" [ref=e168]
+                - img "Image attribution tooltip" [ref=e169]
+            - generic [ref=e170]:
+              - heading "Hologic CEO Steve MacMillan to retire after go-private deal" [level=3] [ref=e171]:
+                - link "Hologic CEO Steve MacMillan to retire after go-private deal" [ref=e172] [cursor=pointer]:
+                  - /url: /news/hologic-ceo-steve-macmillan-to-retire-after-go-private-deal/816710/
+              - paragraph [ref=e173]: The $18.3 billion acquisition by Blackstone and TPG is expected to close Tuesday.
+              - link "Medical Devices" [ref=e175] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e176]:
+            - generic [ref=e181]:
+              - iframe
+          - listitem [ref=e182]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e184]:
+              - link "Boston Scientific closes buyout of Valencia Technologies" [ref=e185] [cursor=pointer]:
+                - /url: /news/boston-scientific-closes-buyout-of-valencia-technologies/816669/
+                - img "Boston Scientific's headquarters building is shown." [ref=e186]
+              - generic:
+                - img "Image attribution tooltip" [ref=e187]
+                - img "Image attribution tooltip" [ref=e188]
+            - generic [ref=e189]:
+              - heading "Boston Scientific closes buyout of Valencia Technologies" [level=3] [ref=e190]:
+                - link "Boston Scientific closes buyout of Valencia Technologies" [ref=e191] [cursor=pointer]:
+                  - /url: /news/boston-scientific-closes-buyout-of-valencia-technologies/816669/
+              - paragraph [ref=e192]: The deal positions Boston Scientific to compete with Medtronic for a market that analysts believe is highly under-penetrated.
+              - link "Medical Devices" [ref=e194] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e195]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e197]:
+              - link "White House seeks 12% cut to HHS in 2027" [ref=e198] [cursor=pointer]:
+                - /url: /news/white-house-hhs-2027-fiscal-year-budget-request-12-percent-cut/816678/
+                - img "CFPB earned wage access income employees regulations Russell Vought" [ref=e199]
+              - generic:
+                - img "Image attribution tooltip" [ref=e200]
+                - img "Image attribution tooltip" [ref=e201]
+            - generic [ref=e202]:
+              - heading "White House seeks 12% cut to HHS in 2027" [level=3] [ref=e203]:
+                - link "White House seeks 12% cut to HHS in 2027" [ref=e204] [cursor=pointer]:
+                  - /url: /news/white-house-hhs-2027-fiscal-year-budget-request-12-percent-cut/816678/
+              - paragraph [ref=e205]: The Trump administration is requesting about $111 billion in discretionary funding for the HHS, nearly $16 billion less than its budget in 2026.
+          - listitem [ref=e206]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e208]:
+              - link "Scientists urge EPA not to weaken ethylene oxide emissions standards" [ref=e209] [cursor=pointer]:
+                - /url: /news/scientists-urge-epa-not-to-weaken-ethylene-oxide-emissions-standards/816609/
+                - img "Entrance to a neoclassical building facade that reads \"Environmental Protection Agency. \"" [ref=e210]
+              - generic:
+                - img "Image attribution tooltip" [ref=e211]
+                - img "Image attribution tooltip" [ref=e212]
+            - generic [ref=e213]:
+              - heading "Scientists urge EPA not to weaken ethylene oxide emissions standards" [level=3] [ref=e214]:
+                - link "Scientists urge EPA not to weaken ethylene oxide emissions standards" [ref=e215] [cursor=pointer]:
+                  - /url: /news/scientists-urge-epa-not-to-weaken-ethylene-oxide-emissions-standards/816609/
+              - paragraph [ref=e216]: Scientists, clinicians and residents of communities near medical device sterilization plants called for the EPA not to weaken its oversight of ethylene oxide in a public hearing.
+              - link "Medical Devices" [ref=e218] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e219]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e221]:
+              - link "Restore Robotics cleared to remanufacture 2 more da Vinci Xi instruments" [ref=e222] [cursor=pointer]:
+                - /url: /news/restore-robotics-fda-510k-clearance-remanufacture-intuitive-surgical-da-vinci-instruments/816611/
+                - img "A sign for the Food And Drug Administration is seen outside of the headquarters on July 20, 2020 in White Oak, Maryland." [ref=e223]
+              - generic:
+                - img "Image attribution tooltip" [ref=e224]
+                - img "Image attribution tooltip" [ref=e225]
+            - generic [ref=e226]:
+              - heading "Restore Robotics cleared to remanufacture 2 more da Vinci Xi instruments" [level=3] [ref=e227]:
+                - link "Restore Robotics cleared to remanufacture 2 more da Vinci Xi instruments" [ref=e228] [cursor=pointer]:
+                  - /url: /news/restore-robotics-fda-510k-clearance-remanufacture-intuitive-surgical-da-vinci-instruments/816611/
+              - paragraph [ref=e229]: The remanufacturer said it now has a total of four clearances for Intuitive Surgical da Vinci instruments from the Food and Drug Administration.
+              - link "Medical Devices" [ref=e231] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e232]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e234]:
+              - link "Trump adjusts tariffs for steel, aluminum, copper" [ref=e235] [cursor=pointer]:
+                - /url: /news/trump-steel-aluminum-copper-tariff-adjustments/816583/
+                - img "President Donald Trump walks while adjusting his tie." [ref=e236]
+              - generic:
+                - img "Image attribution tooltip" [ref=e237]
+                - img "Image attribution tooltip" [ref=e238]
+            - generic [ref=e239]:
+              - heading "Trump adjusts tariffs for steel, aluminum, copper" [level=3] [ref=e240]:
+                - link "Trump adjusts tariffs for steel, aluminum, copper" [ref=e241] [cursor=pointer]:
+                  - /url: /news/trump-steel-aluminum-copper-tariff-adjustments/816583/
+              - paragraph [ref=e242]: Goods made entirely of the metals will still face a 50% tariff, but the levy will be reduced to 25% for certain derivative goods, effective April 6.
+          - listitem [ref=e243]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e245]:
+              - link "Merit Medical acquires View Point for $140M" [ref=e246] [cursor=pointer]:
+                - /url: /news/merit-medical-acquires-view-point-for-140m/816430/
+                - img "Kiromic cancer tumors cells" [ref=e247]
+              - generic:
+                - img "Image attribution tooltip" [ref=e248]
+                - img "Image attribution tooltip" [ref=e249]
+            - generic [ref=e250]:
+              - heading "Merit Medical acquires View Point for $140M" [level=3] [ref=e251]:
+                - link "Merit Medical acquires View Point for $140M" [ref=e252] [cursor=pointer]:
+                  - /url: /news/merit-medical-acquires-view-point-for-140m/816430/
+              - paragraph [ref=e253]: View Point sells tumor tissue localization devices that could complement Merit’s existing presence in the sector.
+              - link "Medical Devices" [ref=e255] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e256]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e258]:
+              - link "J&J’s Impella heart pump shows no patient benefit in 2 trials" [ref=e259] [cursor=pointer]:
+                - /url: /news/johnson-jnj-impella-heart-pump-ACC-no-patient-benefit-2-trials/816332/
+                - img "Johnson & Johnson's Impella CP heart pump is shown in an illustration of the heart." [ref=e260]
+              - generic:
+                - img "Image attribution tooltip" [ref=e261]
+                - img "Image attribution tooltip" [ref=e262]
+            - generic [ref=e263]:
+              - heading "J&J’s Impella heart pump shows no patient benefit in 2 trials" [level=3] [ref=e264]:
+                - link "J&J’s Impella heart pump shows no patient benefit in 2 trials" [ref=e265] [cursor=pointer]:
+                  - /url: /news/johnson-jnj-impella-heart-pump-ACC-no-patient-benefit-2-trials/816332/
+              - paragraph [ref=e266]: Study investigators cautioned against routine use of the device in complex percutaneous coronary interventions and to treat heart attack patients who don’t have cardiogenic shock.
+              - link "Clinical Trials" [ref=e268] [cursor=pointer]:
+                - /url: /topic/clinical-trials/
+          - listitem [ref=e269]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e271]:
+              - link "Distalmotion targets ASC robotic gynecology programs with FDA filing" [ref=e272] [cursor=pointer]:
+                - /url: /news/distalmotion-targets-asc-robotic-gynecology-programs-with-fda-filing/816296/
+                - img "Two clinicians operate Distalmotion's Dexter robotic system in an operating room." [ref=e273]
+              - generic:
+                - img "Image attribution tooltip" [ref=e274]
+                - img "Image attribution tooltip" [ref=e275]
+            - generic [ref=e276]:
+              - heading "Distalmotion targets ASC robotic gynecology programs with FDA filing" [level=3] [ref=e277]:
+                - link "Distalmotion targets ASC robotic gynecology programs with FDA filing" [ref=e278] [cursor=pointer]:
+                  - /url: /news/distalmotion-targets-asc-robotic-gynecology-programs-with-fda-filing/816296/
+              - paragraph [ref=e279]: The company is seeking clearance in additional gynecological indications to support outpatient use of its surgical robot.
+              - link "Medical Devices" [ref=e281] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e282]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e284]:
+              - link "Medtronic to study renal denervation combined with PCI" [ref=e285] [cursor=pointer]:
+                - /url: /news/medtronic-acc-study-renal-denervation-symplicity-spyral-PCI/816166/
+                - img "Medtronic's Symplicity Spyral device is shown against a white background." [ref=e286]
+              - generic:
+                - img "Image attribution tooltip" [ref=e287]
+                - img "Image attribution tooltip" [ref=e288]
+            - generic [ref=e289]:
+              - heading "Medtronic to study renal denervation combined with PCI" [level=3] [ref=e290]:
+                - link "Medtronic to study renal denervation combined with PCI" [ref=e291] [cursor=pointer]:
+                  - /url: /news/medtronic-acc-study-renal-denervation-symplicity-spyral-PCI/816166/
+              - paragraph [ref=e292]: Medtronic detailed plans to further study the blood pressure treatment while releasing additional data from the SPYRAL HTN trials that showed the procedure reduced hypertensive emergencies.
+              - link "Clinical Trials" [ref=e294] [cursor=pointer]:
+                - /url: /topic/clinical-trials/
+          - listitem [ref=e295]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e297]:
+              - link "Whoop raises $575M, adds Abbott as strategic investor" [ref=e298] [cursor=pointer]:
+                - /url: /news/whoop-raises-575m-adds-abbott-as-strategic-investor/816229/
+                - img "A person hits a soccer ball with their head while wearing a wristband." [ref=e299]
+              - generic:
+                - img "Image attribution tooltip" [ref=e300]
+                - img "Image attribution tooltip" [ref=e301]
+            - generic [ref=e302]:
+              - heading "Whoop raises $575M, adds Abbott as strategic investor" [level=3] [ref=e303]:
+                - link "Whoop raises $575M, adds Abbott as strategic investor" [ref=e304] [cursor=pointer]:
+                  - /url: /news/whoop-raises-575m-adds-abbott-as-strategic-investor/816229/
+              - paragraph [ref=e305]: Whoop, the maker of a wearable wristband, plans to use the funds for global expansion and personalized health features.
+              - link "Medical Devices" [ref=e307] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e308]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e310]:
+              - link "Medtronic wins CE mark for OmniaSecure defibrillation lead" [ref=e311] [cursor=pointer]:
+                - /url: /news/medtronic-wins-ce-mark-for-omniasecure-defibrillation-lead/816175/
+                - img "The exterior of Medtronic's Minnesota operational headquarters is shown along with its reflection in a pool of water." [ref=e312]
+              - generic:
+                - img "Image attribution tooltip" [ref=e313]
+                - img "Image attribution tooltip" [ref=e314]
+            - generic [ref=e315]:
+              - heading "Medtronic wins CE mark for OmniaSecure defibrillation lead" [level=3] [ref=e316]:
+                - link "Medtronic wins CE mark for OmniaSecure defibrillation lead" [ref=e317] [cursor=pointer]:
+                  - /url: /news/medtronic-wins-ce-mark-for-omniasecure-defibrillation-lead/816175/
+              - paragraph [ref=e318]: The device maker designed the lead to have the safety benefits of small-diameter devices without sacrificing durability.
+              - link "Medical Devices" [ref=e320] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e321]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e323]:
+              - link "Boston Scientific posts positive stroke prevention data for Watchman" [ref=e324] [cursor=pointer]:
+                - /url: /news/boston-scientific-watchman-champion-af-study-stroke-prevention-ACC/816099/
+                - img "A rendering of a rounded device with a wire structure surrounded by mesh." [ref=e325]
+              - generic:
+                - img "Image attribution tooltip" [ref=e326]
+                - img "Image attribution tooltip" [ref=e327]
+            - generic [ref=e328]:
+              - heading "Boston Scientific posts positive stroke prevention data for Watchman" [level=3] [ref=e329]:
+                - link "Boston Scientific posts positive stroke prevention data for Watchman" [ref=e330] [cursor=pointer]:
+                  - /url: /news/boston-scientific-watchman-champion-af-study-stroke-prevention-ACC/816099/
+              - paragraph [ref=e331]: The company said it will seek an expanded indication for the left atrial appendage closure device after it met all safety and efficacy goals in the closely watched CHAMPION-AF study.
+              - link "Clinical Trials" [ref=e333] [cursor=pointer]:
+                - /url: /topic/clinical-trials/
+          - listitem [ref=e334]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e336]:
+              - link "Medtronic wins FDA clearance for robot in cranial, ENT surgeries" [ref=e337] [cursor=pointer]:
+                - /url: /news/medtronic-wins-fda-clearance-for-robot-in-cranial-ent-surgeries/816055/
+                - img "Medtronic's Stealth AXiS system." [ref=e338]
+              - generic:
+                - img "Image attribution tooltip" [ref=e339]
+                - img "Image attribution tooltip" [ref=e340]
+            - generic [ref=e341]:
+              - heading "Medtronic wins FDA clearance for robot in cranial, ENT surgeries" [level=3] [ref=e342]:
+                - link "Medtronic wins FDA clearance for robot in cranial, ENT surgeries" [ref=e343] [cursor=pointer]:
+                  - /url: /news/medtronic-wins-fda-clearance-for-robot-in-cranial-ent-surgeries/816055/
+              - paragraph [ref=e344]: The surgical navigation and robotics system is part of the company’s push to expand its share of the $15 billion cranial and spinal technologies market.
+              - link "Medical Devices" [ref=e346] [cursor=pointer]:
+                - /url: /topic/medical-devices/
+          - listitem [ref=e347]:
+            - figure "Image attribution tooltip Image attribution tooltip" [ref=e349]:
+              - link "Glucotrack plans US trial of implantable glucose monitor this year" [ref=e350] [cursor=pointer]:
+                - /url: /news/glucotrack-plans-us-trial-of-implantable-glucose-monitor-this-year/816006/
+                - img "A rectangular, metallic device on a catheter sites next to three nickels." [ref=e351]
+              - generic:
+                - img "Image attribution tooltip" [ref=e352]
+                - img "Image attribution tooltip" [ref=e353]
+            - generic [ref=e354]:
+              - heading "Glucotrack plans US trial of implantable glucose monitor this year" [level=3] [ref=e355]:
+                - link "Glucotrack plans US trial of implantable glucose monitor this year" [ref=e356] [cursor=pointer]:
+                  - /url: /news/glucotrack-plans-us-trial-of-implantable-glucose-monitor-this-year/816006/
+              - paragraph [ref=e357]: Glucotrack plans to file for an investigational device exemption in the second quarter, with hopes of starting a trial in the second half of 2026.
+              - link "Clinical Trials" [ref=e359] [cursor=pointer]:
+                - /url: /topic/clinical-trials/
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - heading "MedTech Dive news delivered to your inbox" [level=3] [ref=e365]
+          - paragraph [ref=e366]: Get the free daily newsletter read by industry experts
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - generic [ref=e369]: "Email:"
+              - textbox "Email:" [ref=e370]:
+                - /placeholder: Work email address
+            - button "Sign up" [ref=e371] [cursor=pointer]
+        - img "Daily Dive newsletter example" [ref=e373]
+      - separator [ref=e374]
+      - contentinfo [ref=e375]:
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - img "MedTech Dive Logo" [ref=e380]
+            - list [ref=e381]:
+              - listitem [ref=e382]:
+                - link "Industry Dive LinkedIn" [ref=e383] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/medtech-dive/
+                  - img "linkedin icon" [ref=e384]
+              - listitem [ref=e385]:
+                - link "Industry Dive Facebook" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MedTechDive/
+                  - img "facebook icon" [ref=e387]
+              - listitem [ref=e388]:
+                - link "Industry Dive X/Twitter" [ref=e389] [cursor=pointer]:
+                  - /url: https://twitter.com/MedTechDive
+                  - img "x icon" [ref=e390]
+              - listitem [ref=e391]:
+                - link "Industry Dive RSS feed" [ref=e392] [cursor=pointer]:
+                  - /url: https://www.medtechdive.com/feeds/news/
+                  - img "rss feed icon" [ref=e393]
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - heading "Explore" [level=4] [ref=e396]
+              - list [ref=e397]:
+                - listitem [ref=e398]:
+                  - link "About" [ref=e399] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e400]:
+                  - link "Editorial Team" [ref=e401] [cursor=pointer]:
+                    - /url: /editors/
+                - listitem [ref=e402]:
+                  - link "Contact Us" [ref=e403] [cursor=pointer]:
+                    - /url: /contact/
+                - listitem [ref=e404]:
+                  - link "Newsletter" [ref=e405] [cursor=pointer]:
+                    - /url: /signup/?signup_location=footer-list&signup_path=/
+                - listitem [ref=e406]:
+                  - link "Purchase Licensing Rights" [ref=e407] [cursor=pointer]:
+                    - /url: /selfservice/article-licensing/submit/
+                - listitem [ref=e408]:
+                  - link "Press Releases" [ref=e409] [cursor=pointer]:
+                    - /url: /press-release/
+                - listitem [ref=e410]:
+                  - link "What We’re Reading" [ref=e411] [cursor=pointer]:
+                    - /url: /what-we-are-reading/
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - heading "Reach our audience" [level=4] [ref=e414]
+                - list [ref=e415]:
+                  - listitem [ref=e416]:
+                    - link "Advertising" [ref=e417] [cursor=pointer]:
+                      - /url: /advertise/
+                  - listitem [ref=e418]:
+                    - link "Post a press release" [ref=e419] [cursor=pointer]:
+                      - /url: /press-release/get-started/
+                  - listitem [ref=e420]:
+                    - link "Promote an event" [ref=e421] [cursor=pointer]:
+                      - /url: /selfservice/event-listings/contact
+              - generic [ref=e422]:
+                - heading "Related Publications" [level=4] [ref=e423]
+                - list [ref=e424]:
+                  - listitem [ref=e425]:
+                    - link "BioPharma Dive" [ref=e426] [cursor=pointer]:
+                      - /url: https://www.biopharmadive.com/
+                  - listitem [ref=e427]:
+                    - link "Healthcare Dive" [ref=e428] [cursor=pointer]:
+                      - /url: https://www.healthcaredive.com/
+                  - listitem [ref=e429]:
+                    - link "Xtelligent Health IT" [ref=e430] [cursor=pointer]:
+                      - /url: https://techtarget.com/searchhealthit//
+      - separator [ref=e431]
+      - generic [ref=e432]:
+        - generic [ref=e433]:
+          - link "Informa TechTarget":
+            - /url: https://www.informatechtarget.com
+            - img "Informa TechTarget"
+        - generic [ref=e434]:
+          - generic [ref=e435]:
+            - text: This website is owned and operated by
+            - link "Informa TechTarget" [ref=e436] [cursor=pointer]:
+              - /url: https://www.informatechtarget.com/
+            - text: ", a global network that informs, influences and connects the world’s technology buyers and sellers."
+          - generic [ref=e438]:
+            - text: © 2025 TechTarget, Inc. or its subsidiaries. All rights reserved. An Informa PLC company.
+            - link "Privacy policy" [ref=e439] [cursor=pointer]:
+              - /url: https://www.informatechtarget.com/privacy-policy/
+            - text: "|"
+            - link "Terms of use" [ref=e440] [cursor=pointer]:
+              - /url: https://www.informatechtarget.com/terms-of-use/
+            - text: "|"
+            - link "Take down policy" [ref=e441] [cursor=pointer]:
+              - /url: https://www.industrydive.com/takedown-policy/
+            - text: "|"
+            - link "Cookie Preferences / Do Not Sell" [ref=e442] [cursor=pointer]:
+              - /url: "#"
+  - navigation [ref=e443]:
+    - generic [ref=e444]:
+      - button "close menu" [ref=e445] [cursor=pointer]:
+        - img "close menu" [ref=e446]
+      - generic [ref=e448]:
+        - generic [ref=e449]:
+          - generic [ref=e450]: Search
+          - searchbox "Search" [ref=e451]
+        - button "search" [ref=e452] [cursor=pointer]:
+          - img "search" [ref=e453]
+    - list [ref=e454]:
+      - listitem [ref=e455]:
+        - link "Home" [ref=e456] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e457]:
+        - button "Topics down arrow" [ref=e458] [cursor=pointer]:
+          - text: Topics
+          - img "down arrow" [ref=e460]
+      - listitem [ref=e461]:
+        - link "Deep Dive" [ref=e462] [cursor=pointer]:
+          - /url: /deep-dive/
+      - listitem [ref=e463]:
+        - link "Library" [ref=e464] [cursor=pointer]:
+          - /url: /library/
+      - listitem [ref=e465]:
+        - link "Events" [ref=e466] [cursor=pointer]:
+          - /url: /events/
+      - listitem [ref=e467]:
+        - link "Press Releases" [ref=e468] [cursor=pointer]:
+          - /url: /press-release/
+    - generic [ref=e471]:
+      - heading "Get MedTech Dive in your inbox" [level=3] [ref=e472]
+      - paragraph [ref=e473]: The free newsletter covering the top industry headlines
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - generic [ref=e476]: "Email:"
+          - textbox "Email:" [ref=e477]:
+            - /placeholder: Work email address
+        - button "Sign up" [ref=e478] [cursor=pointer]

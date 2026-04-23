@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - heading "辅导验收考试复习系统" [level=1] [ref=e5]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: "0"
+        - generic [ref=e10]: 总答题数
+      - generic [ref=e11]:
+        - generic [ref=e12]: 0%
+        - generic [ref=e13]: 正确率
+      - generic [ref=e14]:
+        - generic [ref=e15]: "0"
+        - generic [ref=e16]: 考试次数
+      - generic [ref=e17]:
+        - generic [ref=e18]: "0"
+        - generic [ref=e19]: 错题数
+    - generic [ref=e20]:
+      - generic [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: ⏱️
+        - heading "计时仿真考试" [level=3] [ref=e23]
+        - paragraph [ref=e24]: 20题/60分钟，模拟真实考试环境，交卷后显示成绩和错题
+      - generic [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: 📝
+        - heading "自由随机考试" [level=3] [ref=e27]
+        - paragraph [ref=e28]: 随机出题，无时间限制，即时显示对错
+      - generic [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: ❌
+        - heading "错题集" [level=3] [ref=e31]
+        - paragraph [ref=e32]: 查看错题、AI解析、反复练习
+      - generic [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: ⭐
+        - heading "收藏夹" [level=3] [ref=e35]
+        - paragraph [ref=e36]: 查看收藏的题目
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: 📊
+        - heading "学习统计" [level=3] [ref=e39]
+        - paragraph [ref=e40]: 查看学习进度和正确率趋势
+      - generic [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: 💾
+        - heading "数据管理" [level=3] [ref=e43]
+        - paragraph [ref=e44]: 导出/导入数据，备份到网盘

@@ -1,0 +1,67 @@
+[    2177ms] [LOG] You are using the Lytics Prod account @ https://www.medtechdive.com/:15
+[    4651ms] [LOG] Cookie blocked: _twpid @ https://www.medtechdive.com/:15
+[    4651ms] [LOG] Cookie blocked: _twpid @ https://www.medtechdive.com/:15
+[    6111ms] [LOG] CHECK FIELD: signup_box_location    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_initial_url_path    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: email id_f71e23_email work email address  | type: email @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: user_consent id_user_consent   | type: checkbox @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD:  signup-inter-submit   | type: submit @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: q search-desktop search 
+                search
+             | type: search @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: email id_2b88d9_email work email address 
+                    email:
+                    
+                 | type: email @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_box_location    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_initial_url_path    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_internal_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_external_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: referral_url    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: js_enabled id_2b88d9_js_enabled   | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: user_consent id_user_consent-sidebar  
+                            
+                                
+    by signing up to receive our newsletter, you agree to our
+    terms of use and
+    privacy policy. you can unsubscribe at anytime.
+
+
+                            
+                         | type: checkbox @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: email id_f23429_email work email address email: | type: email @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_box_location    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_initial_url_path    | type: hidden @ https://www.medtechdive.com/:15
+[    6112ms] [LOG] CHECK FIELD: signup_internal_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: signup_external_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: referral_url    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: js_enabled id_f23429_js_enabled   | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: user_consent id_user_consent-bottom  
+                            
+                                
+    by signing up to receive our newsletter, you agree to our
+    terms of use and
+    privacy policy. you can unsubscribe at anytime.
+
+
+                            
+                         | type: checkbox @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: q search-mobile search search
+  | type: search @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: email id_e73c44_email work email address email: | type: email @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: signup_box_location    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: signup_initial_url_path    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: signup_internal_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: signup_external_referrer    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: referral_url    | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: js_enabled id_e73c44_js_enabled   | type: hidden @ https://www.medtechdive.com/:15
+[    6113ms] [LOG] CHECK FIELD: user_consent id_user_consent-integrated_menu  
+                            
+                                
+    by signing up to receive our newsletter, you agree to our
+    terms of use and
+    privacy policy. you can unsubscribe at anytime.
+
+
+                            
+                         | type: checkbox @ https://www.medtechdive.com/:15

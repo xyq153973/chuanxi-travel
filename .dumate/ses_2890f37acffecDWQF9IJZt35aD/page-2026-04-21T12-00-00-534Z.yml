@@ -1,0 +1,54 @@
+- generic [ref=e5]:
+  - banner [ref=e8]:
+    - generic [ref=e10]:
+      - link "logo" [ref=e13] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - img "logo" [ref=e14]
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic "航班选择" [ref=e20]
+        - generic [ref=e21]:
+          - img [ref=e22]
+          - generic "旅客信息" [ref=e23]
+        - generic [ref=e24]:
+          - img [ref=e25]
+          - generic "我的购物车" [ref=e26]
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - generic "支付出票" [ref=e29]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - text:        
+          - link "会员 | 订单" [ref=e36] [cursor=pointer]:
+            - /url: javascript:;
+          - text: 
+        - listitem [ref=e37]:
+          - link "Language & Currency" [ref=e38] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e40]
+            - generic [ref=e41]: Language & Currency
+          - text:                                                                         
+      - text: 
+    - text: 
+  - generic [ref=e44]:
+    - img [ref=e46]
+    - generic [ref=e48]:
+      - paragraph [ref=e49]:
+        - generic [ref=e50]: 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com
+      - generic [ref=e51]:
+        - paragraph [ref=e52]:
+          - link "Copyright © 中国东方航空 沪ICP备 10009470号-9" [ref=e53] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn/#/Integrated/index
+        - paragraph [ref=e54]:
+          - link "沪公网安备31011202021009号" [ref=e55] [cursor=pointer]:
+            - /url: https://beian.mps.gov.cn/#/query/webSearch?code=31011202021009
+            - img [ref=e56]
+            - text: 沪公网安备31011202021009号
+        - paragraph [ref=e57]:
+          - link [ref=e58] [cursor=pointer]:
+            - /url: "/mid-page?eyJ1cmwiOiJodHRwcyUzQSUyRiUyRndlYmNlcnQuY25tc3RsLm5ldCUyRmNlcnQlMkZjb2RlJTNGc24lM0QwYzRhMTRiYzgzZDA0Mzg4YWI1NWQwOWZkZDc0MmY4NiJ9encoded}"
+            - img [ref=e59]
+          - link [ref=e60]:
+            - /url: javascript:void(0);
+            - img [ref=e61]

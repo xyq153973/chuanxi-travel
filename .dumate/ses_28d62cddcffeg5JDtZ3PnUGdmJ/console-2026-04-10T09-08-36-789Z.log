@@ -1,0 +1,9 @@
+[    4513ms] [LOG] Data Attribute API for GTM: Script loaded successfully. @ https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ:1017
+[    4840ms] [LOG] logged_in_to_sn_profile could not be retrieved from /exposed-details @ :0
+[    5908ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://connect.facebook.net/en_US/fbevents.js:0
+[   11360ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
+[   11360ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
+[   11360ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
+[   11360ms] [LOG] googletag.pubadsReady too more than 3 seconds to be available, returning. @ :0
+[   20526ms] [LOG] limitedAds is  false @ :1
+[   20526ms] [WARNING] The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettings() instead. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604080101/pubads_impl.js?cb=31097742:18

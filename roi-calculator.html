@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投资回报率（ROI）估算 - 千帆深度研究Agent</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 24px;
+            padding: 48px;
+            max-width: 1200px;
+            width: 100%;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 16px;
+            color: #8b5cf6;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            font-size: 32px;
+            color: #1a1a2e;
+            font-weight: 700;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            gap: 40px;
+            align-items: start;
+        }
+
+        /* 左侧输入区域 */
+        .input-section {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .input-group label {
+            font-size: 14px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        .input-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .input-row input[type="range"] {
+            flex: 1;
+            height: 6px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #e5e7eb;
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .input-row input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #8b5cf6;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4);
+        }
+
+        .input-row input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #8b5cf6;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4);
+        }
+
+        .value-display {
+            min-width: 90px;
+            padding: 8px 12px;
+            background: #f3f4f6;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            text-align: center;
+        }
+
+        .unit {
+            font-size: 12px;
+            color: #9ca3af;
+            font-weight: 400;
+        }
+
+        /* 中间计算区域 */
+        .calc-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .logic-explanation {
+            background: #fef3c7;
+            border-radius: 12px;
+            padding: 16px;
+            font-size: 13px;
+            color: #92400e;
+            line-height: 1.6;
+        }
+
+        .logic-explanation strong {
+            color: #b45309;
+        }
+
+        .calc-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .calc-card h3 {
+            font-size: 15px;
+            color: #1a1a2e;
+            font-weight: 600;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .calc-card h3 .icon {
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+        }
+
+        .calc-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .calc-row:last-child {
+            border-bottom: none;
+        }
+
+        .calc-label {
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        .calc-value {
+            font-size: 14px;
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+
+        .calc-value.highlight {
+            color: #8b5cf6;
+            font-size: 16px;
+        }
+
+        .time-result {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            color: white;
+        }
+
+        .time-result .label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .time-result .value {
+            font-size: 42px;
+            font-weight: 700;
+        }
+
+        .time-result .unit-text {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+
+        /* 右侧结果区域 */
+        .result-section {
+            background: #1a1a2e;
+            border-radius: 20px;
+            padding: 32px 24px;
+            text-align: center;
+            color: white;
+        }
+
+        .result-section .label {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 12px;
+        }
+
+        .result-section .amount {
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .result-section .note {
+            font-size: 12px;
+            opacity: 0.6;
+            line-height: 1.6;
+        }
+
+        .result-section .breakdown {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: left;
+        }
+
+        .result-section .breakdown-title {
+            font-size: 12px;
+            opacity: 0.6;
+            margin-bottom: 12px;
+        }
+
+        .result-section .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            margin-bottom: 8px;
+            opacity: 0.8;
+        }
+
+        /* 底部 */
+        .footer {
+            margin-top: 48px;
+            text-align: center;
+            padding-top: 32px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .footer p {
+            font-size: 16px;
+            color: #4b5563;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
+        }
+
+        .cta-button::after {
+            content: '→';
+            font-size: 18px;
+        }
+
+        /* 响应式 */
+        @media (max-width: 1000px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .result-section {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>立即开始节省成本</h1>
+            <h2>估算您的投资回报率（ROI）</h2>
+        </div>
+
+        <div class="main-content">
+            <!-- 左侧输入 -->
+            <div class="input-section">
+                <div class="input-group">
+                    <label>员工总数</label>
+                    <div class="input-row">
+                        <input type="range" id="employeeCount" min="100" max="5000" value="1000" step="100">
+                        <div class="value-display"><span id="employeeValue">1,000</span><span class="unit"> 人</span></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>使用率</label>
+                    <div class="input-row">
+                        <input type="range" id="usageRate" min="10" max="100" value="50" step="5">
+                        <div class="value-display"><span id="usageValue">50</span><span class="unit">%</span></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>每小时工资</label>
+                    <div class="input-row">
+                        <input type="range" id="hourlyWage" min="30" max="200" value="60" step="10">
+                        <div class="value-display"><span class="unit">¥</span><span id="wageValue">60</span><span class="unit">/小时</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中间计算 -->
+            <div class="calc-section">
+                <div class="logic-explanation">
+                    <strong>计算逻辑：</strong>假设每位员工每天有 4 次"答案生成"类任务和 4 次"知识检索"类任务。<strong>使用率</strong>代表用 Deep Research 完成这些任务的比例。使用率越高，节省时间越多。
+                </div>
+
+                <div class="calc-card">
+                    <h3><span class="icon">AI</span> 答案生成</h3>
+                    <div class="calc-row">
+                        <span class="calc-label">每天用工具完成</span>
+                        <span class="calc-value highlight" id="answerQueries">2次</span>
+                    </div>
+                    <div class="calc-row">
+                        <span class="calc-label">每次节省时间</span>
+                        <span class="calc-value">10分钟</span>
+                    </div>
+                    <div class="calc-row">
+                        <span class="calc-label">答案生成共节省</span>
+                        <span class="calc-value" id="answerTimeSaved">20分钟</span>
+                    </div>
+                </div>
+
+                <div class="calc-card">
+                    <h3><span class="icon">🔍</span> 知识检索</h3>
+                    <div class="calc-row">
+                        <span class="calc-label">每天用工具完成</span>
+                        <span class="calc-value highlight" id="knowledgeSearches">2次</span>
+                    </div>
+                    <div class="calc-row">
+                        <span class="calc-label">每次节省时间</span>
+                        <span class="calc-value">5分钟</span>
+                    </div>
+                    <div class="calc-row">
+                        <span class="calc-label">知识检索共节省</span>
+                        <span class="calc-value" id="knowledgeTimeSaved">10分钟</span>
+                    </div>
+                </div>
+
+                <div class="time-result">
+                    <div class="label">每位用户每日节省时间</div>
+                    <div class="value" id="dailyTimeSaved">0.5</div>
+                    <div class="unit-text">小时/工作日</div>
+                </div>
+            </div>
+
+            <!-- 右侧结果 -->
+            <div class="result-section">
+                <div class="label">每年节省金额</div>
+                <div class="amount" id="yearlySavings">¥7,200,000</div>
+                <div class="note">
+                    基于估算定价<br>
+                    适用于 <span id="userCount">1,000</span> 位用户<br>
+                    按 240 个工作日计算
+                </div>
+                <div class="breakdown">
+                    <div class="breakdown-title">计算明细</div>
+                    <div class="breakdown-item">
+                        <span>每人每天节省</span>
+                        <span id="dailyHoursPerUser">0.5小时</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>全员每天节省</span>
+                        <span id="dailyHoursTotal">500小时</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>每天节省金额</span>
+                        <span id="dailySavings">¥30,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>为您的团队解锁生成式AI与生产力提升。</p>
+            <a href="https://console.bce.baidu.com/qianfan/overview" class="cta-button" target="_blank">免费试用 千帆深度研究Agent</a>
+        </div>
+    </div>
+
+    <script>
+        // 获取DOM元素
+        const employeeSlider = document.getElementById('employeeCount');
+        const usageSlider = document.getElementById('usageRate');
+        const wageSlider = document.getElementById('hourlyWage');
+
+        const employeeValue = document.getElementById('employeeValue');
+        const usageValue = document.getElementById('usageValue');
+        const wageValue = document.getElementById('wageValue');
+
+        const answerQueries = document.getElementById('answerQueries');
+        const knowledgeSearches = document.getElementById('knowledgeSearches');
+        const answerTimeSaved = document.getElementById('answerTimeSaved');
+        const knowledgeTimeSaved = document.getElementById('knowledgeTimeSaved');
+        const dailyTimeSaved = document.getElementById('dailyTimeSaved');
+        const yearlySavings = document.getElementById('yearlySavings');
+        const userCount = document.getElementById('userCount');
+        const dailyHoursPerUser = document.getElementById('dailyHoursPerUser');
+        const dailyHoursTotal = document.getElementById('dailyHoursTotal');
+        const dailySavings = document.getElementById('dailySavings');
+
+        // 计算逻辑
+        function calculateROI() {
+            const employees = parseInt(employeeSlider.value);
+            const usageRate = parseInt(usageSlider.value) / 100;
+            const hourlyWage = parseInt(wageSlider.value);
+
+            // 假设每天有4次答案生成任务和4次知识检索任务
+            // 使用率决定用工具完成的比例
+            const maxAnswerTasks = 4;
+            const maxKnowledgeTasks = 4;
+
+            // 根据使用率计算实际用工具完成的次数
+            const answerCount = Math.round(maxAnswerTasks * usageRate);
+            const knowledgeCount = Math.round(maxKnowledgeTasks * usageRate);
+
+            // 每次节省的时间（分钟）
+            const minutesPerAnswer = 10;
+            const minutesPerKnowledge = 5;
+
+            // 计算节省的时间
+            const answerMinutes = answerCount * minutesPerAnswer;
+            const knowledgeMinutes = knowledgeCount * minutesPerKnowledge;
+            const totalMinutesPerUser = answerMinutes + knowledgeMinutes;
+            const hoursPerUserPerDay = totalMinutesPerUser / 60;
+
+            // 全员每天节省的总时间
+            const totalHoursPerDay = employees * hoursPerUserPerDay;
+
+            // 每天节省的金额
+            const dailySavingsAmount = totalHoursPerDay * hourlyWage;
+
+            // 每年节省金额（240个工作日）
+            const yearlySavingsAmount = dailySavingsAmount * 240;
+
+            // 更新显示
+            employeeValue.textContent = employees.toLocaleString();
+            usageValue.textContent = usageSlider.value;
+            wageValue.textContent = hourlyWage;
+
+            answerQueries.textContent = answerCount + '次';
+            knowledgeSearches.textContent = knowledgeCount + '次';
+            answerTimeSaved.textContent = answerMinutes + '分钟';
+            knowledgeTimeSaved.textContent = knowledgeMinutes + '分钟';
+            dailyTimeSaved.textContent = hoursPerUserPerDay.toFixed(1);
+            yearlySavings.textContent = '¥' + yearlySavingsAmount.toLocaleString();
+            userCount.textContent = employees.toLocaleString();
+            dailyHoursPerUser.textContent = hoursPerUserPerDay.toFixed(1) + '小时';
+            dailyHoursTotal.textContent = totalHoursPerDay.toLocaleString() + '小时';
+            dailySavings.textContent = '¥' + dailySavingsAmount.toLocaleString();
+        }
+
+        // 绑定事件
+        employeeSlider.addEventListener('input', calculateROI);
+        usageSlider.addEventListener('input', calculateROI);
+        wageSlider.addEventListener('input', calculateROI);
+
+        // 初始计算
+        calculateROI();
+    </script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e10]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - generic "个人服务" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: 个人服务
+          - generic [ref=e19]:
+            - generic [ref=e21]:
+              - img [ref=e25] [cursor=pointer]
+              - img [ref=e30] [cursor=pointer]
+              - img [ref=e36] [cursor=pointer]
+            - generic [ref=e38]:
+              - img [ref=e40]
+              - generic [ref=e41]:
+                - paragraph [ref=e42]: 刘冰(B244465)
+                - paragraph [ref=e43]: 制造业务解决方案组
+              - img [ref=e46]
+        - generic [ref=e48]:
+          - textbox "搜功能、查指引、看课程" [ref=e51]
+          - img "画板" [ref=e53]
+    - generic [ref=e55]:
+      - complementary:
+        - generic [ref=e56]:
+          - generic [ref=e58]:
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - generic "个人主页" [ref=e62] [cursor=pointer]:
+                  - generic [ref=e63]:
+                    - img [ref=e66]
+                    - text: 个人主页
+              - listitem [ref=e68]:
+                - generic "效率空间" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e73]
+                    - text: 效率空间
+              - listitem [ref=e79]:
+                - generic "待办事项" [ref=e80] [cursor=pointer]:
+                  - generic [ref=e81]:
+                    - img [ref=e84]
+                    - text: 待办事项
+              - listitem [ref=e86]:
+                - generic "项目管理系统" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e88]:
+                    - img [ref=e91]
+                    - text: 项目管理系统
+              - listitem [ref=e93]:
+                - generic "售后管理系统" [ref=e94] [cursor=pointer]:
+                  - generic [ref=e95]:
+                    - img [ref=e98]
+                    - text: 售后管理系统
+            - generic [ref=e100]:
+              - generic [ref=e102]:
+                - text: 常用服务
+                - img [ref=e104] [cursor=pointer]
+              - list [ref=e106]:
+                - listitem [ref=e107] [cursor=pointer]:
+                  - generic [ref=e109]: OKR
+                - listitem [ref=e110] [cursor=pointer]:
+                  - generic [ref=e112]: 周报
+                - listitem [ref=e113] [cursor=pointer]:
+                  - generic [ref=e115]: 费用报销
+                - listitem [ref=e116] [cursor=pointer]:
+                  - generic [ref=e118]: 休假申请
+                - listitem [ref=e119] [cursor=pointer]:
+                  - generic [ref=e121]: 收入证明（薪酬）
+                - listitem [ref=e122] [cursor=pointer]:
+                  - generic [ref=e124]: 工资单
+                - listitem [ref=e125] [cursor=pointer]:
+                  - generic [ref=e127]: 百度差旅
+                - listitem [ref=e128] [cursor=pointer]:
+                  - generic [ref=e130]: 绩效评估
+          - img [ref=e133] [cursor=pointer]
+      - main [ref=e137]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e150]:
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]: 审批待办
+                  - generic [ref=e583]:
+                    - paragraph [ref=e584]: 待办已完成
+                    - paragraph [ref=e585]: 今日事，今日毕，言必行，行必果，切莫待明日，万事成蹉跎
+                - generic [ref=e158]:
+                  - link "审批授权" [ref=e159] [cursor=pointer]:
+                    - /url: https://erp.baidu.com/bprouting/BpFlowRouting?action=routing&resType=EBS_FUNC&resId=26124&resAppId=20000&bpEbsRespAppId=800&bpEbsRespId=50250&bpEbsSecGroupId=0&bpEbsFuncId=26124&bpEbsFuncType=OAF
+                    - img [ref=e161]
+                    - text: 审批授权
+                  - link "更多审批" [ref=e163] [cursor=pointer]:
+                    - /url: http://newapproval.baidu-int.com/approval/static/approve.html
+                    - img [ref=e165]
+                    - text: 更多审批
+              - img [ref=e169] [cursor=pointer]
+              - img [ref=e172] [cursor=pointer]
+            - generic [ref=e173]:
+              - generic [ref=e174]: 全部服务
+              - generic [ref=e175]:
+                - text: 鼠标悬浮在各服务入口，出现
+                - img "收藏" [ref=e177]
+                - text: 后，点击可添加到常用服务
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e185]:
+                    - generic "日常办公" [ref=e186]:
+                      - generic [ref=e187]: 日常办公
+                    - generic [ref=e188]:
+                      - generic "OKR" [ref=e190] [cursor=pointer]:
+                        - generic [ref=e191]: OKR
+                        - img "已收藏" [ref=e193]
+                      - generic "周报" [ref=e197] [cursor=pointer]:
+                        - generic [ref=e198]: 周报
+                        - img "已收藏" [ref=e200]
+                      - generic "休假申请" [ref=e204] [cursor=pointer]:
+                        - generic [ref=e205]: 休假申请
+                        - img "已收藏" [ref=e207]
+                      - generic "假期/加班记录" [ref=e211] [cursor=pointer]:
+                        - generic [ref=e212]: 假期/加班记录
+                        - img [ref=e214]
+                      - generic "费用报销" [ref=e217] [cursor=pointer]:
+                        - generic [ref=e218]: 费用报销
+                        - img "已收藏" [ref=e220]
+                      - generic "百度差旅" [ref=e224] [cursor=pointer]:
+                        - generic [ref=e225]: 百度差旅
+                        - img "已收藏" [ref=e227]
+                      - generic "票据中心" [ref=e231] [cursor=pointer]:
+                        - generic [ref=e232]: 票据中心
+                        - img "收藏" [ref=e234]
+                  - img [ref=e237]
+                - generic [ref=e238]:
+                  - generic [ref=e240]:
+                    - generic "薪酬福利" [ref=e241]:
+                      - generic [ref=e242]:
+                        - text: 薪酬福利
+                        - button "animation" [ref=e244] [cursor=pointer]:
+                          - img [ref=e245]
+                    - generic [ref=e250]:
+                      - generic "工资单" [ref=e252] [cursor=pointer]:
+                        - generic [ref=e253]: 工资单
+                        - img "已收藏" [ref=e255]
+                      - generic "薪酬信息" [ref=e259] [cursor=pointer]:
+                        - generic [ref=e260]: 薪酬信息
+                        - img "收藏" [ref=e262]
+                      - generic "健康体检" [ref=e266] [cursor=pointer]:
+                        - generic [ref=e267]: 健康体检
+                        - img "收藏" [ref=e269]
+                  - img [ref=e272]
+                - generic [ref=e273]:
+                  - generic [ref=e275]:
+                    - generic "评估发展" [ref=e276]:
+                      - generic [ref=e277]: 评估发展
+                    - generic [ref=e278]:
+                      - generic "任职资格标准" [ref=e280] [cursor=pointer]:
+                        - generic [ref=e281]: 任职资格标准
+                        - img "收藏" [ref=e283]
+                      - generic "职称申请&职称评定" [ref=e287] [cursor=pointer]:
+                        - generic [ref=e288]: 职称申请&职称评定
+                        - img [ref=e290]
+                      - generic "绩效评估" [ref=e293] [cursor=pointer]:
+                        - generic [ref=e294]: 绩效评估
+                        - img "已收藏" [ref=e296]
+                      - generic "Assess评估" [ref=e300] [cursor=pointer]:
+                        - generic [ref=e301]: Assess评估
+                        - img "收藏" [ref=e303]
+                      - generic "个人发展IDP" [ref=e307] [cursor=pointer]:
+                        - generic [ref=e308]: 个人发展IDP
+                        - img "收藏" [ref=e310]
+                      - generic "试用期&Mentor" [ref=e314] [cursor=pointer]:
+                        - generic [ref=e315]: 试用期&Mentor
+                        - img [ref=e317]
+                      - generic "活水平台" [ref=e320] [cursor=pointer]:
+                        - generic [ref=e321]: 活水平台
+                        - img "收藏" [ref=e324]
+                  - img [ref=e327]
+                - generic [ref=e328]:
+                  - generic [ref=e330]:
+                    - generic "业务管理" [ref=e331]:
+                      - generic [ref=e332]: 业务管理
+                    - generic [ref=e333]:
+                      - generic "度招聘工作台" [ref=e335] [cursor=pointer]:
+                        - generic [ref=e336]: 度招聘工作台
+                        - img "收藏" [ref=e338]
+                      - generic "外包管理" [ref=e342] [cursor=pointer]:
+                        - generic [ref=e343]: 外包管理
+                        - img "收藏" [ref=e345]
+                      - generic "资产管理" [ref=e349] [cursor=pointer]:
+                        - generic [ref=e350]: 资产管理
+                        - img "收藏" [ref=e352]
+                      - generic "采购平台" [ref=e356] [cursor=pointer]:
+                        - generic [ref=e357]: 采购平台
+                        - img "收藏" [ref=e359]
+                      - generic "合同管理" [ref=e363] [cursor=pointer]:
+                        - generic [ref=e364]: 合同管理
+                        - img "收藏" [ref=e366]
+                      - generic "法务系统" [ref=e370] [cursor=pointer]:
+                        - generic [ref=e371]: 法务系统
+                        - img "收藏" [ref=e373]
+                      - generic "对公结算" [ref=e377] [cursor=pointer]:
+                        - generic [ref=e378]: 对公结算
+                        - img "收藏" [ref=e380]
+                  - img [ref=e383]
+                - generic [ref=e384]:
+                  - generic [ref=e386]:
+                    - generic "其他服务" [ref=e387]:
+                      - generic [ref=e388]: 其他服务
+                    - generic [ref=e389]:
+                      - generic "证明开具(薪酬/非薪酬)" [ref=e391] [cursor=pointer]:
+                        - generic [ref=e392]: 证明开具(薪酬/非薪酬)
+                        - img [ref=e394]
+                      - generic "权限申请/权责跟踪" [ref=e397] [cursor=pointer]:
+                        - generic [ref=e398]: 权限申请/权责跟踪
+                        - img [ref=e400]
+                      - generic "流程中心(Work)" [ref=e403] [cursor=pointer]:
+                        - generic [ref=e404]: 流程中心(Work)
+                        - img "收藏" [ref=e406]
+                      - generic "内部推荐" [ref=e410] [cursor=pointer]:
+                        - generic [ref=e411]: 内部推荐
+                        - img "收藏" [ref=e413]
+                      - generic "离职申请" [ref=e417] [cursor=pointer]:
+                        - generic [ref=e418]: 离职申请
+                        - img "收藏" [ref=e420]
+                      - generic "礼品招待/利益冲突报备" [ref=e424] [cursor=pointer]:
+                        - generic [ref=e425]: 礼品招待/利益冲突报备
+                        - img [ref=e427]
+                      - generic "行政服务" [ref=e430] [cursor=pointer]:
+                        - generic [ref=e431]: 行政服务
+                        - img [ref=e433]
+                  - img [ref=e435]
+            - generic [ref=e436]:
+              - generic [ref=e437]:
+                - generic [ref=e439]:
+                  - generic [ref=e440]: OKR进度
+                  - img [ref=e442] [cursor=pointer]
+                - generic [ref=e444] [cursor=pointer]:
+                  - text: 查看进度
+                  - img [ref=e446]
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - generic [ref=e453]: O1
+                    - generic [ref=e454] [cursor=pointer]: 高效推进 KA 深耕与订阅制落地，积极开拓制造、零售潜力市场
+                  - generic [ref=e458]: 0%
+                - generic [ref=e459]:
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: O2
+                    - generic [ref=e462] [cursor=pointer]: 强化 AI 专业能力，深化消费行业认知，持续为团队成长与行业影响力提升贡献价值
+                  - generic [ref=e466]: 0%
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - generic [ref=e469]: 百度生活
+                - generic [ref=e470] [cursor=pointer]:
+                  - text: 实时数据需手动
+                  - img "路径" [ref=e472]
+                  - text: 刷新
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - generic [ref=e482]: 当前可用休假
+                    - generic [ref=e483] [cursor=pointer]:
+                      - text: 去休假
+                      - img "更多" [ref=e485]
+                  - generic [ref=e489]: 年假：3.5天（含上年结转0天）
+                - generic [ref=e490]:
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: 简单币
+                    - generic [ref=e493] [cursor=pointer]:
+                      - text: 去赚币
+                      - img "更多" [ref=e495]
+                  - generic [ref=e498]: 659个
+          - generic [ref=e500] [cursor=pointer]:
+            - text: 更多我的工作任务、会议、工作网络、学习生活数据等，可前往
+            - generic [ref=e502]: 效率报告
+            - text: 查看
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - img [ref=e510]
+                  - text: 产品反馈
+                - generic [ref=e512]:
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: 如流群
+                    - generic [ref=e516] [cursor=pointer]:
+                      - generic [ref=e517]: "4629450"
+                      - img [ref=e519]
+                  - generic [ref=e521]:
+                    - generic [ref=e522]: 邮箱
+                    - generic [ref=e524] [cursor=pointer]:
+                      - generic [ref=e525]: erphelp@baidu.com
+                      - img [ref=e527]
+              - generic [ref=e529]:
+                - generic [ref=e530]:
+                  - img [ref=e532]
+                  - text: 相关支持
+                - generic [ref=e534]:
+                  - generic [ref=e535]:
+                    - generic [ref=e536]: HRBP
+                    - generic [ref=e537] [cursor=pointer]:
+                      - text: 莫骏
+                      - img [ref=e539]
+                  - generic [ref=e543]:
+                    - generic [ref=e544]: 招聘HR
+                    - generic [ref=e545] [cursor=pointer]:
+                      - text: 蒋小宇
+                      - img [ref=e547]
+                  - generic [ref=e551]:
+                    - generic [ref=e552]: 部门考勤员
+                    - generic [ref=e553] [cursor=pointer]:
+                      - text: 王超
+                      - img [ref=e555]
+              - generic [ref=e559]:
+                - generic [ref=e560]:
+                  - img [ref=e562]
+                  - text: 友情链接
+                - generic [ref=e564]:
+                  - generic [ref=e566] [cursor=pointer]: Family内网
+                  - generic [ref=e568] [cursor=pointer]: 度学堂
+                  - generic [ref=e570] [cursor=pointer]: 行政服务
+                  - generic [ref=e572] [cursor=pointer]: HR共享服务
+                  - generic [ref=e574] [cursor=pointer]: 度生活
+                  - generic [ref=e576] [cursor=pointer]: 安全门户
+            - generic [ref=e577]: 主办：企业IT平台部(BPIT) ｜ © 2026 Baidu. All Rights Reserved.
+  - text: /
+  - link [ref=e579] [cursor=pointer]:
+    - /url: javascript:void(0);
