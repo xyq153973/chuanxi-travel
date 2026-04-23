@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏔️ 川西五一亲子游 | 4岁宝宝友好版</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #FFFDE7 0%, #F1F8E9 50%, #E8F5E9 100%);
+            min-height: 100vh; padding: 20px; line-height: 1.8; color: #4A4A4A;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .header {
+            text-align: center; padding: 50px 20px; margin-bottom: 40px;
+            background: white; border-radius: 30px;
+            box-shadow: 0 10px 40px rgba(139, 195, 74, 0.3);
+            position: relative; overflow: hidden;
+        }
+        .header::before {
+            content: "🏔️ 🌿 🐼 🎒 🚗"; position: absolute; top: 20px;
+            left: 50%; transform: translateX(-50%); font-size: 1.5em; letter-spacing: 20px;
+        }
+        .header h1 { font-size: 2.8em; color: #689F38; margin-top: 40px; margin-bottom: 15px; text-shadow: 2px 2px 0 #F0F4C3; }
+        .header .subtitle { font-size: 1.3em; color: #888; margin-bottom: 25px; }
+        .header .info-tags { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+        .info-tag {
+            background: linear-gradient(135deg, #F0F4C3 0%, #E6EE9C 100%);
+            padding: 10px 20px; border-radius: 25px; font-size: 0.95em;
+            color: #558B2F; border: 2px solid #C5E1A5;
+        }
+        .card {
+            background: white; border-radius: 25px; padding: 35px; margin-bottom: 30px;
+            box-shadow: 0 8px 30px rgba(139, 195, 74, 0.2);
+            border: 3px solid #F1F8E9; position: relative;
+        }
+        .card::before {
+            content: ""; position: absolute; top: 15px; left: 25px; right: 25px;
+            height: 4px; background: linear-gradient(90deg, #AED581, #C5E1A5, #AED581); border-radius: 2px;
+        }
+        .card h2 { color: #689F38; font-size: 1.6em; margin-bottom: 25px; margin-top: 10px; display: flex; align-items: center; gap: 12px; }
+        .card h2 .icon { font-size: 1.3em; }
+        .principles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .principle-item {
+            background: linear-gradient(135deg, #F9FBE7 0%, #F0F4C3 100%);
+            border-radius: 20px; padding: 25px; border-left: 5px solid #AED581; transition: transform 0.3s;
+        }
+        .principle-item:hover { transform: translateY(-5px); }
+        .principle-item .number {
+            background: #689F38; color: white; width: 35px; height: 35px;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-weight: bold; margin-bottom: 15px; font-size: 1.1em;
+        }
+        .principle-item h3 { color: #558B2F; margin-bottom: 10px; font-size: 1.1em; }
+        .principle-item p { color: #666; font-size: 0.95em; }
+        .hotel-timeline { position: relative; padding-left: 40px; margin-top: 25px; }
+        .hotel-timeline::before {
+            content: ""; position: absolute; left: 15px; top: 0; bottom: 0;
+            width: 4px; background: linear-gradient(180deg, #AED581, #C5E1A5, #AED581); border-radius: 2px;
+        }
+        .hotel-item {
+            position: relative; margin-bottom: 25px; padding: 20px 25px;
+            background: linear-gradient(135deg, #F9FBE7 0%, #F0F4C3 100%);
+            border-radius: 20px; border: 2px solid #E6EE9C;
+        }
+        .hotel-item::before {
+            content: ""; position: absolute; left: -32px; top: 25px;
+            width: 16px; height: 16px; background: #689F38; border-radius: 50%;
+            border: 4px solid white; box-shadow: 0 0 0 3px #AED581;
+        }
+        .hotel-item .date { color: #558B2F; font-weight: bold; font-size: 1.1em; margin-bottom: 8px; }
+        .hotel-item .location { color: #333; font-size: 1.05em; margin-bottom: 5px; }
+        .hotel-item .altitude { color: #2E7D32; font-size: 0.9em; font-weight: bold; }
+        .hotel-item .highlight {
+            display: inline-block; background: #689F38; color: white;
+            padding: 3px 12px; border-radius: 15px; font-size: 0.85em; margin-left: 10px;
+        }
+        .weather-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .weather-item {
+            background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+            border-radius: 15px; padding: 20px; text-align: center; border: 2px solid #FFE082;
+        }
+        .weather-item .location { font-weight: bold; color: #F57F17; font-size: 1em; margin-bottom: 8px; }
+        .weather-item .temp { font-size: 1.5em; color: #FF8F00; font-weight: bold; }
+        .weather-item .altitude-info { font-size: 0.85em; color: #666; margin-top: 5px; }
+        .clothing-section { margin-top: 20px; }
+        .clothing-category {
+            background: linear-gradient(135deg, #F9FBE7 0%, #F0F4C3 100%);
+            border-radius: 15px; padding: 20px; margin-bottom: 15px; border-left: 4px solid #AED581;
+        }
+        .clothing-category h3 { color: #558B2F; margin-bottom: 12px; font-size: 1.05em; display: flex; align-items: center; gap: 8px; }
+        .clothing-list { display: flex; flex-wrap: wrap; gap: 10px; }
+        .clothing-item {
+            background: white; padding: 8px 16px; border-radius: 20px;
+            font-size: 0.9em; border: 2px solid #E6EE9C; color: #555;
+        }
+        .itinerary-table-wrapper { overflow-x: auto; margin-top: 20px; border-radius: 20px; border: 3px solid #E6EE9C; }
+        .itinerary-table { width: 100%; border-collapse: collapse; font-size: 0.85em; min-width: 1400px; }
+        .itinerary-table th {
+            background: linear-gradient(135deg, #689F38 0%, #8BC34A 100%);
+            color: white; padding: 15px 12px; text-align: left; font-weight: 600; white-space: nowrap;
+        }
+        .itinerary-table td { padding: 14px 12px; border-bottom: 1px solid #E6EE9C; vertical-align: top; }
+        .itinerary-table tr:hover { background: #F9FBE7; }
+        .itinerary-table tr:last-child td { border-bottom: none; }
+        .day-badge {
+            display: inline-block; background: linear-gradient(135deg, #689F38 0%, #8BC34A 100%);
+            color: white; padding: 5px 14px; border-radius: 20px; font-weight: bold; font-size: 0.85em; white-space: nowrap;
+        }
+        .altitude-safe { color: #2E7D32; font-weight: bold; }
+        .drive-detail { font-size: 0.85em; color: #666; line-height: 1.6; }
+        .drive-detail .segment { display: block; margin-bottom: 3px; }
+        .drive-detail .total { color: #558B2F; font-weight: bold; margin-top: 5px; border-top: 1px dashed #C5E1A5; padding-top: 5px; }
+        .day-card {
+            background: linear-gradient(135deg, #F9FBE7 0%, #FFFFFF 100%);
+            border-radius: 25px; padding: 30px; margin-bottom: 25px;
+            border: 3px solid #E6EE9C; position: relative;
+        }
+        .day-card::before {
+            content: ""; position: absolute; top: 0; left: 0; right: 0; height: 8px;
+            background: linear-gradient(90deg, #AED581, #C5E1A5, #AED581); border-radius: 22px 22px 0 0;
+        }
+        .day-header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .day-number {
+            background: linear-gradient(135deg, #689F38 0%, #8BC34A 100%);
+            color: white; padding: 12px 20px; border-radius: 20px; font-weight: bold; font-size: 1.1em;
+        }
+        .day-date { color: #666; font-size: 1em; }
+        .day-title { color: #333; font-size: 1.2em; font-weight: bold; flex: 1; }
+        .day-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .day-info-item { background: white; padding: 15px; border-radius: 15px; border: 2px solid #E6EE9C; }
+        .day-info-item .label { color: #689F38; font-size: 0.85em; margin-bottom: 5px; font-weight: bold; }
+        .day-info-item .value { color: #333; font-size: 0.95em; }
+        .day-schedule { background: white; border-radius: 15px; padding: 20px; border: 2px solid #E6EE9C; }
+        .day-schedule h4 { color: #689F38; margin-bottom: 15px; font-size: 1em; }
+        .schedule-item { display: flex; gap: 15px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px dashed #E6EE9C; }
+        .schedule-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .schedule-time { color: #689F38; font-weight: bold; min-width: 70px; font-size: 0.9em; }
+        .schedule-content { color: #555; font-size: 0.9em; flex: 1; }
+        .day-tips {
+            background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+            border-radius: 15px; padding: 15px 20px; margin-top: 15px; border-left: 4px solid #81C784;
+        }
+        .day-tips h4 { color: #388E3C; margin-bottom: 8px; font-size: 0.95em; }
+        .day-tips p { color: #558B2F; font-size: 0.9em; }
+        .tip-box {
+            background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+            border-radius: 20px; padding: 20px 25px; margin-top: 20px; border-left: 5px solid #FFB74D;
+        }
+        .tip-box h4 { color: #F57C00; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .tip-box ul { margin-left: 20px; color: #E65100; }
+        .tip-box li { margin-bottom: 5px; }
+        .success-box {
+            background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+            border-radius: 20px; padding: 20px 25px; margin-top: 20px; border-left: 5px solid #81C784;
+        }
+        .success-box h4 { color: #388E3C; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .success-box ul { margin-left: 20px; color: #2E7D32; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; margin-top: 20px; }
+        .stat-item {
+            text-align: center; padding: 20px 15px;
+            background: linear-gradient(135deg, #689F38 0%, #8BC34A 100%);
+            border-radius: 20px; color: white;
+        }
+        .stat-item .number { font-size: 1.8em; font-weight: bold; }
+        .stat-item .label { font-size: 0.85em; opacity: 0.9; margin-top: 5px; }
+        .jiuzhaigou-route {
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+            border-radius: 20px; padding: 25px; margin-top: 20px; border: 2px solid #A5D6A7;
+        }
+        .route-step { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dashed #A5D6A7; }
+        .route-step:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .step-number {
+            background: #43A047; color: white; width: 32px; height: 32px;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-weight: bold; flex-shrink: 0;
+        }
+        .step-content h4 { color: #2E7D32; margin-bottom: 5px; font-size: 1em; }
+        .step-content p { font-size: 0.9em; color: #555; }
+        .temp-table-wrapper { overflow-x: auto; margin-top: 20px; border-radius: 15px; border: 2px solid #E6EE9C; }
+        .temp-table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+        .temp-table th { background: linear-gradient(135deg, #81C784 0%, #66BB6A 100%); color: white; padding: 12px; text-align: left; }
+        .temp-table td { padding: 12px; border-bottom: 1px solid #E8F5E9; }
+        .temp-table tr:last-child td { border-bottom: none; }
+        .family-note {
+            background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
+            border-radius: 20px; padding: 25px; margin-bottom: 30px;
+            border: 3px solid #FFCC80; position: relative;
+        }
+        .family-note::before {
+            content: ""; position: absolute; top: 15px; left: 25px; right: 25px;
+            height: 4px; background: linear-gradient(90deg, #FFB74D, #FFCC80, #FFB74D); border-radius: 2px;
+        }
+        .family-note h2 { color: #E65100; font-size: 1.5em; margin-bottom: 20px; margin-top: 10px; display: flex; align-items: center; gap: 12px; }
+        .family-item {
+            background: white; border-radius: 15px; padding: 20px; margin-bottom: 15px;
+            border: 2px solid #FFE0B2;
+        }
+        .family-item:last-child { margin-bottom: 0; }
+        .family-item .name { color: #E65100; font-weight: bold; font-size: 1.1em; margin-bottom: 8px; }
+        .family-item .info { color: #555; font-size: 0.95em; }
+        .family-item .highlight-text { color: #F57C00; font-weight: bold; }
+        .footer { text-align: center; padding: 40px 20px; color: #999; font-size: 0.9em; }
+        .footer .emoji { font-size: 2em; margin-bottom: 15px; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2em; }
+            .card { padding: 25px 20px; }
+            .itinerary-table { font-size: 0.8em; }
+            .itinerary-table th, .itinerary-table td { padding: 10px 8px; }
+            .day-info-grid { grid-template-columns: 1fr; }
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .card { box-shadow: none; border: 1px solid #ddd; page-break-inside: avoid; }
+            .day-card { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <h1>🏔️ 川西五一亲子游</h1>
+            <p class="subtitle">成都出发 · 4岁宝宝友好 · 小众避峰 · 温暖陪伴</p>
+            <div class="info-tags">
+                <span class="info-tag">🚗 自驾游</span>
+                <span class="info-tag">👨‍👩‍👦 亲子友好</span>
+                <span class="info-tag">🌄 小众路线</span>
+                <span class="info-tag">⏰ 每日9:30出发</span>
+                <span class="info-tag">🏨 只换3次酒店</span>
+            </div>
+        </div>
+        
+        <!-- 两个家庭说明 -->
+        <div class="family-note">
+            <h2><span class="icon">👨‍👩‍👧‍👦</span> 两个家庭行程说明</h2>
+            <div class="family-item">
+                <div class="name">👦 墩墩家庭</div>
+                <div class="info">
+                    <span class="highlight-text">全程参与</span>：4月28日上海出发 → 5月6日返回上海<br>
+                    行程天数：9天8晚
+                </div>
+            </div>
+            <div class="family-item">
+                <div class="name">👧 呼呼家庭</div>
+                <div class="info">
+                    <span class="highlight-text">4月30日汇合</span>：北京飞成都 → 成都高铁到黄龙九寨站<br>
+                    汇合地点：九寨沟漳扎镇<br>
+                    参与行程：4月30日-5月6日（共7天）
+                </div>
+            </div>
+        </div>
+        
+        <!-- 行程总表 -->
+        <div class="card">
+            <h2><span class="icon">🗺️</span> 行程总表</h2>
+            <div class="stats-grid">
+                <div class="stat-item"><div class="number">9天</div><div class="label">总行程</div></div>
+                <div class="stat-item"><div class="number">8晚</div><div class="label">住宿</div></div>
+                <div class="stat-item"><div class="number">3次</div><div class="label">换酒店</div></div>
+                <div class="stat-item"><div class="number">2360m</div><div class="label">最高住宿海拔</div></div>
+                <div class="stat-item"><div class="number">4h</div><div class="label">最长车程</div></div>
+            </div>
+            <div class="itinerary-table-wrapper">
+                <table class="itinerary-table">
+                    <thead><tr><th>日期</th><th>核心行程</th><th>详细车程</th><th>游玩景点</th><th>住宿</th><th>海拔</th><th>温度</th><th>穿衣</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="day-badge">Day1</span><br>4/28 周一</td>
+                            <td>成都落地→都江堰→汶川→茂县</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 双流机场→都江堰：65km，1h</span>
+                                    <span class="segment">2. 都江堰→汶川：74km，1.2h</span>
+                                    <span class="segment">3. 汶川→茂县：40km，1h</span>
+                                    <span class="total">全天总车程：3.2h，总距离：179km</span>
+                                </div>
+                            </td>
+                            <td>都江堰、汶川、古羌城</td>
+                            <td>茂县</td>
+                            <td class="altitude-safe">1580m</td>
+                            <td>18-25°C</td>
+                            <td>长袖+薄外套</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day2</span><br>4/29 周二</td>
+                            <td>茂县→叠溪海子→牟尼沟扎嘎瀑布→九寨沟口</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 茂县→叠溪海子：60km，1.1h</span>
+                                    <span class="segment">2. 叠溪海子→牟尼沟扎嘎瀑布：80km，1.5h</span>
+                                    <span class="segment">3. 牟尼沟→九寨沟口：100km，1.4h</span>
+                                    <span class="total">全天总车程：4h，总距离：240km</span>
+                                </div>
+                            </td>
+                            <td>叠溪海子、牟尼沟扎嘎瀑布</td>
+                            <td>九寨沟口<br><small>（连住3晚：4.29-5.1）</small></td>
+                            <td class="altitude-safe">2000m</td>
+                            <td>12-20°C</td>
+                            <td>保暖内衣+抓绒+冲锋衣</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day3</span><br>4/30 周三</td>
+                            <td>九寨沟休闲日（等呼呼汇合）</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="total">全天车程：0h</span>
+                                </div>
+                            </td>
+                            <td>漳扎镇休闲</td>
+                            <td>九寨沟</td>
+                            <td class="altitude-safe">2000m</td>
+                            <td>10-22°C</td>
+                            <td>保暖内衣+抓绒+冲锋衣</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day4</span><br>5/1 周四</td>
+                            <td>九寨沟深度游</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="total">全天车程：0h</span>
+                                </div>
+                            </td>
+                            <td>树正群海、犀牛海、诺日朗瀑布、五彩池</td>
+                            <td>九寨沟</td>
+                            <td class="altitude-safe">2000m</td>
+                            <td>10-22°C</td>
+                            <td>保暖内衣+抓绒+冲锋衣+薄羽绒</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day5</span><br>5/2 周五</td>
+                            <td>九寨沟上午游玩→下午出发→古尔沟</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 九寨沟口→川主寺草原：50km，0.8h</span>
+                                    <span class="segment">2. 川主寺→羊茸哈德：40km，0.6h</span>
+                                    <span class="segment">3. 羊茸哈德→古尔沟：120km，1.6h</span>
+                                    <span class="total">全天总车程：3h，总距离：210km</span>
+                                </div>
+                            </td>
+                            <td>九寨沟（上午）、川主寺草原、羊茸哈德藏寨</td>
+                            <td>古尔沟温泉小镇<br><small>（连住3晚：5.2-5.4）</small></td>
+                            <td class="altitude-safe">1800m</td>
+                            <td>8-18°C</td>
+                            <td>保暖内衣+抓绒+冲锋衣+薄羽绒</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day6</span><br>5/3 周六</td>
+                            <td>古尔沟→毕棚沟谷底→米亚罗草原→古尔沟</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 古尔沟→毕棚沟谷底：25km，0.5h</span>
+                                    <span class="segment">2. 毕棚沟→米亚罗草原：30km，0.6h</span>
+                                    <span class="segment">3. 米亚罗→古尔沟：30km，0.6h</span>
+                                    <span class="total">全天总车程：1.7h，总距离：85km</span>
+                                </div>
+                            </td>
+                            <td>毕棚沟谷底（龙王海、卓玛湖）、米亚罗草原</td>
+                            <td>古尔沟温泉小镇</td>
+                            <td class="altitude-safe">2000m</td>
+                            <td>5-15°C</td>
+                            <td>保暖内衣+抓绒+冲锋衣+薄羽绒</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day7</span><br>5/4 周日</td>
+                            <td>古尔沟→桃坪羌寨→玉朗自然保护区→古尔沟</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 古尔沟→桃坪羌寨：65km，1h</span>
+                                    <span class="segment">2. 桃坪羌寨→玉朗保护区：40km，0.8h</span>
+                                    <span class="segment">3. 玉朗→古尔沟：105km，1.7h</span>
+                                    <span class="total">全天总车程：3.5h</span>
+                                </div>
+                            </td>
+                            <td>桃坪羌寨、玉朗自然保护区</td>
+                            <td>古尔沟温泉小镇</td>
+                            <td class="altitude-safe">1300m</td>
+                            <td>15-25°C</td>
+                            <td>长袖+抓绒+冲锋衣</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day8</span><br>5/5 周一</td>
+                            <td>古尔沟→松坪沟深度游玩→茂县县城</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">1. 古尔沟→松坪沟：150km，2.2h</span>
+                                    <span class="segment">2. 松坪沟→茂县县城：60km，1.1h</span>
+                                    <span class="total">全天总车程：3.3h，总距离：210km</span>
+                                </div>
+                            </td>
+                            <td>松坪沟深度游玩</td>
+                            <td>茂县县城<br><small>（收尾1晚）</small></td>
+                            <td class="altitude-safe">1580m</td>
+                            <td>20-28°C</td>
+                            <td>短袖+薄外套</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Day9</span><br>5/6 周二</td>
+                            <td>茂县县城→成都双流机场→返程</td>
+                            <td>
+                                <div class="drive-detail">
+                                    <span class="segment">茂县县城→双流机场：230km，2.5h</span>
+                                    <span class="total">全天总车程：2.5h，总距离：230km</span>
+                                </div>
+                            </td>
+                            <td>返程</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>20-28°C</td>
+                            <td>夏装</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- 每日详细行程 -->
+        <div class="card">
+            <h2><span class="icon">📖</span> 每日详细行程</h2>
+            
+            <!-- Day1 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 1</span>
+                    <span class="day-date">4月28日 周一</span>
+                    <span class="day-title">成都落地 → 茂县适应</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">3.2小时 / 179km</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 住宿海拔</div><div class="value">1580m（低海拔安全）</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">18-25°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">长袖+薄外套</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">12:45</span><span class="schedule-content">抵达成都双流机场，取车（建议提前租车，机场提车）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">14:00-17:00</span><span class="schedule-content">成都→茂县县城（约2.5h车程，全程高速/国道，路况好）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">17:30</span><span class="schedule-content">入住酒店，傍晚逛中国古羌城（就在县城旁，步行可达）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">19:00</span><span class="schedule-content">晚餐：县城吃羌家特色菜，早休息</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>海拔全程≤1600m，完全无高反风险；车程短，小朋友不会坐不住；第一晚低海拔适应，为后续行程做准备</p></div>
+            </div>
+            
+            <!-- Day2 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 2</span>
+                    <span class="day-date">4月29日 周二</span>
+                    <span class="day-title">茂县 → 叠溪海子 → 牟尼沟 → 九寨沟</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">4小时 / 240km</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 住宿海拔</div><div class="value">2000m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">12-20°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">保暖内衣+抓绒+冲锋衣</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">08:30</span><span class="schedule-content">茂县出发，前往叠溪海子（约1h车程，海拔2300m，中途短暂停留拍照）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">10:30-12:30</span><span class="schedule-content">牟尼沟扎嘎瀑布游玩（景区入口2800m，瀑布核心区2900m，全程栈道平缓，游玩约2h）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">13:00-14:00</span><span class="schedule-content">景区附近简单午餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">14:00-17:00</span><span class="schedule-content">牟尼沟→九寨沟口（约3h车程，中途可在川主寺短暂休息，川主寺海拔2980m，仅停留10分钟）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">17:30</span><span class="schedule-content">入住九寨沟口酒店，逛漳扎镇，适应环境</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>牟尼沟最高2900m，在3000m限制内；川主寺沿途路过3000m但不下车久留；今日住宿海拔2000m，舒适安全</p></div>
+            </div>
+            
+            <!-- Day3 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 3</span>
+                    <span class="day-date">4月30日 周三</span>
+                    <span class="day-title">九寨沟休闲日（等呼呼汇合）</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">0小时</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 住宿海拔</div><div class="value">2000m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">10-22°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">保暖内衣+抓绒+冲锋衣</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">上午</span><span class="schedule-content">睡到自然醒，带娃逛漳扎镇的藏式小店，或去附近的漳扎河步道散步（海拔2000m，轻松无压力）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">下午</span><span class="schedule-content">酒店休息/玩亲子桌游，避免提前疲劳</span></div>
+                    <div class="schedule-item"><span class="schedule-time">傍晚</span><span class="schedule-content">呼呼家庭抵达九寨沟漳扎镇，两个家庭汇合</span></div>
+                    <div class="schedule-item"><span class="schedule-time">晚上</span><span class="schedule-content">一起吃藏式火锅，早点休息，养足精神冲九寨沟</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>零车程，完全休闲，给墩墩充足的适应时间；呼呼家庭今日从北京飞成都，然后高铁到黄龙九寨站汇合</p></div>
+            </div>
+            
+            <!-- Day4 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 4</span>
+                    <span class="day-date">5月1日 周四</span>
+                    <span class="day-title">九寨沟深度游</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">0小时</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 游玩海拔</div><div class="value">2000-2900m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">10-22°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">保暖内衣+抓绒+冲锋衣+薄羽绒</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">09:00</span><span class="schedule-content">酒店早餐后，进入九寨沟景区（提前买好门票+观光车）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">上午</span><span class="schedule-content">观光车直达树正沟（树正群海、犀牛海，栈道平缓，适合小朋友步行）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">中午</span><span class="schedule-content">诺日朗中心休息吃简餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">下午</span><span class="schedule-content">则查洼沟（五彩池，观光车直达，少走路）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">傍晚</span><span class="schedule-content">返回沟口，轻松不累</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>只玩低海拔、平缓区域，避开长海（3100m）；全程观光车为主，少爬坡、少长路徒步；严格遵守＜3000m原则</p></div>
+            </div>
+            
+            <!-- Day5 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 5</span>
+                    <span class="day-date">5月2日 周五</span>
+                    <span class="day-title">九寨沟上午游玩 → 下午出发 → 古尔沟</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">3小时 / 210km</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 住宿海拔</div><div class="value">1800m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">8-18°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">保暖内衣+抓绒+冲锋衣+薄羽绒</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">09:00-12:00</span><span class="schedule-content">九寨沟上午游玩（日则沟精华：五花海、熊猫海、箭竹海、镜海晨雾倒影）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">12:00-13:00</span><span class="schedule-content">返回酒店退房，简单午餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">13:30</span><span class="schedule-content">告别九寨沟，出发前往川主寺草原</span></div>
+                    <div class="schedule-item"><span class="schedule-time">14:30-15:30</span><span class="schedule-content">川主寺草原撒欢（免费，可放风筝、野餐）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">16:00-17:30</span><span class="schedule-content">前往羊茸哈德藏寨，深度体验（逛寨、藏式手作、拍照）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">18:30</span><span class="schedule-content">前往古尔沟温泉小镇，入住酒店</span></div>
+                    <div class="schedule-item"><span class="schedule-time">晚上</span><span class="schedule-content">泡温泉解乏</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>上午九寨沟玩日则沟精华（五花海是颜值天花板）；下午出发去古尔沟，途中玩川主寺草原和羊茸哈德；住宿海拔1800m超低海拔</p></div>
+            </div>
+            
+            <!-- Day6 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 6</span>
+                    <span class="day-date">5月3日 周六</span>
+                    <span class="day-title">古尔沟 → 毕棚沟 → 米亚罗</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">1.7小时 / 85km</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 游玩海拔</div><div class="value">2000-2900m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">5-15°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">保暖内衣+抓绒+冲锋衣+薄羽绒</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">09:30</span><span class="schedule-content">古尔沟出发，前往毕棚沟</span></div>
+                    <div class="schedule-item"><span class="schedule-time">10:00-14:00</span><span class="schedule-content">毕棚沟谷底游玩（龙王海、卓玛湖），只玩谷底区域，严控海拔＜2900m</span></div>
+                    <div class="schedule-item"><span class="schedule-time">14:00-15:00</span><span class="schedule-content">午餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">15:00-17:00</span><span class="schedule-content">米亚罗小众平缓草原，人少、地势平、草坪开阔，适合小朋友跑跳、野餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">18:00</span><span class="schedule-content">返回古尔沟温泉酒店，泡温泉放松</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>毕棚沟只玩谷底，不坐观光车上高处；米亚罗草原平缓，适合娃跑跳；当日往返古尔沟，不用换酒店</p></div>
+            </div>
+            
+            <!-- Day7 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 7</span>
+                    <span class="day-date">5月4日 周日</span>
+                    <span class="day-title">古尔沟 → 桃坪羌寨 → 玉朗保护区</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">3.5小时</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 游玩海拔</div><div class="value">1300-2600m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">15-25°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">长袖+抓绒+冲锋衣</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">09:30</span><span class="schedule-content">古尔沟出发，前往桃坪羌寨</span></div>
+                    <div class="schedule-item"><span class="schedule-time">10:30-12:30</span><span class="schedule-content">桃坪羌寨游玩（海拔1469m，超低海拔，古寨平缓好走）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">13:00-14:00</span><span class="schedule-content">午餐</span></div>
+                    <div class="schedule-item"><span class="schedule-time">14:30-17:00</span><span class="schedule-content">玉朗自然保护区（原始森林、平缓木栈道，海拔2600m左右，空气好、遛娃舒服）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">18:00</span><span class="schedule-content">返回古尔沟住宿，继续温泉休闲</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>依旧古尔沟大本营，短途环线；桃坪羌寨海拔低，玉朗保护区平缓，全程无压力</p></div>
+            </div>
+            
+            <!-- Day8 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 8</span>
+                    <span class="day-date">5月5日 周一</span>
+                    <span class="day-title">古尔沟 → 松坪沟 → 茂县</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">3.3小时 / 210km</div></div>
+                    <div class="day-info-item"><div class="label">🏔️ 住宿海拔</div><div class="value">1580m</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">20-28°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">短袖+薄外套</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">09:30</span><span class="schedule-content">古尔沟出发，前往茂县松坪沟</span></div>
+                    <div class="schedule-item"><span class="schedule-time">11:00-15:00</span><span class="schedule-content">松坪沟深度游玩（翡翠海子、白腊海，沟内低海拔海子、平缓步道，全程＜2800m）</span></div>
+                    <div class="schedule-item"><span class="schedule-time">16:00</span><span class="schedule-content">前往茂县县城</span></div>
+                    <div class="schedule-item"><span class="schedule-time">17:30</span><span class="schedule-content">入住茂县县城，为次日返程做铺垫</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>松坪沟最高2800m，为次日返程铺垫；今晚住茂县，完美避开5月5日五一超级大堵车</p></div>
+            </div>
+            
+            <!-- Day9 -->
+            <div class="day-card">
+                <div class="day-header">
+                    <span class="day-number">Day 9</span>
+                    <span class="day-date">5月6日 周二</span>
+                    <span class="day-title">茂县 → 成都 → 返程</span>
+                </div>
+                <div class="day-info-grid">
+                    <div class="day-info-item"><div class="label">🚗 车程</div><div class="value">2.5小时 / 230km</div></div>
+                    <div class="day-info-item"><div class="label">🌡️ 温度</div><div class="value">20-28°C</div></div>
+                    <div class="day-info-item"><div class="label">👔 穿衣</div><div class="value">夏装</div></div>
+                </div>
+                <div class="day-schedule">
+                    <h4>📅 行程安排</h4>
+                    <div class="schedule-item"><span class="schedule-time">08:00</span><span class="schedule-content">睡到自然醒，轻松出发</span></div>
+                    <div class="schedule-item"><span class="schedule-time">08:30-11:00</span><span class="schedule-content">茂县全程高速回双流机场，车程短</span></div>
+                    <div class="schedule-item"><span class="schedule-time">下午</span><span class="schedule-content">还车、值机、候机，搭乘14:00 MU5412航班返程</span></div>
+                </div>
+                <div class="day-tips"><h4>💡 温馨提示</h4><p>错峰返程（提前一天落脚茂县），完美避开5月5日五一超级大堵车；预留充足时间还车、值机</p></div>
+            </div>
+        </div>
+        
+        <!-- 路线规划原则 -->
+        <div class="card">
+            <h2><span class="icon">📋</span> 路线规划原则</h2>
+            <div class="principles-grid">
+                <div class="principle-item">
+                    <div class="number">1</div>
+                    <h3>🕐 每日9:30准时出门</h3>
+                    <p>拒绝早出发，让宝宝睡饱再出发，轻松不赶路</p>
+                </div>
+                <div class="principle-item">
+                    <div class="number">2</div>
+                    <h3>🏨 少换酒店，定点辐射</h3>
+                    <p>全程只换3次酒店，不天天搬行李，轻松出行</p>
+                </div>
+                <div class="principle-item">
+                    <div class="number">3</div>
+                    <h3>🏔️ 海拔严格＜3000m</h3>
+                    <p>游玩/住宿海拔严格控制在3000m以下，＞3000m只短暂路过不下车</p>
+                </div>
+                <div class="principle-item">
+                    <div class="number">4</div>
+                    <h3>🚗 单日车程≤4小时</h3>
+                    <p>带着4岁小朋友，每天车程控制在合理范围，拒绝疲劳驾驶</p>
+                </div>
+            </div>
+            <div class="tip-box">
+                <h4>🎯 景点取舍原则</h4>
+                <ul>
+                    <li><strong>保留：</strong>都江堰、汶川、茂县、古羌城、叠溪海子、牟尼沟扎嘎瀑布、九寨沟、川主寺草原、羊茸哈德、古尔沟温泉、毕棚沟谷底、米亚罗草原、桃坪羌寨、松坪沟、玉朗自然保护区</li>
+                    <li><strong>舍弃：</strong>若尔盖草原（整体3300+，超海拔）、黄龙（大面积3000+）、松潘古城（施工中）</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 核心住宿方案 -->
+        <div class="card">
+            <h2><span class="icon">🏨</span> 核心住宿方案</h2>
+            <p style="color: #666; margin-bottom: 20px;">全程只换3次酒店，极致少挪行李，让旅途更轻松</p>
+            <div class="hotel-timeline">
+                <div class="hotel-item">
+                    <div class="date">4月28日（第1晚）<span class="highlight">过渡一晚</span></div>
+                    <div class="location">📍 茂县县城</div>
+                    <div class="altitude">🏔️ 海拔1580m · 低海拔安全适应</div>
+                </div>
+                <div class="hotel-item">
+                    <div class="date">4月29日-5月1日（第2-4晚）<span class="highlight">连住3晚</span></div>
+                    <div class="location">📍 九寨沟漳扎镇沟口</div>
+                    <div class="altitude">🏔️ 海拔2000m · 九寨沟就近玩，不用搬行李</div>
+                </div>
+                <div class="hotel-item">
+                    <div class="date">5月2日-5月4日（第5-7晚）<span class="highlight">连住3晚</span></div>
+                    <div class="location">📍 古尔沟温泉小镇</div>
+                    <div class="altitude">🏔️ 海拔1800m · 核心大本营，辐射毕棚沟、米亚罗、桃坪羌寨</div>
+                </div>
+                <div class="hotel-item">
+                    <div class="date">5月5日（第8晚）<span class="highlight">收尾一晚</span></div>
+                    <div class="location">📍 茂县县城</div>
+                    <div class="altitude">🏔️ 海拔1580m · 方便5月6日轻松回成都</div>
+                </div>
+            </div>
+            <div class="success-box">
+                <h4>✅ 住宿亮点</h4>
+                <ul>
+                    <li>第一晚住茂县低海拔，安全适应高原</li>
+                    <li>九寨沟连住3晚，深度游玩不赶路</li>
+                    <li>古尔沟连住3晚，泡温泉解乏</li>
+                    <li>最后一晚住茂县，避开5月5日返程高峰</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 九寨沟避峰攻略 -->
+        <div class="card">
+            <h2><span class="icon">💎</span> 九寨沟避峰攻略（关键！）</h2>
+            <div class="tip-box">
+                <h4>⚠️ 五一期间人流预警</h4>
+                <p style="color: #E65100; margin-top: 10px;">五一期间九寨沟日均游客可达<strong>4万人</strong>，但通过以下策略可避开80%人流！</p>
+            </div>
+            <div class="principles-grid" style="margin-top: 20px;">
+                <div class="principle-item" style="border-left-color: #43A047;">
+                    <div class="number" style="background: #43A047;">A</div>
+                    <h3 style="color: #2E7D32;">🕐 最佳游玩时间</h3>
+                    <p>5月1日全天游玩九寨沟；5月2日上午再玩半天日则沟精华，下午出发</p>
+                </div>
+                <div class="principle-item" style="border-left-color: #43A047;">
+                    <div class="number" style="background: #43A047;">B</div>
+                    <h3 style="color: #2E7D32;">🚌 观光车策略</h3>
+                    <p>上车告诉司机"在树正群海下"，避开被拉到热门景点的人流；坚持自己的路线</p>
+                </div>
+            </div>
+            <h3 style="color: #689F38; margin: 25px 0 15px 0;">📍 推荐游玩路线（避开人流）</h3>
+            <div class="jiuzhaigou-route">
+                <div class="route-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>5/1 上午：树正群海 → 犀牛海 → 老虎海</h4>
+                        <p>这段路栈道平缓，适合小朋友步行；早上人流最少，可以慢慢拍照</p>
+                    </div>
+                </div>
+                <div class="route-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>5/1 中午：诺日朗瀑布 → 诺日朗中心</h4>
+                        <p>中午在诺日朗中心用餐休息（建议自带干粮，景区内餐厅贵且人多）</p>
+                    </div>
+                </div>
+                <div class="route-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>5/1 下午：五彩池（则查洼沟）</h4>
+                        <p>观光车直达，少走路；五彩池是九寨沟最小但最精致的海子</p>
+                    </div>
+                </div>
+                <div class="route-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>5/2 上午：五花海 → 熊猫海 → 箭竹海 → 镜海</h4>
+                        <p>五花海是九寨沟颜值天花板，建议多留时间；镜海晨雾倒影绝美</p>
+                    </div>
+                </div>
+            </div>
+            <div class="success-box">
+                <h4>✅ 亲子友好提示</h4>
+                <ul>
+                    <li>全程观光车为主，少爬坡、少长路徒步</li>
+                    <li>只玩低海拔、平缓区域，避开长海（3100m）</li>
+                    <li>严格遵守＜3000m原则</li>
+                    <li>景区内可推车，平路为主</li>
+                    <li>自带干粮+保温杯，景区内热水供应点：诺日朗中心</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 五一期间天气与穿衣指南 -->
+        <div class="card">
+            <h2><span class="icon">🌡️</span> 五一期间天气与穿衣指南</h2>
+            <h3 style="color: #689F38; margin: 20px 0 15px 0;">📍 各地温度参考</h3>
+            <div class="weather-grid">
+                <div class="weather-item">
+                    <div class="location">成都</div>
+                    <div class="temp">20-28°C</div>
+                    <div class="altitude-info">海拔500m · 温暖舒适</div>
+                </div>
+                <div class="weather-item">
+                    <div class="location">茂县</div>
+                    <div class="temp">15-25°C</div>
+                    <div class="altitude-info">海拔1300m · 早晚偏凉</div>
+                </div>
+                <div class="weather-item">
+                    <div class="location">九寨沟</div>
+                    <div class="temp">10-22°C</div>
+                    <div class="altitude-info">海拔2000m · 可能有雨</div>
+                </div>
+                <div class="weather-item">
+                    <div class="location">羊茸哈德</div>
+                    <div class="temp">8-18°C</div>
+                    <div class="altitude-info">海拔2360m · 早晚较冷</div>
+                </div>
+                <div class="weather-item">
+                    <div class="location">古尔沟</div>
+                    <div class="temp">5-15°C</div>
+                    <div class="altitude-info">海拔2000m · 高海拔较冷</div>
+                </div>
+                <div class="weather-item">
+                    <div class="location">毕棚沟谷底</div>
+                    <div class="temp">5-15°C</div>
+                    <div class="altitude-info">海拔2900m · 需厚外套</div>
+                </div>
+            </div>
+            
+            <h3 style="color: #689F38; margin: 30px 0 15px 0;">👔 穿衣建议</h3>
+            <div class="clothing-section">
+                <div class="clothing-category">
+                    <h3>🧥 外套类</h3>
+                    <div class="clothing-list">
+                        <span class="clothing-item">冲锋衣（防风防水）</span>
+                        <span class="clothing-item">薄羽绒服（早晚保暖）</span>
+                        <span class="clothing-item">抓绒外套</span>
+                        <span class="clothing-item">轻薄防晒衣</span>
+                    </div>
+                </div>
+                <div class="clothing-category">
+                    <h3>👕 内搭类</h3>
+                    <div class="clothing-list">
+                        <span class="clothing-item">保暖内衣（德绒/羊毛）</span>
+                        <span class="clothing-item">长袖T恤</span>
+                        <span class="clothing-item">短袖T恤（成都穿）</span>
+                        <span class="clothing-item">薄毛衣</span>
+                    </div>
+                </div>
+                <div class="clothing-category">
+                    <h3>👖 下装类</h3>
+                    <div class="clothing-list">
+                        <span class="clothing-item">运动裤（舒适为主）</span>
+                        <span class="clothing-item">加绒裤（高海拔早晚）</span>
+                        <span class="clothing-item">休闲裤</span>
+                    </div>
+                </div>
+                <div class="clothing-category">
+                    <h3>🎒 配件类</h3>
+                    <div class="clothing-list">
+                        <span class="clothing-item">遮阳帽</span>
+                        <span class="clothing-item">防晒霜（SPF50+）</span>
+                        <span class="clothing-item">墨镜</span>
+                        <span class="clothing-item">雨衣/雨伞</span>
+                        <span class="clothing-item">保温杯</span>
+                        <span class="clothing-item">便携氧气瓶（备用）</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tip-box">
+                <h4>💡 穿衣小贴士</h4>
+                <ul>
+                    <li>采用"洋葱式穿衣法"：内层排汗、中层保暖、外层防风</li>
+                    <li>九寨沟、古尔沟早晚温差大，务必带够保暖衣物</li>
+                    <li>高原紫外线强，防晒霜、墨镜、遮阳帽必备</li>
+                    <li>小朋友容易出汗，多备几套换洗衣物</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 页脚 -->
+        <div class="footer">
+            <div class="emoji">🏔️ 🌿 🐼 🎒 🚗</div>
+            <p>川西五一亲子游 · 4岁宝宝友好版</p>
+            <p style="margin-top: 10px;">祝旅途愉快，一路平安！</p>
+        </div>
+    </div>
+</body>
+</html>
