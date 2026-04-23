@@ -204,11 +204,61 @@
         .footer { text-align: center; padding: 40px 20px; color: #999; font-size: 0.9em; }
         .footer .emoji { font-size: 2em; margin-bottom: 15px; }
         @media (max-width: 768px) {
-            .header h1 { font-size: 2em; }
-            .card { padding: 25px 20px; }
-            .itinerary-table { font-size: 0.8em; }
-            .itinerary-table th, .itinerary-table td { padding: 10px 8px; }
-            .day-info-grid { grid-template-columns: 1fr; }
+            body { padding: 10px; }
+            .header { padding: 30px 15px; margin-bottom: 20px; border-radius: 20px; }
+            .header::before { font-size: 1.2em; letter-spacing: 10px; }
+            .header h1 { font-size: 1.5em; margin-top: 30px; }
+            .header .subtitle { font-size: 0.95em; }
+            .info-tag { padding: 6px 12px; font-size: 0.8em; }
+            .card { padding: 20px 15px; border-radius: 20px; }
+            .card h2 { font-size: 1.2em; margin-bottom: 15px; }
+            .principle-item { padding: 15px; }
+            .principle-item h3 { font-size: 0.95em; }
+            .principle-item p { font-size: 0.85em; }
+            .hotel-item { padding: 15px; }
+            .hotel-item .date { font-size: 0.95em; }
+            .hotel-item .location { font-size: 0.9em; }
+            .hotel-item .altitude { font-size: 0.8em; }
+            .day-card { padding: 20px 15px; border-radius: 20px; }
+            .day-header { gap: 10px; }
+            .day-number { padding: 8px 14px; font-size: 0.95em; }
+            .day-date { font-size: 0.85em; }
+            .day-title { font-size: 1em; }
+            .day-info-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+            .day-info-item { padding: 12px; }
+            .day-info-item .label { font-size: 0.75em; }
+            .day-info-item .value { font-size: 0.85em; }
+            .day-schedule { padding: 15px; }
+            .day-schedule h4 { font-size: 0.9em; }
+            .schedule-item { gap: 10px; margin-bottom: 10px; padding-bottom: 10px; }
+            .schedule-time { min-width: 60px; font-size: 0.8em; }
+            .schedule-content { font-size: 0.8em; }
+            .day-tips { padding: 12px 15px; }
+            .day-tips h4 { font-size: 0.85em; }
+            .day-tips p { font-size: 0.8em; }
+            .tip-box, .success-box { padding: 15px; border-radius: 15px; }
+            .tip-box h4, .success-box h4 { font-size: 0.9em; }
+            .tip-box li, .success-box li { font-size: 0.85em; }
+            .stat-item { padding: 15px 10px; }
+            .stat-item .number { font-size: 1.4em; }
+            .stat-item .label { font-size: 0.75em; }
+            .family-note { padding: 20px 15px; border-radius: 20px; }
+            .family-note h2 { font-size: 1.2em; }
+            .family-item { padding: 15px; }
+            .family-item .name { font-size: 0.95em; }
+            .family-item .info { font-size: 0.85em; }
+            .itinerary-table { font-size: 0.75em; }
+            .itinerary-table th, .itinerary-table td { padding: 8px 6px; }
+            .weather-item { padding: 15px; }
+            .weather-item .temp { font-size: 1.2em; }
+            .clothing-category { padding: 15px; }
+            .clothing-category h3 { font-size: 0.9em; }
+            .clothing-item { padding: 5px 10px; font-size: 0.8em; }
+            .route-step { gap: 10px; margin-bottom: 10px; padding-bottom: 10px; }
+            .step-number { width: 26px; height: 26px; font-size: 0.85em; }
+            .step-content h4 { font-size: 0.9em; }
+            .step-content p { font-size: 0.8em; }
+            .footer { padding: 25px 15px; font-size: 0.8em; }
         }
         @media print {
             body { background: white; padding: 0; }
